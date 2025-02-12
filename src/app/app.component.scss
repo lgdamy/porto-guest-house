@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 136px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    @media screen and (max-width: 768px) {
+        top: 64px;
+    }
+    @media screen  and (max-width: 599px){
+        top: 56px;
+    }
+}
