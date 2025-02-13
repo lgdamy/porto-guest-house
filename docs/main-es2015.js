@@ -104,13 +104,13 @@ const routes = [
 class AppRoutingModule {
 }
 AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: AppRoutingModule });
-AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function AppRoutingModule_Factory(t) { return new (t || AppRoutingModule)(); }, imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes)],
+AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function AppRoutingModule_Factory(t) { return new (t || AppRoutingModule)(); }, imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes, { useHash: true })],
         _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AppRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppRoutingModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
-                imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes)],
+                imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes, { useHash: true })],
                 exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]
             }]
     }], null, null); })();
@@ -195,6 +195,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lembrancas_lembrancas_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./lembrancas/lembrancas.component */ "./src/app/lembrancas/lembrancas.component.ts");
 /* harmony import */ var _cultura_cultura_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./cultura/cultura.component */ "./src/app/cultura/cultura.component.ts");
 /* harmony import */ var _roteiros_prontos_roteiros_prontos_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./roteiros-prontos/roteiros-prontos.component */ "./src/app/roteiros-prontos/roteiros-prontos.component.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+
 
 
 
@@ -240,7 +242,9 @@ function HttpLoaderFactory(http) {
 class AppModule {
 }
 AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"]] });
-AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [], imports: [[
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [
+        { provide: _angular_common__WEBPACK_IMPORTED_MODULE_25__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_25__["HashLocationStrategy"] }
+    ], imports: [[
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
             _ngx_translate_core__WEBPACK_IMPORTED_MODULE_14__["TranslateModule"].forRoot({
                 defaultLanguage: 'pt',
@@ -317,7 +321,9 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _angular_material_menu__WEBPACK_IMPORTED_MODULE_6__["MatMenuModule"],
                     _angular_material_expansion__WEBPACK_IMPORTED_MODULE_7__["MatExpansionModule"],
                 ],
-                providers: [],
+                providers: [
+                    { provide: _angular_common__WEBPACK_IMPORTED_MODULE_25__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_25__["HashLocationStrategy"] }
+                ],
                 bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"]]
             }]
     }], null, null); })();
