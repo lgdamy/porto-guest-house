@@ -24,6 +24,7 @@ import { AtividadesArLivreComponent } from './atividades-ar-livre/atividades-ar-
 import { LembrancasComponent } from './lembrancas/lembrancas.component';
 import { CulturaComponent } from './cultura/cultura.component';
 import { RoteirosProntosComponent } from './roteiros-prontos/roteiros-prontos.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new MultiTranslateHttpLoader(http, [
@@ -76,7 +77,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatMenuModule,
     MatExpansionModule,
   ],
-  providers: [],
+  providers: [
+    {provide: LocationStrategy, useClass:HashLocationStrategy}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
