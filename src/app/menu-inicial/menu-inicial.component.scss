@@ -1,0 +1,62 @@
+
+p {
+    text-align: justify;
+    padding: 0 12px;
+}
+h1 {
+    padding: 0 12px;
+}
+button {
+    overflow-x: hidden !important;
+    white-space: pre-wrap !important;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -72px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    @media screen and (max-width: 768px) {
+        top: 0px;
+    }
+}
+.tile {
+    background-size: 100%;
+    & button {
+        text-shadow: #fff 0px 0px 1px;
+        -webkit-font-smoothing: antialiased;
+        font-size: larger;
+        font-weight: bold;
+        width: 100%;
+        height: 100%;
+    }
+    &.pontos-turisticos-atividades{
+        background-image: url(https://picsum.photos/401/301?grayscale&blur=1)
+    }
+    &.gastronomia {
+        background-image: url(https://picsum.photos/402/302?grayscale&blur=1)
+    }
+    &.vida-noturna {
+        background-image: url(https://picsum.photos/403/304?grayscale&blur=1)
+    }
+    &.mercados {
+        background-image: url(https://picsum.photos/404/304?grayscale&blur=1)
+    }
+    &.lembrancas {
+        background-image: url(https://picsum.photos/405/305?grayscale&blur=1)
+    }
+    &.cultura {
+        background-image: url(https://picsum.photos/406/306?grayscale&blur=1)
+    }
+    &.roteiros-prontos {
+        background-image: url(https://picsum.photos/407/307?grayscale&blur=1)
+    }
+    &.atividades-ar-livre {
+        background-image: url(https://picsum.photos/408/308?grayscale&blur=1)
+    }
+    &.atividades-criancas {
+        background-image: url(https://picsum.photos/409/309?grayscale&blur=1)
+    }
+}

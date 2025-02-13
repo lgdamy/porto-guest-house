@@ -174,9 +174,7 @@ function _classCallCheck(a, n) { if (!(a instanceof n)) throw new TypeError("Can
       factory: function AppRoutingModule_Factory(t) {
         return new (t || AppRoutingModule)();
       },
-      imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes, {
-        useHash: true
-      })], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]
+      imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]
     });
 
     (function () {
@@ -192,9 +190,7 @@ function _classCallCheck(a, n) { if (!(a instanceof n)) throw new TypeError("Can
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppRoutingModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
-          imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes, {
-            useHash: true
-          })],
+          imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes)],
           exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]
         }]
       }], null, null);
@@ -464,12 +460,6 @@ function _classCallCheck(a, n) { if (!(a instanceof n)) throw new TypeError("Can
     var _roteiros_prontos_roteiros_prontos_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
     /*! ./roteiros-prontos/roteiros-prontos.component */
     "./src/app/roteiros-prontos/roteiros-prontos.component.ts");
-    /* harmony import */
-
-
-    var _angular_common__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
-    /*! @angular/common */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
     function HttpLoaderFactory(http) {
       return new ngx_translate_multi_http_loader__WEBPACK_IMPORTED_MODULE_15__["MultiTranslateHttpLoader"](http, [{
@@ -520,10 +510,7 @@ function _classCallCheck(a, n) { if (!(a instanceof n)) throw new TypeError("Can
       factory: function AppModule_Factory(t) {
         return new (t || AppModule)();
       },
-      providers: [{
-        provide: _angular_common__WEBPACK_IMPORTED_MODULE_25__["LocationStrategy"],
-        useClass: _angular_common__WEBPACK_IMPORTED_MODULE_25__["HashLocationStrategy"]
-      }],
+      providers: [],
       imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_14__["TranslateModule"].forRoot({
         defaultLanguage: 'pt',
         loader: {
@@ -556,10 +543,7 @@ function _classCallCheck(a, n) { if (!(a instanceof n)) throw new TypeError("Can
               deps: [_angular_common_http__WEBPACK_IMPORTED_MODULE_8__["HttpClient"]]
             }
           }), _angular_common_http__WEBPACK_IMPORTED_MODULE_8__["HttpClientModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_9__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_11__["BrowserAnimationsModule"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_2__["MatGridListModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_3__["MatButtonModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_4__["MatToolbarModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_5__["MatIconModule"], _angular_material_menu__WEBPACK_IMPORTED_MODULE_6__["MatMenuModule"], _angular_material_expansion__WEBPACK_IMPORTED_MODULE_7__["MatExpansionModule"]],
-          providers: [{
-            provide: _angular_common__WEBPACK_IMPORTED_MODULE_25__["LocationStrategy"],
-            useClass: _angular_common__WEBPACK_IMPORTED_MODULE_25__["HashLocationStrategy"]
-          }],
+          providers: [],
           bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"]]
         }]
       }], null, null);
