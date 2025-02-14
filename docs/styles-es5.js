@@ -79,13 +79,13 @@
 
     exports = ___CSS_LOADER_API_IMPORT___(true); // Module
 
-    exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nhtml, body {\n  height: 100%;\n}\nbody {\n  margin: 0;\n  font-family: Roboto, \"Helvetica Neue\", sans-serif;\n}\np {\n  text-align: justify;\n}", "", {
+    exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nhtml, body {\n  height: 100%;\n}\nbody {\n  margin: 0;\n  font-family: Roboto, \"Helvetica Neue\", sans-serif;\n}\np {\n  text-align: justify;\n}\n.hide-panel-content .mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-content {\n  display: none;\n}", "", {
       "version": 3,
       "sources": ["/home/raiadrogasil.com/lgdamy/workspace/damytec/porto-guest-house/src/styles.scss", "styles.scss"],
       "names": [],
-      "mappings": "AAAA,8EAAA;AAEA;EAAa,YAAA;ACCb;ADAA;EAAO,SAAA;EAAW,iDAAA;ACKlB;ADJA;EAAG,mBAAA;ACQH",
+      "mappings": "AAAA,8EAAA;AAEA;EAAa,YAAA;ACCb;ADAA;EAAO,SAAA;EAAW,iDAAA;ACKlB;ADJA;EAAG,mBAAA;ACQH;ADNA;EACI,aAAA;ACSJ",
       "file": "styles.scss",
-      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\n\nhtml, body { height: 100%; }\nbody { margin: 0; font-family: Roboto, \"Helvetica Neue\", sans-serif; }\np {text-align: justify;}\n", "/* You can add global styles to this file, and also import other style files */\nhtml, body {\n  height: 100%;\n}\n\nbody {\n  margin: 0;\n  font-family: Roboto, \"Helvetica Neue\", sans-serif;\n}\n\np {\n  text-align: justify;\n}"]
+      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\n\nhtml, body { height: 100%; }\nbody { margin: 0; font-family: Roboto, \"Helvetica Neue\", sans-serif; }\np {text-align: justify;}\n\n.hide-panel-content .mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-content {\n    display: none;\n  }\n", "/* You can add global styles to this file, and also import other style files */\nhtml, body {\n  height: 100%;\n}\n\nbody {\n  margin: 0;\n  font-family: Roboto, \"Helvetica Neue\", sans-serif;\n}\n\np {\n  text-align: justify;\n}\n\n.hide-panel-content .mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-content {\n  display: none;\n}"]
     }]); // Exports
 
     module.exports = exports;
