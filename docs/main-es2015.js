@@ -350,20 +350,20 @@ __webpack_require__.r(__webpack_exports__);
 
 const slideInOut = Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["trigger"])('routeAnimation', [
     Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["transition"])(':enter', [
-        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateY(-120%)', opacity: 0 }),
-        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('0.3s 0.1s ease-in', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateY(0)', opacity: 1 }))
+        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateY(-100%)', opacity: 0 }),
+        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('0.3s 0.3s ease-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateY(0)', opacity: 1 }))
     ]),
     Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["transition"])(':leave', [
-        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('0.3s ease-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateY(-120%)', opacity: 0 }))
+        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('0.3s ease-in', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateY(-100%)', opacity: 0 }))
     ])
 ]);
 const fadeInOut = Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["trigger"])('routeAnimation', [
     Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["transition"])(':enter', [
         Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ opacity: 0 }),
-        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('0.3s 0.1s ease-in', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ opacity: 1 }))
+        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('0.3s 0.3s ease-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ opacity: 1 }))
     ]),
     Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["transition"])(':leave', [
-        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('0.3s ease-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ opacity: 0 }))
+        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('0.3s ease-in', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ opacity: 0 }))
     ])
 ]);
 class AnimatedComponent {
