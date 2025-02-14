@@ -1,1 +1,40 @@
-{}
+{
+    "pontos-turisticos-atividades": {
+        "1": {
+            "title": "Barrio de la Ribeira",
+            "content": "<p>Uno de los barrios más pintorescos y animados de Oporto, Ribeira se encuentra a orillas del río Duero y es conocido por sus casas coloridas, calles encantadoras y restaurantes vibrantes. Es un lugar ideal para pasear, probar la gastronomía local y admirar la vista del Puente Don Luis I.</p><p>Se puede llegar caminando, y una forma sencilla es a través de la escalera de Guindais. Al salir del edificio, gire a la izquierda y siga recto hasta encontrar una fortaleza (llamada Muralla Fernandina). Si sigue en la misma dirección, encontrará el inicio de las escaleras—simplemente bájelas. En el punto más bajo de estas escaleras, mire a la derecha y verá el Barrio de la Ribeira justo después del puente.</p>"
+        },
+        "2": {
+            "title": "Puente Don Luis I",
+            "content": "<p>Este icónico puente metálico de dos niveles conecta Oporto con Vila Nova de Gaia. Diseñado por un discípulo y alumno de Gustave Eiffel, ofrece impresionantes vistas panorámicas de la ciudad. El nivel superior es ideal para caminar, especialmente al atardecer.</p><p>Los seis puentes de Oporto tienen su importancia y relevancia para la ciudad. Sin embargo, el Puente Don Luis I seguramente dejará una marca en su estancia. Una gran ventaja es que está a solo 600m, por lo que podrá admirar su majestuosidad desde varios ángulos.</p>"
+        },
+        "3": {
+            "title": "Librería Lello",
+            "content": "<p>Considerada una de las librerías más bellas del mundo, la Librería Lello destaca por su arquitectura neogótica, su madera tallada y su impresionante escalera roja. Se dice que inspiró a J.K. Rowling mientras vivía en Oporto.</p><p>La librería se encuentra a 1 km del apartamento. La visita al interior requiere un horario programado, por lo que le recomendamos planificar con antelación y <a href=\"https://livrarialello.pt\" target=\"_blank\">comprar su entrada</a> con anticipación. Tenga en cuenta que el precio de la entrada se puede utilizar dentro para comprar alguno de sus libros realmente únicos.</p>"
+        },
+        "4": {
+            "title": "Torre de los Clérigos",
+            "content": "<p>Esta torre campanario de estilo barroco tiene 75 metros de altura y ofrece una de las mejores vistas panorámicas de la ciudad. Subir los 225 escalones vale la pena por la impresionante vista de Oporto.</p><p>La torre está cerca de la librería mencionada anteriormente. Visitar la iglesia a sus pies no solo es gratuito, sino también impresionante. Las entradas para subir a la torre se pueden comprar fácilmente en la entrada.</p>"
+        },
+        "5": {
+            "title": "Estación de São Bento",
+            "content": "<p>Más que una simple estación de tren, São Bento es famosa por sus impresionantes paneles de azulejos azules y blancos que representan momentos clave de la historia de Portugal. Vale la pena visitarla, incluso si no va a tomar un tren.</p>"
+        },
+        "6": {
+            "title": "Catedral de Oporto",
+            "content": "<p>Una de las construcciones más antiguas e importantes de la ciudad, la Catedral de Oporto combina estilos arquitectónicos románico, gótico y barroco. La terraza exterior ofrece una vista increíble de la ciudad.</p><p>Seguramente quedará impresionado por la inmensidad de su patio y por todo el arte barroco que la catedral tiene para ofrecer. La Sé representa el corazón del norte de Portugal y es un monumento que genera un inmenso orgullo en el pueblo portugués.</p>"
+        },
+        "7": {
+            "title": "Palacio de la Bolsa",
+            "content": "<p>Antigua sede de la bolsa de valores, este edificio del siglo XIX impresiona con sus magníficos interiores, especialmente el Salón Árabe, decorado en un lujoso estilo renacentista morisco.</p><p>Las visitas al palacio son guiadas, donde se le introducirá a un capítulo importante de la historia económica de Portugal. Es importante <a href=\"https://palaciodabolsa.com\" target=\"_blank\">reservar su visita con anticipación</a> para asegurarse de contar con un guía en el idioma de su elección.</p>"
+        },
+        "8": {
+            "title": "Iglesia de San Francisco",
+            "content": "<p>Famosa por su interior ricamente decorado con pan de oro, esta iglesia gótica es una de las más impresionantes de Oporto. Los altares barrocos están cubiertos con intrincadas tallas de madera.</p><p>La iglesia está ubicada junto al Palacio de la Bolsa, por lo que tiene sentido visitarlos en secuencia. Debajo de la iglesia se esconden sus catacumbas, donde están enterrados muchos miembros de la orden franciscana, así como algunas familias nobles de Oporto.</p>"
+        },
+        "9": {
+            "title": "Vila Nova de Gaia y Bodegas de Vino de Oporto",
+            "content": "<p>Al otro lado del río Duero, cruzando el Puente Don Luis I, Vila Nova de Gaia alberga las bodegas de vino de Oporto más famosas, como Sandeman, Graham’s, Taylor’s y Ferreira. Realice una visita guiada y disfrute de una degustación mientras aprende sobre la historia del vino en la región.</p><p>Al caminar por la orilla del río Duero, notará mucha actividad y hospitalidad. Además de las bodegas de vino, podrá disfrutar de varios restaurantes típicos. Si cree que la caminata fue demasiado intensa, puede optar por subir en teleférico hasta la parte superior.</p>"
+        }
+    }
+}
