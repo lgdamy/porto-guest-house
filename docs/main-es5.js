@@ -2475,7 +2475,7 @@ function _classCallCheck(a, n) { if (!(a instanceof n)) throw new TypeError("Can
     };
 
     var _c1 = function _c1() {
-      return [1, 2, 3, 4];
+      return [1, 2, 3, 4, 5, 6, 7, 8, 9];
     };
 
     var PontosTuristicosAtividadesComponent = /*#__PURE__*/function (_src_app_common_anima8) {

@@ -1176,7 +1176,7 @@ function PontosTuristicosAtividadesComponent_mat_expansion_panel_1_Template(rf, 
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](6, 4, "pontos-turisticos-atividades." + i_r1 + ".content"), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
 } }
 const _c0 = function (a0) { return { "hide-panel-content": a0 }; };
-const _c1 = function () { return [1, 2, 3, 4]; };
+const _c1 = function () { return [1, 2, 3, 4, 5, 6, 7, 8, 9]; };
 class PontosTuristicosAtividadesComponent extends src_app_common_animations__WEBPACK_IMPORTED_MODULE_1__["AnimatedComponent"] {
     ngOnInit() {
     }
