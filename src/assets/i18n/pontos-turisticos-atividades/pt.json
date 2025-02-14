@@ -1,20 +1,40 @@
 {
     "pontos-turisticos-atividades": {
         "1": {
-            "title" : "Item 1",
-            "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+            "title" : "Bairro da Ribeira",
+            "content" : "<p>Um dos bairros mais pitorescos e animados do Porto, a Ribeira fica à beira do rio Douro e é conhecida pelas suas casas coloridas, ruelas charmosas e restaurantes vibrantes. É um ótimo local para passear, provar a gastronomia local e admirar a vista para a Ponte Dom Luís I.</p><p>Você consegue chegar ali caminhando, um caminho bastante simples é através da escadaria dos Guindais, ao sair do prédio, vá para a esquerda e siga adiante até encontrar um forte (chamado de Muralha Fernandina), se continuar seguindo na mesma direção irá encontrar o início das escadas, basta descê-las. No ponto mais baixo dessas escadas, olhe para a direita, o Bairro da Ribeira está ali logo após a ponte.</p>"
         },
         "2": {
-            "title" : "Item 2",
-            "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+            "title" : "Ponte Dom Luís I",
+            "content" : "<p>Esta icónica ponte metálica de dois andares liga o Porto a Vila Nova de Gaia. Projetada por um discípulo e aluno de Gustave Eiffel, oferece vistas panorâmicas deslumbrantes da cidade. O tabuleiro superior é ideal para passeios a pé, especialmente ao pôr do sol.</p><p>Todas as 6 pontes do Porto tem a sua importância e relevância para a cidade. Mas a Ponte Dom Luís I certamente é a que vai causar uma marca na sua estadia. Uma grande vantagem é que você está há 600m dela, então poderá desfrutar de sua magnitude por diversos ângulos.</p>"
         },
         "3": {
-            "title" : "Item 3",
-            "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+            "title" : "Livraria Lello",
+            "content" : "<p>Considerada uma das livrarias mais bonitas do mundo, a Livraria Lello destaca-se pela sua arquitetura neogótica, madeira esculpida e a impressionante escadaria vermelha. Diz-se que foi uma inspiração para J.K. Rowling enquanto viveu no Porto.</p><p>A Livraria, encontra-se a 1km do apartamento, a visita ao interior da livraria possui um controle de horário relativamente organizado, portanto antecipe hora que pretende visitar e <a href=\"https://livrarialello.pt\" target=\"_blank\">adquira um bilhete</a> com atecedência. Leve em consideração que o preço do bilhete pode ser utilizado la dentro para comprar algum de seus livros realmente únicos</p>"
         },
         "4": {
-            "title" : "Item 4",
-            "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+            "title" : "Torre dos Clérigos",
+            "content" : "<p>Esta torre sineira em estilo barroco tem 75 metros de altura e oferece uma das melhores vistas panorâmicas da cidade. A subida de 225 degraus vale a pena pela paisagem deslumbrante do Porto.</p><p>A torre fica próxima da livraria mencionada anteriormente. Visitar a igreja ao pé dela é não só gratuito, mas também é impressionante. Os bilhetes para subir a torre podem facilmente ser adquiridos logo à entrada.</p>"
+        },
+        "5": {
+            "title" : "Estação de São Bento",
+            "content" : "<p>Mais do que apenas uma estação de comboios, São Bento é famosa pelos seus impressionantes painéis de azulejos azuis e brancos que retratam momentos marcantes da história de Portugal. Vale a pena visitar, mesmo que não vá viajar de comboio.</p>"
+        },
+        "6": {
+            "title" : "Sé do Porto",
+            "content" : "<p>Uma das construções mais antigas e importantes da cidade, a Sé do Porto combina estilos românico, gótico e barroco. O terraço exterior oferece uma vista incrível da cidade.</p><p>Certamente você vai ficar impressionado com a imensidão do seu pátio e com toda a arte barroca que a catedral tem a oferecer. A Sé representa o coração do norte de Portugal, e de fato é um monumento que traz um imenso prazer ao povo português.</p>"
+        },
+        "7": {
+            "title" : "Palácio da Bolsa",
+            "content" : "<p>Antiga sede da bolsa de valores, este edifício do século XIX impressiona pelos seus interiores magníficos, especialmente o Salão Árabe, decorado em um luxuoso estilo mourisco renascentista.</p><p>As visitas ao Palácio são guiadas, nelas você será introduzido a uma página importante na história da economia do país. É importante <a href=\"https://palaciodabolsa.com\" target=\"_blank\">antecipar a sua visita</a> para conseguir um guia que fale o seu idioma de escolha.</p>"
+        },
+        "8": {
+            "title" : "Igreja de São Francisco",
+            "content" : "<p>Famosa pelo seu interior ricamente decorado com talha dourada, esta igreja gótica é uma das mais impressionantes do Porto. Os altares barrocos são cobertos de detalhes esculpidos em madeira.</p><p>A igreja situa-se ao lado do Palácio da Bolsa, portanto, pode ser sensato visitá-los em sequencia. Abaixo da igreja estão escondidas as suas catacumbas, onde estão enterrados muitos da ordem dos Franciscanos, bem como algumas famílias nobres do Porto.</p>"
+        },
+        "9": {
+            "title" : "Vila Nova de Gaia & Caves de Vinho do Porto",
+            "content" : "<<p>Do outro lado do rio Douro, cruzando a Ponte Dom Luís I, Vila Nova de Gaia abriga as mais famosas caves de vinho do Porto, como Sandeman, Graham’s, Taylor’s e Ferreira. Faça uma visita guiada e desfrute de uma degustação enquanto aprende sobre a história do vinho na região.</p><p>Ao caminhar pelas margens do rio Douro, vai perceber que há muita atividade e receptividade. Além das caves de vinho, poderá desfrutar de diversos restaurantes típicos. Se achar que a caminhada foi muito intensa, pode tomar a decisão de subir para o topo de teleférico.</p>"
         }
     }
 }
