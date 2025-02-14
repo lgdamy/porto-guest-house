@@ -2,7 +2,7 @@
     <mat-toolbar-row>
         <button *ngIf="shownav && mobile" mat-icon-button [matMenuTriggerFor]="navmenu" aria-label="menu"><mat-icon>menu</mat-icon></button>
         <mat-menu #navmenu="matMenu">
-            <button *ngFor="let route of inactiveRoutes" mat-menu-item [routerLink]="route.name">{{ 'pages.' + route.name | translate }}</button>
+            <button *ngFor="let route of availableRoutes" mat-menu-item [routerLink]="route">{{ 'pages.' + route | translate }}</button>
         </mat-menu>
         
         <span class="title">{{'pages.' + currentRoute | translate}}</span>
@@ -14,10 +14,10 @@
           </mat-menu>
     </mat-toolbar-row>
     <mat-toolbar-row class="desktop-items" *ngIf="shownav && !mobile">
-        <button *ngFor="let route of availableRoutes.slice(0,4)" mat-button [routerLink]="route.name" [disabled]="route.activated">{{ 'pages.' + route.name | translate }}</button>
+        <button *ngFor="let route of availableRoutes.slice(0,4)" mat-button [routerLink]="route">{{ 'pages.' + route | translate }}</button>
     </mat-toolbar-row>
     <mat-toolbar-row class="desktop-items" *ngIf="shownav && !mobile">
         <span class="h-space"></span>
-        <button *ngFor="let route of availableRoutes.slice(4)" mat-button [routerLink]="route.name" [disabled]="route.activated">{{ 'pages.' + route.name | translate }}</button>
+        <button *ngFor="let route of availableRoutes.slice(4)" mat-button [routerLink]="route">{{ 'pages.' + route | translate }}</button>
     </mat-toolbar-row>
 </mat-toolbar>
