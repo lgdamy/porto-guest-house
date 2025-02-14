@@ -1,0 +1,10 @@
+<mat-accordion [ngClass]="{'hide-panel-content': !transitionComplete}">
+    <mat-expansion-panel *ngFor="let i of [1,2,3,4]">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                {{'mercados.' + i + '.title' | translate}}
+              </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div [innerHTML]="'mercados.' + i + '.content' | translate"></div>
+    </mat-expansion-panel>
+</mat-accordion>
