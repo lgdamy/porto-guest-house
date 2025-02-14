@@ -1,6 +1,7 @@
 {
     "menu-inicial" : {
-        "welcome" : "Bienvenue à Porto!",
-        "p1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "welcome" : "Bienvenue dans notre appartement confortable à Porto !",
+        "p1" : "Nous sommes ravis de vous accueillir. Que vous soyez ici pour explorer l’histoire riche de la ville, profiter des magnifiques vues ou simplement vous détendre, nous espérons que vous vivrez une expérience inoubliable. N’hésitez pas à nous contacter si vous avez besoin de quoi que ce soit pendant votre séjour.",
+        "p2" : "Profitez bien de votre séjour à Porto !"
     }
 }

@@ -1,6 +1,7 @@
 <div class="container">
-    <h1>{{ 'menu-inicial.welcome' | translate }}</h1>
+    <h2>{{ 'menu-inicial.welcome' | translate }}</h2>
     <p>{{ 'menu-inicial.p1' | translate }}</p>
+    <p>{{ 'menu-inicial.p2' | translate }}</p>
     <mat-grid-list [cols]="gridCols" rowHeight="4:3" (window:resize)="onResize($event)">
         <mat-grid-tile *ngFor="let route of availableRoutes" class="tile {{route}}">
             <button mat-button color="secondary" routerLink="{{route}}">{{'pages.'+ route | translate }}</button>
