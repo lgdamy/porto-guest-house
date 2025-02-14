@@ -1,6 +1,7 @@
 {
     "menu-inicial" : {
-        "welcome" : "Bienvenido a Porto!",
-        "p1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "welcome" : "¡Bienvenidos a Nuestro Acogedor Apartamento en Oporto!",
+        "p1" : "Estamos muy contentos de tenerte con nosotros. Ya sea que estés aquí para explorar la rica historia de la ciudad, disfrutar de las hermosas vistas o simplemente relajarte, esperamos que tengas una experiencia inolvidable. No dudes en contactarnos si necesitas algo durante tu estancia.",
+        "p2" : "¡Disfruta de tu tiempo en Oporto!"
     }
 }
