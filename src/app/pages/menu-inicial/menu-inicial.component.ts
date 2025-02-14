@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
-import { routes } from '../common/constants/routes';
+import { AnimatedComponent, fadeInOut } from 'src/app/common/animations';
+import { routes } from 'src/app/common/constants/routes';
 
 @Component({
   selector: 'app-menu-inicial',
   templateUrl: './menu-inicial.component.html',
-  styleUrls: ['./menu-inicial.component.scss']
+  styleUrls: ['./menu-inicial.component.scss'],
+  animations: [fadeInOut]
 })
-export class MenuInicialComponent implements OnInit {
+export class MenuInicialComponent extends AnimatedComponent implements OnInit {
 
   gridCols: Number
   availableRoutes: string[]
-
-  constructor() { }
 
   ngOnInit(): void {
     this.availableRoutes = routes
