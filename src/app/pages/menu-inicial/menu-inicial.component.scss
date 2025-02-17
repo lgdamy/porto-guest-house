@@ -1,6 +1,5 @@
 
 p {
-    text-align: justify;
     padding: 0 12px;
 }
 h2 {
@@ -28,6 +27,7 @@ button {
     & button {
         text-shadow: #fff 0px 0px 1px;
         -webkit-font-smoothing: antialiased;
+        line-height: normal;
         font-size: larger;
         font-weight: bold;
         width: 100%;

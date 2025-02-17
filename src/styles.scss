@@ -2,7 +2,9 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-p {text-align: justify;}
+p {
+  text-align: left;
+}
 
 .hide-panel-content .mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-content {
     display: none;

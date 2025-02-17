@@ -5,6 +5,9 @@
                 {{'pontos-turisticos-atividades.' + i + '.title' | translate}}
               </mat-panel-title>
         </mat-expansion-panel-header>
-        <div [innerHTML]="'pontos-turisticos-atividades.' + i + '.content' | translate"></div>
+        <div class="panel-content">
+            <img class="panel-img" [src]="'assets/img/pontos-turisticos-atividades/' + i + '.webp'">
+            <div [innerHTML]="'pontos-turisticos-atividades.' + i + '.content' | translate"></div>
+        </div>
     </mat-expansion-panel>
 </mat-accordion>
