@@ -1,4 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/theming';
+@include mat-core();
+$paleta-primaria: (
+  50 : #f3eae5,
+  100 : #dbcbc4,
+  200 : #bfaaa0,
+  300 : #a3887a,
+  400 : #8f6e5e,
+  500 : #7a5643,
+  600 : #6e4c3c,
+  700 : #5f4032,
+  800 : #50342a,
+  900 : #40271f,
+  A100 : #e0c3c7,
+  A200 : #c29fa4,
+  A400 : #8f5e66,
+  A700 : #5d303a,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $light-primary-text,
+    400: $light-primary-text,
+    500: $light-primary-text,
+    600: $light-primary-text,
+    700: $light-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $dark-primary-text,
+    A400: $light-primary-text,
+    A700: $light-primary-text,
+  )
+);
+$paleta-complementar: (
+  50 : #eaf0f4,
+  100 : #ccd9df,
+  200 : #aebfc8,
+  300 : #8ea5b2,
+  400 : #7691a0,
+  500 : #5e7f8f,
+  600 : #52707e,
+  700 : #435b67,
+  800 : #354852,
+  900 : #24333b,
+  A100 : #f6fad4,
+  A200 : #f0f7b8,
+  A400 : #e6ef8e,
+  A700 : #c3c46f,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $light-primary-text,
+    400: $light-primary-text,
+    500: $light-primary-text,
+    600: $light-primary-text,
+    700: $light-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $dark-primary-text,
+    A400: $light-primary-text,
+    A700: $light-primary-text,
+  )
+);
+$candy-app-primary: mat-palette($paleta-primaria);
+$candy-app-accent:  mat-palette($paleta-complementar);
+$candy-app-warn:    mat-palette($mat-red);
+$candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent, $candy-app-warn);
+@include angular-material-theme($candy-app-theme);
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
