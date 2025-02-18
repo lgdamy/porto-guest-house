@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { AnimatedComponent, slideInOut } from 'src/app/common/animations';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { AnimatedComponent, slideInOut } from '@app/common/animations';
+import { GeolocatorService } from '@app/common/geolocator.service';
 
 @Component({
   selector: 'app-pontos-turisticos-atividades',
@@ -9,7 +10,9 @@ import { AnimatedComponent, slideInOut } from 'src/app/common/animations';
 })
 export class PontosTuristicosAtividadesComponent extends AnimatedComponent implements OnInit {
 
-  ngOnInit(): void {
-  }
+    public geoUrls$ = this.geolocatorService.getUrls('pontos-turisticos-atividades');
 
+    constructor(private readonly geolocatorService: GeolocatorService) {
+        super();
+    }
 }

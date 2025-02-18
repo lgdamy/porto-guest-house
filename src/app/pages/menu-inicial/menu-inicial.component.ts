@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { AnimatedComponent, fadeInOut } from 'src/app/common/animations';
-import { routes } from 'src/app/common/constants/routes';
+import { AnimatedComponent, fadeInOut } from '@app/common/animations';
+import { routes } from '@app/common/constants/routes';
 
 @Component({
   selector: 'app-menu-inicial',
