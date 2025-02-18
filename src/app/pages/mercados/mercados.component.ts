@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AnimatedComponent, slideInOut } from 'src/app/common/animations';
+import { AnimatedComponent, slideInOut } from '@app/common/animations';
 
 @Component({
   selector: 'app-mercados',
