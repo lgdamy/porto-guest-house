@@ -8,22 +8,22 @@ import { MatMenuModule } from '@angular/material/menu'
 import { MatExpansionModule } from '@angular/material/expansion'
 import { HttpClient, HttpClientModule } from '@angular/common/http'
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { AppRoutingModule } from '@app/app-routing.module';
+import { AppComponent } from '@app/app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MenuInicialComponent } from './pages/menu-inicial/menu-inicial.component';
-import { NavBarComponent } from './common/nav-bar/nav-bar.component';
+import { MenuInicialComponent } from '@app/pages/menu-inicial/menu-inicial.component';
+import { NavBarComponent } from '@app/common/nav-bar/nav-bar.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core'
 import { MultiTranslateHttpLoader } from 'ngx-translate-multi-http-loader';
-import { PontosTuristicosAtividadesComponent } from './pages/pontos-turisticos-atividades/pontos-turisticos-atividades.component';
-import { GastronomiaComponent } from './pages/gastronomia/gastronomia.component';
-import { MercadosComponent } from './pages/mercados/mercados.component';
-import { VidaNoturnaComponent } from './pages/vida-noturna/vida-noturna.component';
-import { AtividadesCriancasComponent } from './pages/atividades-criancas/atividades-criancas.component';
-import { AtividadesArLivreComponent } from './pages/atividades-ar-livre/atividades-ar-livre.component';
-import { LembrancasComponent } from './pages/lembrancas/lembrancas.component';
-import { CulturaComponent } from './pages/cultura/cultura.component';
-import { RoteirosProntosComponent } from './pages/roteiros-prontos/roteiros-prontos.component';
+import { PontosTuristicosAtividadesComponent } from '@app/pages/pontos-turisticos-atividades/pontos-turisticos-atividades.component';
+import { GastronomiaComponent } from '@app/pages/gastronomia/gastronomia.component';
+import { MercadosComponent } from '@app/pages/mercados/mercados.component';
+import { VidaNoturnaComponent } from '@app/pages/vida-noturna/vida-noturna.component';
+import { AtividadesCriancasComponent } from '@app/pages/atividades-criancas/atividades-criancas.component';
+import { AtividadesArLivreComponent } from '@app/pages/atividades-ar-livre/atividades-ar-livre.component';
+import { LembrancasComponent } from '@app/pages/lembrancas/lembrancas.component';
+import { CulturaComponent } from '@app/pages/cultura/cultura.component';
+import { RoteirosProntosComponent } from '@app/pages/roteiros-prontos/roteiros-prontos.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 export function HttpLoaderFactory(http: HttpClient) {
