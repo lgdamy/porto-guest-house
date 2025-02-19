@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 import { AnimatedComponent, slideInOut } from '@app/common/animations';
 
 @Component({
@@ -8,9 +8,6 @@ import { AnimatedComponent, slideInOut } from '@app/common/animations';
   animations: [slideInOut]
   
 })
-export class AtividadesCriancasComponent extends AnimatedComponent implements OnInit {
-
-  ngOnInit(): void {
-  }
+export class AtividadesCriancasComponent extends AnimatedComponent {
 
 }

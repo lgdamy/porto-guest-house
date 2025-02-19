@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { AnimatedComponent, slideInOut } from '@app/common/animations';
 
 @Component({
@@ -7,7 +7,7 @@ import { AnimatedComponent, slideInOut } from '@app/common/animations';
   styleUrls: ['./roteiros-prontos.component.scss'],
   animations: [slideInOut]
 })
-export class RoteirosProntosComponent extends AnimatedComponent implements OnInit {
+export class RoteirosProntosComponent extends AnimatedComponent {
 
   ngOnInit(): void {
   }
