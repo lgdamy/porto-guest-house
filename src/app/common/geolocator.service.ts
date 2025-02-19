@@ -31,9 +31,8 @@ export class GeolocatorService {
     private readonly translate: TranslateService,
     private readonly domSanitizer: DomSanitizer
     ) {
-      console.log("nuild");
-    translate.onLangChange.subscribe(() => this.updateUrls())
-    this.updateUrls();
+      translate.onLangChange.subscribe(() => this.updateUrls())
+      this.updateUrls();
   }
 
   private updateUrls() {

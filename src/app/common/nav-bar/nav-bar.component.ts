@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatIconRegistry } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
 import { NavigationEnd, Router } from '@angular/router';
-import { routes } from '../constants/routes';
+import { routes } from '@app/common/constants/routes';
 import { TranslateService } from '@ngx-translate/core';
 import {filter} from 'rxjs/operators'
 
@@ -29,7 +29,6 @@ export class NavBarComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log(this.translateService.langs)
     this.i18nIcons();
     this.startingLang();
     this.mobile = window.innerWidth <= 768;
