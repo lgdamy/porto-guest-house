@@ -75,3 +75,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 p {
   text-align: left;
 }
+
+.mat-expansion-panel:not(.mat-expanded) {
+    height: 48px;
+  }
