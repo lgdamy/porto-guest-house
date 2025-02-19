@@ -8,7 +8,7 @@ import { GeolocatorService } from '@app/common/geolocator.service';
   styleUrls: ['./pontos-turisticos-atividades.component.scss'],
   animations: [slideInOut]
 })
-export class PontosTuristicosAtividadesComponent extends AnimatedComponent implements OnInit {
+export class PontosTuristicosAtividadesComponent extends AnimatedComponent {
 
     public geoUrls$ = this.geolocatorService.getUrls('pontos-turisticos-atividades');
 

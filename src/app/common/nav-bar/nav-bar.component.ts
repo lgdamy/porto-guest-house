@@ -29,7 +29,6 @@ export class NavBarComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log(this.translateService.langs)
     this.i18nIcons();
     this.startingLang();
     this.mobile = window.innerWidth <= 768;
