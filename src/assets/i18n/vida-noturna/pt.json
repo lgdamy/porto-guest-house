@@ -1,20 +1,36 @@
 {
     "vida-noturna": {
         "1": {
-            "title" : "Item 1",
-            "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+            "title" : "Galeria de Paris",
+            "content" : "<p>O coração da vida noturna do Porto! Uma rua cheia de bares e clubes, perfeita para bar-hopping. Aos fins de semana, as pessoas costumam beber na rua, criando um clima animado.</p><p>As Galerias de Paris costumam ser frequentadas por muitos jovens e estudantes, esses por sua vez recebem turistas com imensa alegria, certamente você será contagiado pela energia do espírito festivo.</p>"
         },
         "2": {
-            "title" : "Item 2",
-            "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+            "title" : "Base Porto",
+            "content" : "<p>Um bar ao ar livre ao lado da Torre dos Clérigos, ideal para quem quer um ambiente mais descontraído, com bons cocktails e DJs tocando música chill-out.</p><p>O grande destaque ali é o parque repleto de oliveiras em um plano alto, perfeito para se refrescar em tardes quentes. Os frequentadores costumam sentar-se no gramado para apreciarem suas bebidas e curtir a música.</p>"
         },
         "3": {
-            "title" : "Item 3",
-            "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+            "title" : "Pérola Negra",
+            "content" : "<p>Antigo cabaré transformado em discoteca, com uma vibe retrô e música eclética. Ideal para quem quer dançar a noite toda.</p><p>Por se situar próximo da Estação da Trindade, O Pérola Negra costuma receber pessoas de mais longe, e elas estão sempre dispostas a passar a noite inteira ali à espera do início do funcionamento do metro.</p>"
         },
         "4": {
-            "title" : "Item 4",
-            "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+            "title" : "Maus Hábitos",
+            "content" : "<p>Um espaço cultural alternativo que mistura arte, gastronomia e festas. Além das baladas, há concertos e exposições.</p><p>O espaço também fica aberto de dia, e pelo fato de ser perto do apartamento, pode também ser um destino para almoçar. Por ser panorâmico e relativamente alto, a vista para a cidade é espetacular.</p>"
+        },
+        "5": {
+            "title" : "Plano B",
+            "content" : "<p>Clube com dois andares e diferentes estilos musicais (eletrônica, indie, rock). Boa opção para quem gosta de variedade.</p><p>O lugar fica perto das Galerias de Paris, e curiosamente pode ser um plano B para quem vai às Galerias mas quer variar.</p>"
+        },
+        "6": {
+            "title" : "Hot Five Jazz & Blues Club",
+            "content" : "<p>Para os fãs de jazz e blues, esse bar oferece apresentações ao vivo de alta qualidade em um ambiente sofisticado. A arquitetura do bar lembra um pouco o Moulin Rouge.</p><p>Situa-se há poucos metros da Casa da Música, o que pode ser um bom início de noite, e uma experiência cultural realmente única.</p>"
+        },
+        "7": {
+            "title" : "MoreClub",
+            "content" : "<p>Um dos clubes mais exclusivos do Porto, focado em house e música eletrônica, atraindo DJs internacionais.</p><p>Ao caminhar pelas Galerias de Paris, você certamente notará este clube, suas duas pistas tornam ele um ótimo lugar para dançar até as pernas falharem.</p>"
+        },
+        "8": {
+            "title" : "Maria Pistolas",
+            "content" : "<p>Esta discoteca é realmente grande, possui diversas áreas com DJs diferentes, então é costume dos frequentadores fazer uma espécie de jornada entre diversos estilos</p><p>Ainda no último andar da discoteca há um lounge com poltronas confortáveis, o que pode te estimular a uma pausa temporária antes de voltar para as pistas de dança.</p>"
         }
     }
 }
