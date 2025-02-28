@@ -1,22 +1,33 @@
 <mat-toolbar color="primary" class="mat-elevation-z6">
     <mat-toolbar-row>
-        <button *ngIf="shownav && mobile" mat-icon-button [matMenuTriggerFor]="navmenu" aria-label="menu"><mat-icon>menu</mat-icon></button>
+        <span class="title">{{'pages.' + currentRoute | translate}}</span>
+        <span class="h-space"></span>
+        <button mat-icon-button *ngIf="navdetails" 
+            [matTooltip]="tooltip.home"
+            [attr.aria-label]="tooltip.home" 
+            routerLink=""><mat-icon>home</mat-icon>
+        </button>
+        <button mat-icon-button
+            [matTooltip]="tooltip.language"
+            [attr.aria-label]="tooltip.home"
+            [matMenuTriggerFor]="i18nMenu"><mat-icon>language</mat-icon>
+        </button>
+        <mat-menu #i18nMenu="matMenu">
+            <button *ngFor="let lang of availableLangs | keyvalue" (click)="changeLang(lang.key)" [attr.aria-label]="lang.value" mat-menu-item> <mat-icon svgIcon="{{lang.key}}"></mat-icon>{{lang.key.toUpperCase()}}</button>
+        </mat-menu>
+        <button mat-icon-button *ngIf="navdetails && mobile"
+            [matTooltip]="tooltip.menu"
+            [attr.aria-label]="tooltip.menu"
+            [matMenuTriggerFor]="navmenu"><mat-icon>menu</mat-icon>
+        </button>
         <mat-menu #navmenu="matMenu">
             <button *ngFor="let route of availableRoutes" mat-menu-item [routerLink]="route">{{ 'pages.' + route | translate }}</button>
         </mat-menu>
-        
-        <span class="title">{{'pages.' + currentRoute | translate}}</span>
-        <span class="h-space"></span>
-        <button mat-icon-button aria-label="home" routerLink=""><mat-icon>home</mat-icon></button>
-        <button mat-icon-button [matMenuTriggerFor]="i18nMenu" aria-label="translate"><mat-icon>language</mat-icon></button>
-        <mat-menu #i18nMenu="matMenu">
-            <button *ngFor="let lang of availableLangs" (click)="changeLang(lang)" mat-menu-item> <mat-icon svgIcon="{{lang}}"></mat-icon>{{lang.toUpperCase()}}</button>
-          </mat-menu>
     </mat-toolbar-row>
-    <mat-toolbar-row class="desktop-items" *ngIf="shownav && !mobile">
+    <mat-toolbar-row class="desktop-items" *ngIf="navdetails && !mobile">
         <button *ngFor="let route of availableRoutes.slice(0,4)" mat-button [routerLink]="route">{{ 'pages.' + route | translate }}</button>
     </mat-toolbar-row>
-    <mat-toolbar-row class="desktop-items" *ngIf="shownav && !mobile">
+    <mat-toolbar-row class="desktop-items" *ngIf="navdetails && !mobile">
         <span class="h-space"></span>
         <button *ngFor="let route of availableRoutes.slice(4)" mat-button [routerLink]="route">{{ 'pages.' + route | translate }}</button>
     </mat-toolbar-row>

@@ -10,5 +10,10 @@
         "lembrancas": "Recuerdos",
         "cultura": "Cultura",
         "roteiros-prontos": "Itinerarios de Viaje"
+    },
+    "navbar": {
+        "home": "Inicio",
+        "language": "Idioma (Español)",
+        "menu": "Mapa del sitio"
     }
 }

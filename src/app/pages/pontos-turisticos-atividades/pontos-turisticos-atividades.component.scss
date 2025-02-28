@@ -1,20 +1,23 @@
 .panel-content{
     display: flex;
+    .panel-img{
+        max-height: 510px;
+        width: auto;
+    }
     @media screen and (max-width: 900px ) {
+        .panel-text {
+            margin-top: 12px;
+        }
+        .panel-img {
+            max-width: 100%;
+        }
         flex-direction: column;
         align-items: center;
     }
     @media screen and (min-width: 900px) {
+        .panel-img {
+            margin-right: 24px;
+        }
         flex-direction: row;
-    }
-}
-.panel-img{
-    max-height: 510px;
-    width: auto;
-    @media screen and (max-width: 900px ) {
-        max-width: 100%;
-    }
-    @media screen and (min-width: 900px){
-        margin-right: 24px;
     }
 }
