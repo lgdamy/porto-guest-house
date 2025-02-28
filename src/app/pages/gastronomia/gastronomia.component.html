@@ -1,12 +1,49 @@
-<mat-accordion>
-    <mat-expansion-panel *ngFor="let i of [1,2,3,4]">
-        <mat-expansion-panel-header>
-            <mat-panel-title>
-                {{'gastronomia.' + i + '.title' | translate}}
-              </mat-panel-title>
-        </mat-expansion-panel-header>
-        <ng-template matExpansionPanelContent>
-            <div [innerHTML]="'gastronomia.' + i + '.content' | translate"></div>
-        </ng-template>
-    </mat-expansion-panel>
-</mat-accordion>
+<div class="description" [innerHTML]="'gastronomia.description' | translate"></div>
+<mat-tab-group mat-stretch-tabs>
+    <mat-tab [label]="'gastronomia.comidas-tipicas.title' | translate">
+        <mat-accordion>
+            <mat-expansion-panel *ngFor="let i of [1,2,3,4]">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    {{'gastronomia.comidas-tipicas.' + i + '.title' | translate}}
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <ng-template matExpansionPanelContent>
+                <div class="panel-content">
+                    <img class="panel-img" [src]="'assets/img/gastronomia/comidas-tipicas/' + i + '.png'">
+                    <div>
+                        <div [innerHTML]="'gastronomia.comidas-tipicas.' + i + '.content' | translate"></div>
+                    </div>
+                </div>
+            </ng-template>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </mat-tab>
+    <mat-tab [label]="'gastronomia.restaurantes.title' | translate">
+        <mat-accordion>
+            <mat-expansion-panel *ngFor="let i of [9,2,3,5,8,1,6,10,4,7]">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    {{'gastronomia.restaurantes.' + i + '.title' | translate}}
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <ng-template matExpansionPanelContent>
+                <div class="panel-content">
+                    <img class="panel-img" [src]="'assets/img/gastronomia/restaurantes/' + i + '.png'">
+                    <div>
+                        <div class="panel-text" [innerHTML]="'gastronomia.restaurantes.' + i + '.content' | translate"></div>
+                        <iframe *ngIf="(geoUrls$ | async) as geoUrls"
+                        width="100%"
+                        height="300"
+                        frameborder="0"
+                        scrolling="no"
+                        marginheight="0"
+                        marginwidth="0"
+                        [src]=geoUrls[i]></iframe>
+                    </div>
+                </div>
+            </ng-template>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </mat-tab>
+</mat-tab-group>

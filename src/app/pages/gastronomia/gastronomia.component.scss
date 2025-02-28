@@ -1,0 +1,26 @@
+.description {
+    padding: 10px 16px;
+}
+.panel-content{
+    .panel-img{
+        max-height: 510px;
+        width: auto;
+    }
+    display: flex;
+    @media screen and (max-width: 900px ) {
+        .panel-text {
+            margin-top: 12px;
+        }
+        .panel-img {
+            max-width: 100%;
+        }
+        flex-direction: column;
+        align-items: center;
+    }
+    @media screen and (min-width: 900px) {
+        .panel-img {
+            margin-right: 24px;
+        }
+        flex-direction: row;
+    }
+}

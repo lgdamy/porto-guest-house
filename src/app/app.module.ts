@@ -6,6 +6,8 @@ import { MatToolbarModule } from '@angular/material/toolbar'
 import { MatIconModule } from '@angular/material/icon'
 import { MatMenuModule } from '@angular/material/menu'
 import { MatExpansionModule } from '@angular/material/expansion'
+import { MatTabsModule } from '@angular/material/tabs'
+import { MatTooltipModule } from '@angular/material/tooltip'
 import { HttpClient, HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from '@app/app-routing.module';
@@ -76,6 +78,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatIconModule,
     MatMenuModule,
     MatExpansionModule,
+    MatTabsModule,
+    MatTooltipModule,
   ],
   providers: [
     {provide: LocationStrategy, useClass:HashLocationStrategy}

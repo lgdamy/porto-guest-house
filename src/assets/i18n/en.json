@@ -10,5 +10,10 @@
         "lembrancas": "Souvenirs",
         "cultura": "Culture",
         "roteiros-prontos": "Ready-Made Itineraries"
+    },
+    "navbar": {
+        "home": "Home",
+        "language": "Language (English)",
+        "menu": "Site map"
     }
 }

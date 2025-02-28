@@ -13,12 +13,22 @@ import {filter} from 'rxjs/operators'
 })
 export class NavBarComponent implements OnInit {
 
-  shownav: boolean = true
+  navdetails: boolean = true;
   mobile: boolean
   availableRoutes = routes;
-  availableLangs = ['en','es','fr','pt'];
+  availableLangs = {
+    'en':'English',
+    'es':'Español',
+    'fr':'Français',
+    'pt':'Português',
+  }
   currentRoute: string
   maxVisibleDesktop = 10
+  tooltip = {
+    menu: "",
+    language: "",
+    home: ""
+  }
 
   constructor(
     private readonly registry: MatIconRegistry, 
@@ -31,36 +41,40 @@ export class NavBarComponent implements OnInit {
   ngOnInit(): void {
     this.i18nIcons();
     this.startingLang();
+    this.updateTooltips();
     this.mobile = window.innerWidth <= 768;
     window.onresize = () => this.mobile = window.innerWidth <= 768;
     this.router.events.pipe(
       filter(event => event instanceof NavigationEnd)
     ).subscribe(() => {
-      this.shownav = this.router.url !== '/';
+      this.navdetails = this.router.url !== '/';
       this.currentRoute = routes.find(route => this.router.url.includes(route)) ?? 'index';
     });
   }
 
   private i18nIcons() {
-    this.availableLangs.forEach(lang => {
+    Object.keys(this.availableLangs).forEach(lang => {
       this.registry.addSvgIcon(lang, 
           this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/i18n/${lang}.svg`)
         )
     })
   }
 
-  startingLang() {
-    if (window.localStorage.getItem('lang') && this.availableLangs.includes(window.localStorage.getItem('lang'))) {
-      this.translateService.use(window.localStorage.getItem('lang'));
-      return;
+  private startingLang() {
+    const startingLang = window.localStorage.getItem('lang') ?? navigator.language.slice(0,2);
+    if (Object.keys(this.availableLangs).includes(startingLang)) {
+      this.translateService.use(startingLang);
     }
-    if (navigator.language && this.availableLangs.includes(navigator.language.slice(0,2))) {
-      this.translateService.use(navigator.language.slice(0,2));
-    }
+  }
+
+  private updateTooltips() {
+    Object.keys(this.tooltip).forEach(key => this.translateService.get(`navbar.${key}`)
+      .subscribe(value => this.tooltip[key] = value));
   }
 
   changeLang(lang: string) {
     this.translateService.use(lang);
     window.localStorage.setItem('lang', lang);
+    this.updateTooltips();
   }
 }

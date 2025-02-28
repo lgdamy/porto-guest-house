@@ -9,7 +9,7 @@
             <div class="panel-content">
                 <img class="panel-img" [src]="'assets/img/pontos-turisticos-atividades/' + i + '.webp'">
                 <div>
-                    <div class="text" [innerHTML]="'pontos-turisticos-atividades.' + i + '.content' | translate"></div>
+                    <div class="panel-text" [innerHTML]="'pontos-turisticos-atividades.' + i + '.content' | translate"></div>
                         <iframe *ngIf="(geoUrls$ | async) as geoUrls"
                         width="100%"
                         height="300"
