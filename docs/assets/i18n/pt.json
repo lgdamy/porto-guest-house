@@ -10,5 +10,10 @@
         "lembrancas": "Lembranças",
         "cultura": "Cultura",
         "roteiros-prontos": "Roteiros Prontos"
+    },
+    "navbar": {
+        "home":"Início",
+        "language": "Idioma (Português)",
+        "menu": "Mapa do site"
     }
 }

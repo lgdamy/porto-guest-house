@@ -10,5 +10,10 @@
         "lembrancas": "Souvenirs",
         "cultura": "Culture",
         "roteiros-prontos": "Itinéraires Prêts"
+    },
+    "navbar": {
+        "home": "Accueil",
+        "language": "Langue (Français)",
+        "menu": "Plan du site"
     }
 }
