@@ -12,7 +12,7 @@
                 <div class="panel-content">
                     <img class="panel-img" [src]="'assets/img/gastronomia/comidas-tipicas/' + i + '.png'">
                     <div>
-                        <div [innerHTML]="'gastronomia.comidas-tipicas.' + i + '.content' | translate"></div>
+                        <div class="panel-text" [innerHTML]="'gastronomia.comidas-tipicas.' + i + '.content' | translate"></div>
                     </div>
                 </div>
             </ng-template>
