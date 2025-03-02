@@ -30,7 +30,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new MultiTranslateHttpLoader(http, [
-    {prefix: './assets/i18n/', suffix: '.json'},
+    {prefix: './assets/i18n/common/', suffix: '.json'},
     {prefix: './assets/i18n/menu-inicial/', suffix: '.json'},
     {prefix: './assets/i18n/atividades-ar-livre/', suffix: '.json'},
     {prefix: './assets/i18n/atividades-criancas/', suffix: '.json'},

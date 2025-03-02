@@ -38,7 +38,7 @@ export class GeolocatorService {
       4: [41.146756, -8.605717],// MAUS HABITOS
       5: [41.146551, -8.614010],// PLANO B
       6: [41.157358, -8.636675],// HOT FIVE JAZZ E BLUES
-      7: [41.147242, -8.614337],// MORECLUB
+      7: [41.135672, -8.613916],// WOW
       8: [41.148326, -8.612785],// MARIA PISTOLAS
     },
     'gastronomia': {
