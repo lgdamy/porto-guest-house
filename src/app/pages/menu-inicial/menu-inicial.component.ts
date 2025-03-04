@@ -11,10 +11,9 @@ import { routes } from '@app/common/constants/routes';
 export class MenuInicialComponent extends AnimatedComponent implements OnInit {
 
   gridCols: Number
-  availableRoutes: string[]
+  availableRoutes = routes;
 
   ngOnInit(): void {
-    this.availableRoutes = routes
     this.gridCols = window.innerWidth <= 768 ? 2 : 3
   }
 
