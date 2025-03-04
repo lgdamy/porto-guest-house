@@ -1,5 +1,5 @@
 import { ValueConverter } from '@angular/compiler/src/render3/view/template';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { AnimatedComponent, slideInOut } from '@app/common/animations';
 import { GeolocatorService } from '@app/common/geolocator.service';
@@ -12,16 +12,18 @@ type Categorias = 'ar-livre'|'criancas'|'historia'|'gratis';
   styleUrls: ['./pontos-turisticos-atividades.component.scss'],
   animations: [slideInOut]
 })
-export class PontosTuristicosAtividadesComponent extends AnimatedComponent {
+export class PontosTuristicosAtividadesComponent extends AnimatedComponent implements OnInit {
   
-  filters: Record<Categorias,FormControl> = {
+  private filters: Record<Categorias,FormControl> = {
     'ar-livre': new FormControl(false),
     'criancas': new FormControl(false),
     'historia': new FormControl(false),
     'gratis': new FormControl(false)
   }
 
-  entries: Record<number, Categorias[]> = {
+  filterMap: { name:string, form: FormControl }[]
+  
+  private entries: Record<number, Categorias[]> = {
     1:['ar-livre','gratis'], //RIBEIRA
     2:['ar-livre','gratis'], //PONTE DOM LUIS
     3:['historia'], //LIVRARIA LELLO
@@ -44,11 +46,16 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent {
     20:['gratis','criancas'], //CPPB
     21: ['ar-livre','criancas','gratis'], //SAO ROQUE
   }
-
+  entryMap: { id: string, categorias: Categorias[] } []
+  
   geoUrls$ = this.geolocatorService.getUrls('pontos-turisticos-atividades');
 
   constructor(private readonly geolocatorService: GeolocatorService) {
       super();
+  }
+  ngOnInit(): void {
+    this.filterMap = Object.entries(this.filters).map(([key, value]) => ({ name: key, form: value }))
+    this.entryMap = Object.entries(this.entries).map(([key, value]) => ({ id: key, categorias: value }))
   }
 
   shouldShow(i: number): boolean {
