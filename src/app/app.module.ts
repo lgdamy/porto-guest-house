@@ -8,6 +8,7 @@ import { MatMenuModule } from '@angular/material/menu'
 import { MatExpansionModule } from '@angular/material/expansion'
 import { MatTabsModule } from '@angular/material/tabs'
 import { MatTooltipModule } from '@angular/material/tooltip'
+import { MatCheckboxModule } from '@angular/material/checkbox'
 import { HttpClient, HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from '@app/app-routing.module';
@@ -27,6 +28,7 @@ import { LembrancasComponent } from '@app/pages/lembrancas/lembrancas.component'
 import { CulturaComponent } from '@app/pages/cultura/cultura.component';
 import { RoteirosProntosComponent } from '@app/pages/roteiros-prontos/roteiros-prontos.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { ReactiveFormsModule } from '@angular/forms';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new MultiTranslateHttpLoader(http, [
@@ -72,6 +74,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
     MatGridListModule,
     MatButtonModule,
     MatToolbarModule,
@@ -80,6 +83,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatExpansionModule,
     MatTabsModule,
     MatTooltipModule,
+    MatCheckboxModule
   ],
   providers: [
     {provide: LocationStrategy, useClass:HashLocationStrategy}
