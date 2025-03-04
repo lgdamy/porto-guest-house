@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AtividadesArLivreComponent } from '@app/pages/atividades-ar-livre/atividades-ar-livre.component';
-import { AtividadesCriancasComponent } from '@app/pages/atividades-criancas/atividades-criancas.component';
 import { CulturaComponent } from '@app/pages/cultura/cultura.component';
 import { GastronomiaComponent } from '@app/pages/gastronomia/gastronomia.component';
 import { LembrancasComponent } from '@app/pages/lembrancas/lembrancas.component';
@@ -16,14 +14,6 @@ const routes: Routes = [
   {
     path:'',
     component: MenuInicialComponent
-  },
-  {
-    path:'atividades-ar-livre',
-    component: AtividadesArLivreComponent
-  },
-  {
-    path:'atividades-criancas',
-    component: AtividadesCriancasComponent
   },
   {
     path:'cultura',

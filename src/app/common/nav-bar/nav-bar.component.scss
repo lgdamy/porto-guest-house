@@ -10,6 +10,7 @@ mat-toolbar {
 }
 .desktop-items{
     flex: content;
+    justify-content: space-between;
 }
 .title {
     white-space: pre-wrap;

@@ -25,10 +25,6 @@
         </mat-menu>
     </mat-toolbar-row>
     <mat-toolbar-row class="desktop-items" *ngIf="navdetails && !mobile">
-        <button *ngFor="let route of availableRoutes.slice(0,4)" mat-button [routerLink]="route">{{ 'pages.' + route | translate }}</button>
-    </mat-toolbar-row>
-    <mat-toolbar-row class="desktop-items" *ngIf="navdetails && !mobile">
-        <span class="h-space"></span>
-        <button *ngFor="let route of availableRoutes.slice(4)" mat-button [routerLink]="route">{{ 'pages.' + route | translate }}</button>
+        <button *ngFor="let route of availableRoutes" mat-button [routerLink]="route">{{ 'pages.' + route | translate }}</button>
     </mat-toolbar-row>
 </mat-toolbar>

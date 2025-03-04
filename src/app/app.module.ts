@@ -9,6 +9,7 @@ import { MatExpansionModule } from '@angular/material/expansion'
 import { MatTabsModule } from '@angular/material/tabs'
 import { MatTooltipModule } from '@angular/material/tooltip'
 import { MatCheckboxModule } from '@angular/material/checkbox'
+import { MatBadgeModule } from '@angular/material/badge'
 import { HttpClient, HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from '@app/app-routing.module';
@@ -22,8 +23,6 @@ import { PontosTuristicosAtividadesComponent } from '@app/pages/pontos-turistico
 import { GastronomiaComponent } from '@app/pages/gastronomia/gastronomia.component';
 import { MercadosComponent } from '@app/pages/mercados/mercados.component';
 import { VidaNoturnaComponent } from '@app/pages/vida-noturna/vida-noturna.component';
-import { AtividadesCriancasComponent } from '@app/pages/atividades-criancas/atividades-criancas.component';
-import { AtividadesArLivreComponent } from '@app/pages/atividades-ar-livre/atividades-ar-livre.component';
 import { LembrancasComponent } from '@app/pages/lembrancas/lembrancas.component';
 import { CulturaComponent } from '@app/pages/cultura/cultura.component';
 import { RoteirosProntosComponent } from '@app/pages/roteiros-prontos/roteiros-prontos.component';
@@ -34,8 +33,6 @@ export function HttpLoaderFactory(http: HttpClient) {
   return new MultiTranslateHttpLoader(http, [
     {prefix: './assets/i18n/common/', suffix: '.json'},
     {prefix: './assets/i18n/menu-inicial/', suffix: '.json'},
-    {prefix: './assets/i18n/atividades-ar-livre/', suffix: '.json'},
-    {prefix: './assets/i18n/atividades-criancas/', suffix: '.json'},
     {prefix: './assets/i18n/cultura/', suffix: '.json'},
     {prefix: './assets/i18n/gastronomia/', suffix: '.json'},
     {prefix: './assets/i18n/lembrancas/', suffix: '.json'},
@@ -55,8 +52,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     GastronomiaComponent,
     MercadosComponent,
     VidaNoturnaComponent,
-    AtividadesCriancasComponent,
-    AtividadesArLivreComponent,
     LembrancasComponent,
     CulturaComponent,
     RoteirosProntosComponent
@@ -83,7 +78,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatExpansionModule,
     MatTabsModule,
     MatTooltipModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatBadgeModule,
   ],
   providers: [
     {provide: LocationStrategy, useClass:HashLocationStrategy}

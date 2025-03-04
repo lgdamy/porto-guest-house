@@ -1,3 +1,4 @@
+import { ValueConverter } from '@angular/compiler/src/render3/view/template';
 import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { AnimatedComponent, slideInOut } from '@app/common/animations';
@@ -13,17 +14,17 @@ type Categorias = 'ar-livre'|'criancas'|'historia'|'gratis';
 })
 export class PontosTuristicosAtividadesComponent extends AnimatedComponent {
   
-  public filters: Record<Categorias,FormControl> = {
-    'ar-livre': new FormControl(true),
-    'criancas': new FormControl(true),
-    'historia': new FormControl(true),
-    'gratis': new FormControl(true)
+  filters: Record<Categorias,FormControl> = {
+    'ar-livre': new FormControl(false),
+    'criancas': new FormControl(false),
+    'historia': new FormControl(false),
+    'gratis': new FormControl(false)
   }
 
-  public categories: Record<number, Categorias[]> = {
+  entries: Record<number, Categorias[]> = {
     1:['ar-livre','gratis'], //RIBEIRA
     2:['ar-livre','gratis'], //PONTE DOM LUIS
-    3:['historia','ar-livre'], //LIVRARIA LELLO
+    3:['historia'], //LIVRARIA LELLO
     4:['historia'], //CLERIGOS
     5:['historia', 'gratis'], //SAO BENTO
     6:['historia'], //SE DO PORTO
@@ -34,7 +35,7 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent {
     11:['ar-livre','criancas'], //PALACIO DE CRISTAL
     12:['criancas'], //WORLD OF DISCOVERIES
     13:['criancas'], //SEALIFE
-    14:['criancas'], //ZOO STO INACIO
+    14:['criancas','ar-livre'], //ZOO STO INACIO
     15:['ar-livre','criancas','gratis'], //PARQUE DA CIDADE
     16:['gratis'], //CASA DA MUSICA
     17:['ar-livre','criancas','gratis'], //JARDIM DAS VIRTUDES
@@ -44,16 +45,24 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent {
     21: ['ar-livre','criancas','gratis'], //SAO ROQUE
   }
 
-  public geoUrls$ = this.geolocatorService.getUrls('pontos-turisticos-atividades');
+  geoUrls$ = this.geolocatorService.getUrls('pontos-turisticos-atividades');
 
   constructor(private readonly geolocatorService: GeolocatorService) {
       super();
   }
 
-  public shouldShow(i: number): boolean {
-  const panelCategories = this.categories[i];
-  const selectedFilters = Object.keys(this.filters)
-    .filter(key => this.filters[key as Categorias].value) as Categorias[];
-  return panelCategories.some(category => selectedFilters.includes(category));
+  shouldShow(i: number): boolean {
+    const categories = this.entries[i];
+    const selectedFilters = Object.keys(this.filters)
+      .filter(key => this.filters[key as Categorias].value) as Categorias[];
+    if (selectedFilters.length == 0) {
+      return true;
+    }
+    return selectedFilters.every(filter => categories.includes(filter));
   }
+  
+  selectedFiltersCount(): number {
+    return Object.values(this.filters).filter(filter => filter.value).length;
+  }
+
 }
