@@ -4,8 +4,6 @@ export const routes: string[] = [
     'gastronomia',
     'mercados',
     'vida-noturna',
-    'atividades-criancas',
-    'atividades-ar-livre',
     'lembrancas',
     'cultura',
     'roteiros-prontos'
