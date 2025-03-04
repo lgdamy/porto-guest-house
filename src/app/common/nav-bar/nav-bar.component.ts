@@ -23,7 +23,6 @@ export class NavBarComponent implements OnInit {
     'pt':'Português',
   }
   currentRoute: string
-  maxVisibleDesktop = 10
   tooltip = {
     menu: "",
     language: "",
@@ -42,8 +41,8 @@ export class NavBarComponent implements OnInit {
     this.i18nIcons();
     this.startingLang();
     this.updateTooltips();
-    this.mobile = window.innerWidth <= 768;
-    window.onresize = () => this.mobile = window.innerWidth <= 768;
+    this.mobile = window.innerWidth <= 900;
+    window.onresize = () => this.mobile = window.innerWidth <= 900;
     this.router.events.pipe(
       filter(event => event instanceof NavigationEnd)
     ).subscribe(() => {
