@@ -25,16 +25,16 @@ $paleta-primaria: (
   )
 );
 $paleta-complementar: (
-  50 : #faebd7,
-  100 : #f0cc9f,
-  200 : #e4ab63,
-  300 : #d78a24,
-  400 : #cf7400,
-  500 : #c65e00,
-  600 : #c45300,
-  700 : #bf4300,
-  800 : #b83000,
-  900 : #ae0000,
+  50 : #e3eff9,
+  100 : #c3d6e1,
+  200 : #a3bac8,
+  300 : #819eb0,
+  400 : #68899d,
+  500 : #4f758b,
+  600 : #43677a,
+  700 : #355364,
+  800 : #27414f,
+  900 : #162c38,
   contrast: (
     50: $dark-primary-text,
     100: $dark-primary-text,
@@ -49,7 +49,7 @@ $paleta-complementar: (
   )
 );
 $candy-app-primary: mat-palette($paleta-primaria, 500);
-$candy-app-accent:  mat-palette($paleta-complementar, 50);
+$candy-app-accent:  mat-palette($paleta-complementar, 500);
 $candy-app-warn:    mat-palette($mat-red);
 $candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent, $candy-app-warn);
 @include angular-material-theme($candy-app-theme);
