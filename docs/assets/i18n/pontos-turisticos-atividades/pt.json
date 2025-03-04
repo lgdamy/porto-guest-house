@@ -1,5 +1,11 @@
 {
     "pontos-turisticos-atividades": {
+        "filter": {
+            "ar-livre": "Atividades ao Ar Livre",
+            "criancas": "Atividades para Crianças",
+            "historia": "Pontos Históricos",
+            "gratis": "Atividades Gratuitas"
+        },
         "1": {
             "title" : "Bairro da Ribeira",
             "content" : "<p>Um dos bairros mais pitorescos e animados do Porto, a Ribeira fica à beira do rio Douro e é conhecida pelas suas casas coloridas, ruelas charmosas e restaurantes vibrantes. É um ótimo local para passear, provar a gastronomia local e admirar a vista para a Ponte Dom Luís I.</p><p>Você consegue chegar ali caminhando, um caminho bastante simples é através da escadaria dos Guindais, ao sair do prédio, vá para a esquerda e siga adiante até encontrar um forte (chamado de Muralha Fernandina), se continuar seguindo na mesma direção irá encontrar o início das escadas, basta descê-las. No ponto mais baixo dessas escadas, olhe para a direita, o Bairro da Ribeira está ali logo após a ponte.</p>"
@@ -35,6 +41,54 @@
         "9": {
             "title" : "Vila Nova de Gaia & Caves de Vinho do Porto",
             "content" : "<p>Do outro lado do rio Douro, cruzando a Ponte Dom Luís I, Vila Nova de Gaia abriga as mais famosas caves de vinho do Porto, como Sandeman, Graham’s, Taylor’s e Ferreira. Faça uma visita guiada e desfrute de uma degustação enquanto aprende sobre a história do vinho na região.</p><p>Ao caminhar pelas margens do rio Douro, vai perceber que há muita atividade e receptividade. Além das caves de vinho, poderá desfrutar de diversos restaurantes típicos. Se achar que a caminhada foi muito intensa, pode tomar a decisão de subir para o topo de teleférico.</p>"
+        },
+        "10": {
+            "title" : "Fundação Serralves",
+            "content" : ""
+        },
+        "11": {
+            "title" : "Jardins do Palácio de Cristal",
+            "content" : ""
+        },
+        "12": {
+            "title" : "World of Discoveries",
+            "content" : ""
+        },
+        "13": {
+            "title" : "Sealife",
+            "content" : ""
+        },
+        "14": {
+            "title" : "Zoo Santo Inácio",
+            "content" : ""
+        },
+        "15": {
+            "title" : "Parque da Cidade do Porto",
+            "content" : ""
+        },
+        "16": {
+            "title" : "Casa da Música",
+            "content" : ""
+        },
+        "17": {
+            "title" : "Jardim das Virtudes",
+            "content" : ""
+        },
+        "18": {
+            "title" : "Farolim das Felgueiras",
+            "content" : ""
+        },
+        "19": {
+            "title" : "Clube Minigolfe do Porto",
+            "content" : ""
+        },
+        "20": {
+            "title" : "Casa Portuguesa do Pastel de Bacalhau",
+            "content" : ""
+        },
+        "21": {
+            "title": "Casa São Roque",
+            "content":""
         }
     }
 }
