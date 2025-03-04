@@ -26,20 +26,21 @@ import { VidaNoturnaComponent } from '@app/pages/vida-noturna/vida-noturna.compo
 import { LembrancasComponent } from '@app/pages/lembrancas/lembrancas.component';
 import { CulturaComponent } from '@app/pages/cultura/cultura.component';
 import { RoteirosProntosComponent } from '@app/pages/roteiros-prontos/roteiros-prontos.component';
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { HashLocationStrategy, LocationStrategy, DatePipe } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 
 export function HttpLoaderFactory(http: HttpClient) {
+  const suffix = `.json?v=${new Date().getTime()}`
   return new MultiTranslateHttpLoader(http, [
-    {prefix: './assets/i18n/common/', suffix: '.json'},
-    {prefix: './assets/i18n/menu-inicial/', suffix: '.json'},
-    {prefix: './assets/i18n/cultura/', suffix: '.json'},
-    {prefix: './assets/i18n/gastronomia/', suffix: '.json'},
-    {prefix: './assets/i18n/lembrancas/', suffix: '.json'},
-    {prefix: './assets/i18n/mercados/', suffix: '.json'},
-    {prefix: './assets/i18n/pontos-turisticos-atividades/', suffix: '.json'},
-    {prefix: './assets/i18n/roteiros-prontos/', suffix: '.json'},
-    {prefix: './assets/i18n/vida-noturna/', suffix: '.json'},
+    {prefix: './assets/i18n/common/', suffix: suffix},
+    {prefix: './assets/i18n/menu-inicial/', suffix: suffix},
+    {prefix: './assets/i18n/cultura/', suffix: suffix},
+    {prefix: './assets/i18n/gastronomia/', suffix: suffix},
+    {prefix: './assets/i18n/lembrancas/', suffix: suffix},
+    {prefix: './assets/i18n/mercados/', suffix: suffix},
+    {prefix: './assets/i18n/pontos-turisticos-atividades/', suffix: suffix},
+    {prefix: './assets/i18n/roteiros-prontos/', suffix: suffix},
+    {prefix: './assets/i18n/vida-noturna/', suffix: suffix},
   ]);
 }
 
