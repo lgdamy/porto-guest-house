@@ -9,25 +9,25 @@
             ><mat-icon>filter_alt</mat-icon>
     </button>
     <mat-menu #filtersMenu="matMenu">
-        <mat-checkbox class="mat-menu-item" *ngFor="let filter of filters | keyvalue: {}"
+        <mat-checkbox class="mat-menu-item" *ngFor="let filter of filterMap"
             (click)="$event.stopPropagation()"
-            [formControl]="filter.value"> {{'pontos-turisticos-atividades.filter.' + filter.key | translate}}</mat-checkbox>
+            [formControl]="filter.form"> {{'pontos-turisticos-atividades.filter.' + filter.name | translate}}</mat-checkbox>
     </mat-menu>
 </div>
 
 <mat-accordion>
-    <ng-container *ngFor="let i of entries | keyvalue: {}">
-        <mat-expansion-panel *ngIf="shouldShow(i.key)">
+    <ng-container *ngFor="let i of entryMap">
+        <mat-expansion-panel *ngIf="shouldShow(i.id)">
             <mat-expansion-panel-header>
                 <mat-panel-title>
-                    {{'pontos-turisticos-atividades.' + i.key + '.title' | translate}}
+                    {{'pontos-turisticos-atividades.' + i.id + '.title' | translate}}
                 </mat-panel-title>
             </mat-expansion-panel-header>
             <ng-template matExpansionPanelContent>
                 <div class="panel-content">
-                    <img class="panel-img" [src]="'assets/img/pontos-turisticos-atividades/' + i.key + '.webp'">
+                    <img class="panel-img" [src]="'assets/img/pontos-turisticos-atividades/' + i.id + '.webp'">
                     <div>
-                        <div class="panel-text" [innerHTML]="'pontos-turisticos-atividades.' + i.key + '.content' | translate"></div>
+                        <div class="panel-text" [innerHTML]="'pontos-turisticos-atividades.' + i.id + '.content' | translate"></div>
                             <iframe *ngIf="(geoUrls$ | async) as geoUrls"
                             width="100%"
                             height="300"
@@ -35,7 +35,7 @@
                             scrolling="no"
                             marginheight="0"
                             marginwidth="0"
-                            [src]=geoUrls[i.key]></iframe>
+                            [src]=geoUrls[i.id]></iframe>
                     </div>
                 </div>
             </ng-template>
