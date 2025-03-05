@@ -42,10 +42,10 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
     15:['ar-livre','criancas','gratis'], //PARQUE DA CIDADE
     16:['turistico'], //CASA DA MUSICA
     17:['ar-livre','criancas','gratis'], //JARDIM DAS VIRTUDES
-    18:['ar-livre','gratis'], //FAROLIM DAS FELGUEIRAS
+    18:['ar-livre','gratis','turistico'], //FAROLIM DAS FELGUEIRAS
     19:['criancas','ar-livre'], //MINIGOLFE
     20:['turistico','criancas'], //CPPB
-    21: ['ar-livre','criancas','gratis'], //SAO ROQUE
+    21: ['ar-livre','criancas','gratis','turistico','historia'], //SAO ROQUE
   }
   entryMap: { id: string, categorias: Categorias[] } []
   

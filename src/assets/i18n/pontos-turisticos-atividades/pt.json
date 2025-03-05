@@ -1,6 +1,7 @@
 {
     "pontos-turisticos-atividades": {
         "filter": {
+            "turistico":"Pontos Turísticos",
             "ar-livre": "Atividades ao Ar Livre",
             "criancas": "Atividades para Crianças",
             "historia": "Pontos Históricos",
@@ -44,51 +45,51 @@
         },
         "10": {
             "title" : "Fundação Serralves",
-            "content" : ""
+            "content" : "<p>Uma Instituição de referência em Portugal. Abrange um museu de arte contemporânea, uma villa Art Déco e um extenso parque com jardins e esculturas ao ar livre. Inaugurada em 1999, a fundação promove exposições, eventos e atividades educativas, sendo um dos principais centros de arte e cultura do país.</p><p>Além do cenário magnífico, repleto com uma flora rica e esculturas imponentes expostas. A área aberta conta com o 'Treetop Walk', uma espécie se arborísmo em plano elevado, ideal para receber crianças.</p>"
         },
         "11": {
             "title" : "Jardins do Palácio de Cristal",
-            "content" : ""
+            "content" : "<p>Um dos espaços verdes mais emblemáricos da cidade. Oferecem vistas panorâmicas sobre o Rio Douro. O local conta com jardins temáticos, lagos, e esculturas. Os jardins também possuem uma variada fauna, incluíndo lindos pavões que caminham livremente, tornando o espaço ideal para crianças conhecerem esses animais.</p><p>Além disso, ali está a <b>Superbock Arena</b>, utilizada para diversos eventos culturais e desportivos. Vale a pena conferir se a sua visita vai estar alinhada com a data de um evento.</p>"
         },
         "12": {
             "title" : "World of Discoveries",
-            "content" : ""
+            "content" : "<p>Um museu interativo e parque temático. O tema é dedicado à história das grandes navegações portuguesas e da Era do Descobrimento. Através de exposições, cenários imersivos e um passeio de barco, os visitantes podem explorar as rotas e culturas encontradas pelos navegadores portugueses nos séculos XV e XVI. O espaço combina educação e entretenimento, proporcionando uma experiência envolvente para todas as idades.</p>"
         },
         "13": {
             "title" : "Sealife",
-            "content" : ""
+            "content" : "<p>Um aquário interativo dedicado à vida marinha. Abriga diversas espécies aquáticas bastante distintas umas das outras, como tubarões, raias, polvos e cavalos-marinhos.</p><p>Um grande destaque ali é o túnel subaquático, que permite uma interação mais próxima e envolvente com estes animais. Além das exposições do aquário, o Sea Life promove atividades educativas e de conservação marinha, sensibilizando os visitantes para a proteção dos oceanos.</p>"
         },
         "14": {
             "title" : "Zoo Santo Inácio",
-            "content" : ""
+            "content" : "<p>O maior zoológico do norte de Portugal, foi inaugurado em 2000 e abriga mais de 200 espécies diferentes de animais de diferentes partes do mundo, incluindo leões, ursos, tigres, girafas e penguins.</p><p>O zoológico foca na conservação da biodiversidade e no bem-estar animal. Logo, proporciona diversos habitats amplos e naturais. Além das exposições, o zoológico oferece também atividades educaticas e apresentações diárias para sensibilizar os visitantes sobre a preservação da vida selvagem.</p>"
         },
         "15": {
             "title" : "Parque da Cidade do Porto",
-            "content" : ""
+            "content" : "<p>O maior espaço verde urbano de Portugal. Com seus 83 hectares de área e mais de 10 km de passeios, proporciona um espaço ótimo para se passar uma tarde inteira. Ali você vai encontrar diversos lagos, fauna e flora bastante diversificadas.</p><p>É bastante comum os visitantes levarem seus cães e soltarem no parque para gastar energia e interagir com outros, o que torna o parque tão especial e memorável para crianças.</p><p>Na saída oeste do parque você vai estar na extremidade na praia de Matosinhos, esta possui um amplo espaço de areia e diversos quiosques onde você poderá se refrescar e apreciar um pôr do sol magnífico.</p>"
         },
         "16": {
             "title" : "Casa da Música",
-            "content" : ""
+            "content" : "<p>Uma das principais salas de concertos de portugal, destaca-se pela sua arquitetura inovadora e acústica de excelência. O espaço acolhe uma programação diversificada, desde música clássica a jazz, eletrónica e world music. É sede de várias formações musicais, como a <b>Orquestra Sinfónica do Porto</b>, e promove atividades educativas e culturais, sendo um ícone da cidade.</p><p>Situada em frente da Rotunda da Boavista e seu imponente Monumento aos Heróis da Guerra Peninsular, um obelisco de 45m de altura construído no final do século XIX.</p>"
         },
         "17": {
             "title" : "Jardim das Virtudes",
-            "content" : ""
+            "content" : "<p>Um espaço verde com vistas panorâmicas sobre o Rio Douro. Construído em antigos terrenos da Companhia Hortícola Portuense, destaca-se pelos seus terraços ajardinados e pelo imponente Gingko Biloba, uma das árvores mais antigas da cidade. É um local tranquilo, ideal para passeios ao ar livre e pôr do sol, muito frequentado por locais e turistas.</p>"
         },
         "18": {
             "title" : "Farolim das Felgueiras",
-            "content" : ""
+            "content" : "<p>Um dos marcos mais emblemáticos da cidade do Porto, situado logo na entrada do Rio Douro. Construído no século XIX, o farol tem como objetivo orientar a navegação no estuário do rio. É um ponto turístico popular, oferecendo uma vista panorâmica da costa atlântica e do rio. O farolim é conhecido pela sua torre de pedra e pela luz intensa que emite, sendo um símbolo da tradição marítima da cidade.</p>"
         },
         "19": {
             "title" : "Clube Minigolfe do Porto",
-            "content" : ""
+            "content" : "<p>O clube oferece uma área com campos de minigolfe bem cuidados, proporcionando uma experiência divertida e descontraída para todas as idades. Além de ser um local de lazer para os portuenses e turistas, o clube organiza eventos e competições, sendo uma opção popular para famílias e grupos de amigos que buscam atividades ao ar livre.</p>"
         },
         "20": {
             "title" : "Casa Portuguesa do Pastel de Bacalhau",
-            "content" : ""
+            "content" : "<p>Se você ja veio para portugal antes ja deve ter notado que esta rede está em vários lugares turísticos, mas a franquia de Vila Nova de Gaia realmente merece uma visita. É um galpão grande de dois andares, com estantes de livros ao redor. Adicionalmente, no meio do galpão há um imponente órgão de tubos, e a cada 15 minutos é realizado um concerto nele.</p><p>O restaurante efetivamente serve apenas um prato, seu famoso pastel de bacalhau recheado com queijo de ovelha da Serra da Estrela acompanhado com uma taça de Vinho do Porto branco. Mas sem dúvidas esse vai ser o melhor pastel de bacalhau que você vai experimentar.</p>"
         },
         "21": {
             "title": "Casa São Roque",
-            "content":""
+            "content":"<p>Uma das propriedades mais antigas do Porto, possui cômodos lindos e normalmente é utilizada para expor eventos de arte contemporânea e música. Mas o que realmente desperta o interesse dos visitantes é o parque localizado ali, totalmente voltado para a botânica diversa, e com um labirinto redondo que proporciona uma diversão agradável para crianças.</p>"
         }
     }
 }
