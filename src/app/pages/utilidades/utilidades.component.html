@@ -2,11 +2,11 @@
     <mat-expansion-panel *ngFor="let i of [1,2,3,4]">
         <mat-expansion-panel-header>
             <mat-panel-title>
-                {{'mercados.' + i + '.title' | translate}}
+                {{'utilidades.' + i + '.title' | translate}}
               </mat-panel-title>
         </mat-expansion-panel-header>
         <ng-template matExpansionPanelContent>
-            <div [innerHTML]="'mercados.' + i + '.content' | translate"></div>
+            <div [innerHTML]="'utilidades.' + i + '.content' | translate"></div>
         </ng-template>
     </mat-expansion-panel>
 </mat-accordion>

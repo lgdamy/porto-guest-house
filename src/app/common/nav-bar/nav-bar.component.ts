@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatIconRegistry } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
 import { NavigationEnd, Router } from '@angular/router';
-import { routes } from '@app/common/constants/routes';
+import { routes } from '@app/app-routing.module';
 import { TranslateService } from '@ngx-translate/core';
 import {filter} from 'rxjs/operators'
 
@@ -15,7 +15,7 @@ export class NavBarComponent implements OnInit {
 
   navdetails: boolean = true;
   mobile: boolean
-  availableRoutes = routes;
+  availableRoutes;
   availableLangs = {
     'en':'English',
     'es':'Español',
@@ -43,11 +43,12 @@ export class NavBarComponent implements OnInit {
     this.updateTooltips();
     this.mobile = window.innerWidth <= 900;
     window.onresize = () => this.mobile = window.innerWidth <= 900;
+    this.availableRoutes = routes.filter(route => !route.redirectTo).map(route => route.path).filter(routes=>!!routes);
     this.router.events.pipe(
       filter(event => event instanceof NavigationEnd)
     ).subscribe(() => {
       this.navdetails = this.router.url !== '/';
-      this.currentRoute = routes.find(route => this.router.url.includes(route)) ?? 'index';
+      this.currentRoute = this.availableRoutes.find(route => this.router.url.includes(route)) ?? 'index';
     });
   }
 
