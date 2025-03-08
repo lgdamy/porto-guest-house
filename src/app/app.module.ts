@@ -21,13 +21,13 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core'
 import { MultiTranslateHttpLoader } from 'ngx-translate-multi-http-loader';
 import { PontosTuristicosAtividadesComponent } from '@app/pages/pontos-turisticos-atividades/pontos-turisticos-atividades.component';
 import { GastronomiaComponent } from '@app/pages/gastronomia/gastronomia.component';
-import { MercadosComponent } from '@app/pages/mercados/mercados.component';
 import { VidaNoturnaComponent } from '@app/pages/vida-noturna/vida-noturna.component';
 import { LembrancasComponent } from '@app/pages/lembrancas/lembrancas.component';
 import { CulturaComponent } from '@app/pages/cultura/cultura.component';
 import { RoteirosProntosComponent } from '@app/pages/roteiros-prontos/roteiros-prontos.component';
 import { HashLocationStrategy, LocationStrategy, DatePipe } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
+import { UtilidadesComponent } from './pages/utilidades/utilidades.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   const suffix = `.json?v=${new Date().getTime()}`
@@ -37,7 +37,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     {prefix: './assets/i18n/cultura/', suffix: suffix},
     {prefix: './assets/i18n/gastronomia/', suffix: suffix},
     {prefix: './assets/i18n/lembrancas/', suffix: suffix},
-    {prefix: './assets/i18n/mercados/', suffix: suffix},
+    {prefix: './assets/i18n/utilidades/', suffix: suffix},
     {prefix: './assets/i18n/pontos-turisticos-atividades/', suffix: suffix},
     {prefix: './assets/i18n/roteiros-prontos/', suffix: suffix},
     {prefix: './assets/i18n/vida-noturna/', suffix: suffix},
@@ -51,11 +51,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     NavBarComponent,
     PontosTuristicosAtividadesComponent,
     GastronomiaComponent,
-    MercadosComponent,
     VidaNoturnaComponent,
     LembrancasComponent,
     CulturaComponent,
-    RoteirosProntosComponent
+    RoteirosProntosComponent,
+    UtilidadesComponent
   ],
   imports: [
     BrowserModule,

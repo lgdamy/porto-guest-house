@@ -12,19 +12,21 @@ button {
 .container {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: -63px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    @media screen and (max-width: 768px) {
-        top: 10px;
+    padding-top: 16px;
+    @media screen and (min-width: 901px) {
+        margin-top: -36px;
     }
 }
 .tile {
     background-size: 100%;
+    background-position: 50% 50%;
+    transition: background-size 600ms ease-in-out;
+    &:hover {
+        background-size: 110%;
+    }
     & button {
         -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
         line-height: normal;
         font-size: clamp(18px, 2vw, 30px);
         font-weight: bold;
