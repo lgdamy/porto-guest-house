@@ -10,6 +10,8 @@ import { MatTabsModule } from '@angular/material/tabs'
 import { MatTooltipModule } from '@angular/material/tooltip'
 import { MatCheckboxModule } from '@angular/material/checkbox'
 import { MatBadgeModule } from '@angular/material/badge'
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from '@app/app-routing.module';
@@ -25,9 +27,7 @@ import { VidaNoturnaComponent } from '@app/pages/vida-noturna/vida-noturna.compo
 import { LembrancasComponent } from '@app/pages/lembrancas/lembrancas.component';
 import { CulturaComponent } from '@app/pages/cultura/cultura.component';
 import { RoteirosProntosComponent } from '@app/pages/roteiros-prontos/roteiros-prontos.component';
-import { HashLocationStrategy, LocationStrategy, DatePipe } from '@angular/common';
-import { ReactiveFormsModule } from '@angular/forms';
-import { UtilidadesComponent } from './pages/utilidades/utilidades.component';
+import { UtilidadesComponent } from '@app/pages/utilidades/utilidades.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   const suffix = `.json?v=${new Date().getTime()}`

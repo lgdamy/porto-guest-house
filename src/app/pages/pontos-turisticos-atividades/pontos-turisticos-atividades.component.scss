@@ -3,6 +3,15 @@
     justify-content: flex-end;
     padding: 16px 16px;
 }
+.panel-categories {
+    display: flex;
+    flex: content;
+    justify-content: flex-end;
+    * {
+        font-size: 15px;
+        padding: 2px;
+    }
+}
 .panel-content{
     display: flex;
     .panel-img{

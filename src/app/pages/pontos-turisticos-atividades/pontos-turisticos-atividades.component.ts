@@ -1,10 +1,12 @@
 import { ValueConverter } from '@angular/compiler/src/render3/view/template';
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
+import { MatIconRegistry } from '@angular/material/icon';
+import { DomSanitizer } from '@angular/platform-browser';
 import { AnimatedComponent, slideInOut } from '@app/common/animations';
 import { GeolocatorService } from '@app/common/geolocator.service';
 
-type Categorias = 'turistico'|'ar-livre'|'criancas'|'historia'|'gratis';
+type Categorias = 'turistico'|'ar-livre'|'criancas'|'gratis';
 
 @Component({
   selector: 'app-pontos-turisticos-atividades',
@@ -18,45 +20,58 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
     'turistico': new FormControl(false), 
     'ar-livre': new FormControl(false),
     'criancas': new FormControl(false),
-    'historia': new FormControl(false),
     'gratis': new FormControl(false)
   }
 
   filterMap: { name:string, form: FormControl }[]
   
   private entries: Record<number, Categorias[]> = {
-    1:['ar-livre','gratis','turistico'], //RIBEIRA
-    2:['ar-livre','gratis','turistico'], //PONTE DOM LUIS
-    3:['historia','turistico'], //LIVRARIA LELLO
-    4:['historia','turistico'], //CLERIGOS
-    5:['historia', 'gratis', 'turistico'], //SAO BENTO
-    6:['historia', 'turistico'], //SE DO PORTO
-    7:['historia','turistico'], //PALACIO DA BOLSA
-    8:['historia', 'turistico'], //SAO FRANCISCO
+    1:['turistico','ar-livre','gratis'], //RIBEIRA
+    2:['turistico','ar-livre','gratis'], //PONTE DOM LUIS
+    3:['turistico'], //LIVRARIA LELLO
+    4:['turistico'], //CLERIGOS
+    5:['turistico','gratis'], //SAO BENTO
+    6:['turistico'], //SE DO PORTO
+    7:['turistico'], //PALACIO DA BOLSA
+    8:['turistico'], //SAO FRANCISCO
     9:['turistico'], //GAIA
     10:['ar-livre','criancas'], //SERRALVES
     11:['ar-livre','criancas'], //PALACIO DE CRISTAL
     12:['criancas'], //WORLD OF DISCOVERIES
     13:['criancas'], //SEALIFE
-    14:['criancas','ar-livre'], //ZOO STO INACIO
+    14:['ar-livre','criancas'], //ZOO STO INACIO
     15:['ar-livre','criancas','gratis'], //PARQUE DA CIDADE
     16:['turistico'], //CASA DA MUSICA
     17:['ar-livre','criancas','gratis'], //JARDIM DAS VIRTUDES
-    18:['ar-livre','gratis','turistico'], //FAROLIM DAS FELGUEIRAS
-    19:['criancas','ar-livre'], //MINIGOLFE
+    18:['turistico','ar-livre','gratis'], //FAROLIM DAS FELGUEIRAS
+    19:['ar-livre','criancas'], //MINIGOLFE
     20:['turistico','criancas'], //CPPB
-    21: ['ar-livre','criancas','gratis','turistico','historia'], //SAO ROQUE
+    21: ['turistico','ar-livre','criancas','gratis'], //SAO ROQUE
   }
   entryMap: { id: string, categorias: Categorias[] } []
   
   geoUrls$ = this.geolocatorService.getUrls('pontos-turisticos-atividades');
 
-  constructor(private readonly geolocatorService: GeolocatorService) {
+  constructor(
+    private readonly geolocatorService: GeolocatorService,
+    private readonly iconRegistry: MatIconRegistry,
+    private readonly domSanitizer: DomSanitizer,  
+  ) {
       super();
   }
+
   ngOnInit(): void {
-    this.filterMap = Object.entries(this.filters).map(([key, value]) => ({ name: key, form: value }))
-    this.entryMap = Object.entries(this.entries).map(([key, value]) => ({ id: key, categorias: value }))
+    this.filterMap = Object.entries(this.filters).map(([key, value]) => ({ name: key, form: value }));
+    this.entryMap = Object.entries(this.entries).map(([key, value]) => ({ id: key, categorias: value }));
+    this.filtersIcons();
+  }
+
+  private filtersIcons() {
+    Object.keys(this.filters).forEach(category => {
+      this.iconRegistry.addSvgIcon(category, 
+          this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/pontos-turisticos-atividades/${category}.svg`)
+        )
+    });
   }
 
   shouldShow(i: number): boolean {

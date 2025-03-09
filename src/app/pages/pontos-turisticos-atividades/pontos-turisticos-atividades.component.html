@@ -19,9 +19,12 @@
     <ng-container *ngFor="let i of entryMap">
         <mat-expansion-panel *ngIf="shouldShow(i.id)">
             <mat-expansion-panel-header>
-                <mat-panel-title>
+                <mat-panel-title class="panel-title">
                     {{'pontos-turisticos-atividades.' + i.id + '.title' | translate}}
-                </mat-panel-title>
+                    <div class="panel-categories">
+                        <mat-icon matTooltip="{{'pontos-turisticos-atividades.filter.' + categoria | translate }}" *ngFor="let categoria of i.categorias" svgIcon="{{ categoria }}"></mat-icon>
+                    </div>
+                    </mat-panel-title>
             </mat-expansion-panel-header>
             <ng-template matExpansionPanelContent>
                 <div class="panel-content">
