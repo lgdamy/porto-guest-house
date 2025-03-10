@@ -19,7 +19,7 @@
 
 <mat-accordion>
     <ng-container *ngFor="let i of entryMap">
-        <mat-expansion-panel *ngIf="shouldShow(i.id)">
+        <mat-expansion-panel *ngIf="shouldShow(i.id)" (afterExpand)="onPanelOpened(expansionPanel)"  #expansionPanel>
             <mat-expansion-panel-header>
                 <mat-panel-title class="panel-title">
                     {{'pontos-turisticos-atividades.' + i.id + '.title' | translate}}
