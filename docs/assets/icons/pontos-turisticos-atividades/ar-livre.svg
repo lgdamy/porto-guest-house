@@ -8,7 +8,7 @@ viewBox="0 0 27202.26 27128.49"
  <defs>
   <style type="text/css">
    <![CDATA[
-    .fil0 {fill:#4f758b}
+    .fil0 {fill: var(--icon-color, #4f758b)}
    ]]>
   </style>
  </defs>
