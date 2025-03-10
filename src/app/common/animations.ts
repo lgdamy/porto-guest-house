@@ -27,13 +27,13 @@ export abstract class AnimatedComponent{
   @ViewChild('expansionPanel', { static: false }) expansionPanel: ElementRef;
 
   onPanelOpened(panel: MatExpansionPanel) {
-    const top = panel._body.nativeElement.getBoundingClientRect().top;
-    const offset = window.outerWidth < 599 ? 120 :  window.outerWidth < 900 ? 130 : 160;
-    window.scrollTo({
-      top: top + window.scrollY - offset,
-      behavior: 'smooth'
-    });
+    setTimeout(() => {
+      const top = panel._body.nativeElement.getBoundingClientRect().top;
+      const offset = window.outerWidth < 599 ? 120 :  window.outerWidth < 900 ? 130 : 160;
+      window.scrollTo({
+        top: top + window.scrollY - offset,
+        behavior: 'smooth'
+      });
+    }, 300);
   }
-
-
 }
