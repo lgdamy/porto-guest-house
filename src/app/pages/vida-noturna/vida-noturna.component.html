@@ -7,7 +7,7 @@
         </mat-expansion-panel-header>
         <ng-template matExpansionPanelContent>
             <div class="panel-content">
-                <img class="panel-img" [src]="'assets/img/vida-noturna/' + i + '.webp'">
+                <img class="panel-img" [src]="'assets/img/vida-noturna/' + i + '.png'">
                 <div>
                     <div class="panel-text" [innerHTML]="'vida-noturna.' + i + '.content' | translate"></div>
                         <iframe *ngIf="(geoUrls$ | async) as geoUrls"
