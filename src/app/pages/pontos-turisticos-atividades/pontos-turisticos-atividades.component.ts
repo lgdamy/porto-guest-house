@@ -1,4 +1,3 @@
-import { ValueConverter } from '@angular/compiler/src/render3/view/template';
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { MatIconRegistry } from '@angular/material/icon';
@@ -87,5 +86,4 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
   selectedFiltersCount(): number {
     return Object.values(this.filters).filter(filter => filter.value).length;
   }
-
 }
