@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { MatIconRegistry } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
@@ -14,7 +14,7 @@ type Categorias = 'turistico'|'ar-livre'|'criancas'|'gratis';
   animations: [slideInOut]
 })
 export class PontosTuristicosAtividadesComponent extends AnimatedComponent implements OnInit {
-  
+    
   private filters: Record<Categorias,FormControl> = {
     'turistico': new FormControl(false), 
     'ar-livre': new FormControl(false),

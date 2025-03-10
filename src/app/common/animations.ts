@@ -1,5 +1,6 @@
 import { animate, style, transition, trigger } from "@angular/animations";
-import { Directive, HostBinding } from "@angular/core";
+import { ElementRef, HostBinding, ViewChild } from "@angular/core";
+import { MatExpansionPanel } from "@angular/material/expansion";
 
 export const slideInOut = trigger('routeAnimation', [
     transition(':enter', [
@@ -21,8 +22,18 @@ export const fadeInOut = trigger('routeAnimation', [
     ])
   ]);
 
-@Directive()
 export abstract class AnimatedComponent{
   @HostBinding('@routeAnimation') animateRoute = true;
+  @ViewChild('expansionPanel', { static: false }) expansionPanel: ElementRef;
+
+  onPanelOpened(panel: MatExpansionPanel) {
+    const top = panel._body.nativeElement.getBoundingClientRect().top;
+    const offset = window.outerWidth < 599 ? 120 :  window.outerWidth < 900 ? 130 : 160;
+    window.scrollTo({
+      top: top + window.scrollY - offset,
+      behavior: 'smooth'
+    });
+  }
+
 
 }
