@@ -1,11 +1,13 @@
 <div class="filters-button">
+    <ng-container *ngFor="let filter of filterMap">
+        <button mat-mini-fab *ngIf="filter.form.value" class="enabled-filters" (click)="filter.form.setValue(false)">
+            <mat-icon
+            matTooltip="{{'pontos-turisticos-atividades.filter.' + filter.name | translate }}"
+            svgIcon="{{ filter.name }}"></mat-icon>
+        </button>
+    </ng-container>
     <button mat-icon-button
             [matMenuTriggerFor]="filtersMenu"
-            matBadge="{{ selectedFiltersCount() }}"
-            matBadgeHidden="{{ !selectedFiltersCount() }}"
-            matBadgePosition="below before"
-            matBadgeOverlap="true"
-            matBadgeColor="accent"
             ><mat-icon>filter_alt</mat-icon>
     </button>
     <mat-menu #filtersMenu="matMenu">
@@ -22,13 +24,13 @@
                 <mat-panel-title class="panel-title">
                     {{'pontos-turisticos-atividades.' + i.id + '.title' | translate}}
                     <div class="panel-categories">
-                        <mat-icon matTooltip="{{'pontos-turisticos-atividades.filter.' + categoria | translate }}" *ngFor="let categoria of i.categorias" svgIcon="{{ categoria }}"></mat-icon>
+                        <mat-icon *ngFor="let categoria of i.categorias" matTooltip="{{'pontos-turisticos-atividades.filter.' + categoria | translate }}" svgIcon="{{ categoria }}"></mat-icon>
                     </div>
                     </mat-panel-title>
             </mat-expansion-panel-header>
             <ng-template matExpansionPanelContent>
                 <div class="panel-content">
-                    <img class="panel-img" [src]="'assets/img/pontos-turisticos-atividades/' + i.id + '.webp'">
+                    <img class="panel-img" [src]="'assets/img/pontos-turisticos-atividades/' + i.id + '.png'">
                     <div>
                         <div class="panel-text" [innerHTML]="'pontos-turisticos-atividades.' + i.id + '.content' | translate"></div>
                             <iframe *ngIf="(geoUrls$ | async) as geoUrls"

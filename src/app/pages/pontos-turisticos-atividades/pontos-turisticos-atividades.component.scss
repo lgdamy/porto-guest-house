@@ -1,7 +1,11 @@
 .filters-button {
     display: flex;
     justify-content: flex-end;
-    padding: 16px 16px;
+    padding: 4px 4px;
+}
+.enabled-filters {
+    --icon-color: white;
+    margin: 0px 2px;
 }
 .panel-title {
     align-items: center;
