@@ -65,6 +65,12 @@ export class GeolocatorService {
       9: [41.14552825067441, -8.605509961088673], // ELEBE
       10: [41.14332468614653, -8.618159562386547], // TORREAO
     },
+    'utilidades': {
+      3:[41.14464202889129, -8.606624321883642], //GARAGEM IBERIA
+      4:[41.146583567932524, -8.604665481371214], //PINGO DOCE
+      5:[41.1486874006843, -8.600337786123049], //CONTINENTE
+      6:[41.14479042647803, -8.606628052735509], //FARMACIA HENRIQUES
+    }
   }
 
   private geoUrls :  { [page: string]: { [key: number]: SafeResourceUrl } } = {}
