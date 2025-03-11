@@ -1,7 +1,10 @@
-.filters-button {
+.filters-section {
     display: flex;
     justify-content: flex-end;
     padding: 4px 4px;
+}
+.filter-button {
+    transform: scale(1.5);
 }
 .enabled-filters {
     --icon-color: white;
