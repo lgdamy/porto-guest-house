@@ -12,8 +12,8 @@ export class GastronomiaComponent extends AnimatedComponent {
 
   public geoUrls$ = this.geolocatorService.getUrls('gastronomia');
 
-    constructor(private readonly geolocatorService: GeolocatorService) {
-        super();
-    }
+  constructor(private readonly geolocatorService: GeolocatorService) {
+      super();
+  }
 
 }

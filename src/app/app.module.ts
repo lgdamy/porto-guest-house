@@ -31,17 +31,12 @@ import { UtilidadesComponent } from '@app/pages/utilidades/utilidades.component'
 
 export function HttpLoaderFactory(http: HttpClient) {
   const suffix = `.json?v=${new Date().getTime()}`
-  return new MultiTranslateHttpLoader(http, [
-    {prefix: './assets/i18n/common/', suffix: suffix},
-    {prefix: './assets/i18n/menu-inicial/', suffix: suffix},
-    {prefix: './assets/i18n/cultura/', suffix: suffix},
-    {prefix: './assets/i18n/gastronomia/', suffix: suffix},
-    {prefix: './assets/i18n/lembrancas/', suffix: suffix},
-    {prefix: './assets/i18n/utilidades/', suffix: suffix},
-    {prefix: './assets/i18n/pontos-turisticos-atividades/', suffix: suffix},
-    {prefix: './assets/i18n/roteiros-prontos/', suffix: suffix},
-    {prefix: './assets/i18n/vida-noturna/', suffix: suffix},
-  ]);
+  const resources = ['common', 'cultura', 'gastronomia', 'lembrancas', 'menu-inicial', 'pontos-turisticos-atividades', 'roteiros-prontos', 'utilidades'];
+  const translationResources = resources.map(res => ({
+    prefix: './assets/i18n/',
+    suffix: `/${res}${suffix}`
+  }));
+  return new MultiTranslateHttpLoader(http, translationResources);
 }
 
 @NgModule({
