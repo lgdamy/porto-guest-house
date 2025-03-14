@@ -31,7 +31,7 @@ import { UtilidadesComponent } from '@app/pages/utilidades/utilidades.component'
 
 export function HttpLoaderFactory(http: HttpClient) {
   const suffix = `.json?v=${new Date().getTime()}`
-  const resources = ['common', 'cultura', 'gastronomia', 'lembrancas', 'menu-inicial', 'pontos-turisticos-atividades', 'roteiros-prontos', 'utilidades'];
+  const resources = ['common', 'cultura', 'gastronomia', 'lembrancas', 'menu-inicial', 'pontos-turisticos-atividades', 'roteiros-prontos', 'utilidades', 'vida-noturna'];
   const translationResources = resources.map(res => ({
     prefix: './assets/i18n/',
     suffix: `/${res}${suffix}`
