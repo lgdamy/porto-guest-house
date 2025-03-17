@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatIconRegistry } from '@angular/material/icon';
-import { DomSanitizer } from '@angular/platform-browser';
+import { DomSanitizer, Title } from '@angular/platform-browser';
 import { NavigationEnd, Router } from '@angular/router';
 import { routes } from '@app/app-routing.module';
 import { TranslateService } from '@ngx-translate/core';
@@ -34,6 +34,7 @@ export class NavBarComponent implements OnInit {
     private readonly domSanitizer: DomSanitizer,
     private readonly router: Router,
     private readonly translateService: TranslateService,
+    private readonly titleService: Title,
     ) {
   }
 
@@ -41,6 +42,7 @@ export class NavBarComponent implements OnInit {
     this.i18nIcons();
     this.startingLang();
     this.updateTooltips();
+    this.updateTitle();
     this.mobile = window.innerWidth <= 900;
     window.onresize = () => this.mobile = window.innerWidth <= 900;
     this.availableRoutes = routes.filter(route => !route.redirectTo).map(route => route.path).filter(routes=>!!routes);
@@ -76,5 +78,10 @@ export class NavBarComponent implements OnInit {
     this.translateService.use(lang);
     window.localStorage.setItem('lang', lang);
     this.updateTooltips();
+    this.updateTitle();
+  }
+
+  private updateTitle() {
+    this.translateService.get('pages.index').subscribe(title => this.titleService.setTitle(title));
   }
 }

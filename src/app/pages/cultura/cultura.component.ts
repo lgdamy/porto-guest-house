@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AnimatedComponent, slideInOut } from '@app/common/animations';
+import { GeolocatorService } from '@app/common/geolocator.service';
 
 @Component({
   selector: 'app-cultura',
@@ -9,7 +10,12 @@ import { AnimatedComponent, slideInOut } from '@app/common/animations';
 })
 export class CulturaComponent extends AnimatedComponent {
 
-  ngOnInit(): void {
+  geoUrls$ = this.geolocatorService.getUrls('cultura');
+
+  constructor(
+    private readonly geolocatorService: GeolocatorService,
+  ) {
+      super();
   }
 
 }
