@@ -1,5 +1,5 @@
 <mat-accordion>
-    <mat-expansion-panel *ngFor="let i of [1,2,3,4,5,6]" (afterExpand)="onPanelOpened(expansionPanel)"  #expansionPanel>
+    <mat-expansion-panel *ngFor="let i of items" (afterExpand)="onPanelOpened(expansionPanel)"  #expansionPanel>
         <mat-expansion-panel-header>
             <mat-panel-title>
                 {{'utilidades.' + i + '.title' | translate}}

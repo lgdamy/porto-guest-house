@@ -10,6 +10,15 @@ import { GeolocatorService } from '@app/common/geolocator.service';
 })
 export class UtilidadesComponent extends AnimatedComponent {
 
+  items = [
+    1, //TRANSPORTE PUBLICO
+    2, //ESTACIONAMENTO
+    3, //GARAGEM IBERIA
+    4, //PINGO DOCE
+    5, //CONTINENTE
+    6, //FARMACIA HENRIQUES
+  ]
+
   geoUrls$ = this.geolocatorService.getUrls('utilidades');
 
   constructor(

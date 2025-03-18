@@ -2,7 +2,7 @@
 <mat-tab-group mat-stretch-tabs>
     <mat-tab [label]="'gastronomia.comidas-tipicas.title' | translate">
         <mat-accordion>
-            <mat-expansion-panel *ngFor="let i of [1,2,3,4]" (afterExpand)="onPanelOpened(expansionPanel)"  #expansionPanel>
+            <mat-expansion-panel *ngFor="let i of items['comidas-tipicas']" (afterExpand)="onPanelOpened(expansionPanel)"  #expansionPanel>
             <mat-expansion-panel-header>
                 <mat-panel-title>
                     {{'gastronomia.comidas-tipicas.' + i + '.title' | translate}}
@@ -21,7 +21,7 @@
     </mat-tab>
     <mat-tab [label]="'gastronomia.restaurantes.title' | translate">
         <mat-accordion>
-            <mat-expansion-panel *ngFor="let i of [9,2,3,5,8,1,6,10,4,7]" (afterExpand)="onPanelOpened(expansionPanel)"  #expansionPanel>
+            <mat-expansion-panel *ngFor="let i of items['restaurantes']" (afterExpand)="onPanelOpened(expansionPanel)"  #expansionPanel>
             <mat-expansion-panel-header>
                 <mat-panel-title>
                     {{'gastronomia.restaurantes.' + i + '.title' | translate}}
