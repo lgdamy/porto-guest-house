@@ -10,6 +10,16 @@ import { GeolocatorService } from '@app/common/geolocator.service';
 })
 export class CulturaComponent extends AnimatedComponent {
 
+  items = [
+    1, // SERRALVES
+    2, // MUSEU SOARES DOS REIS
+    3, // CENTRO PORTUGUES FOTOGRAFIA
+    4, // CINEMA DA BATALHA
+    5, // TEATRO SAO JOAO
+    6, // CASA DA MUSICA
+    7, // ALFANDEGA
+  ]
+
   geoUrls$ = this.geolocatorService.getUrls('cultura');
 
   constructor(
