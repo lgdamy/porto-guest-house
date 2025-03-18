@@ -23,6 +23,10 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
   }
 
   filterMap: { name:string, form: FormControl }[]
+
+  trackByName(index: number, filter: {name}) {
+    return filter.name;
+  }
   
   private entries: Record<number, Categorias[]> = {
     1:['turistico','ar-livre','gratis'], //RIBEIRA
@@ -46,8 +50,15 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
     19:['ar-livre','criancas'], //MINIGOLFE
     20:['turistico','criancas'], //CPPB
     21: ['turistico','ar-livre','criancas','gratis'], //SAO ROQUE
+    22: ['turistico'], //MERCADO BOLHAO
+    23: ['turistico'], //MERCADO BOM SUCESSO
+    24: ['turistico'], //TIMEOUT MARKET
   }
   entryMap: { id: string, categorias: Categorias[] } []
+
+  trackById(index: number, entry: {id}) {
+    return entry.id;
+  }
   
   geoUrls$ = this.geolocatorService.getUrls('pontos-turisticos-atividades');
 

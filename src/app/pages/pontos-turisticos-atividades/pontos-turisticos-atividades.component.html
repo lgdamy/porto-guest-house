@@ -1,5 +1,5 @@
 <div class="filters-section">
-    <ng-container *ngFor="let filter of filterMap">
+    <ng-container *ngFor="let filter of filterMap; trackBy: trackByName">
         <button mat-mini-fab *ngIf="filter.form.value" class="enabled-filters" (click)="filter.form.setValue(false)">
             <mat-icon
             matTooltip="{{'pontos-turisticos-atividades.filter.' + filter.name | translate }}"
@@ -10,14 +10,14 @@
         <mat-icon class="filter-button">filter_alt</mat-icon>
     </button>
     <mat-menu #filtersMenu="matMenu">
-        <mat-checkbox class="mat-menu-item" *ngFor="let filter of filterMap"
+        <mat-checkbox class="mat-menu-item" *ngFor="let filter of filterMap; trackBy: trackByName"
             (click)="$event.stopPropagation()"
             [formControl]="filter.form"> {{'pontos-turisticos-atividades.filter.' + filter.name | translate}}</mat-checkbox>
     </mat-menu>
 </div>
 
 <mat-accordion>
-    <ng-container *ngFor="let i of entryMap">
+    <ng-container *ngFor="let i of entryMap; trackBy: trackById">
         <mat-expansion-panel *ngIf="shouldShow(i.id)" (afterExpand)="onPanelOpened(expansionPanel)"  #expansionPanel>
             <mat-expansion-panel-header>
                 <mat-panel-title class="panel-title">
