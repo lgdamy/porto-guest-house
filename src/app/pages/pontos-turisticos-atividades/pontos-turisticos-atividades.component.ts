@@ -28,33 +28,33 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
     return filter.name;
   }
   
-  private entries: Record<number, Categorias[]> = {
-    1:['turistico','ar-livre','gratis'], //RIBEIRA
-    2:['turistico','ar-livre','gratis'], //PONTE DOM LUIS
-    6:['turistico'], //SE DO PORTO
-    22: ['turistico'], //MERCADO BOLHAO
-    3:['turistico'], //LIVRARIA LELLO
-    4:['turistico'], //CLERIGOS
-    5:['turistico','gratis'], //SAO BENTO
-    24: ['turistico'], //TIMEOUT MARKET
-    7:['turistico'], //PALACIO DA BOLSA
-    8:['turistico'], //SAO FRANCISCO
-    9:['turistico'], //GAIA
-    10:['ar-livre','criancas'], //SERRALVES
-    11:['ar-livre','criancas'], //PALACIO DE CRISTAL
-    12:['criancas'], //WORLD OF DISCOVERIES
-    13:['criancas'], //SEALIFE
-    14:['ar-livre','criancas'], //ZOO STO INACIO
-    15:['ar-livre','criancas','gratis'], //PARQUE DA CIDADE
-    16:['turistico'], //CASA DA MUSICA
-    23: ['turistico'], //MERCADO BOM SUCESSO
-    17:['ar-livre','criancas','gratis'], //JARDIM DAS VIRTUDES
-    18:['turistico','ar-livre','gratis'], //FAROLIM DAS FELGUEIRAS
-    19:['ar-livre','criancas'], //MINIGOLFE
-    20:['turistico','criancas'], //CPPB
-    21: ['turistico','ar-livre','criancas','gratis'], //SAO ROQUE
-  }
-  entryMap: { id: string, categorias: Categorias[] } []
+  private entries= new Map<number, Categorias[]>([
+    [1,['turistico','ar-livre','gratis']], //RIBEIRA
+    [2,['turistico','ar-livre','gratis']], //PONTE DOM LUIS
+    [22, ['turistico']], //MERCADO BOLHAO
+    [3,['turistico']], //LIVRARIA LELLO
+    [4,['turistico']], //CLERIGOS
+    [24, ['turistico']], //TIMEOUT MARKET
+    [5,['turistico','gratis']], //SAO BENTO
+    [6,['turistico']], //SE DO PORTO
+    [7,['turistico']], //PALACIO DA BOLSA
+    [8,['turistico']], //SAO FRANCISCO
+    [9,['turistico']], //GAIA
+    [10,['ar-livre','criancas']], //SERRALVES
+    [11,['ar-livre','criancas']], //PALACIO DE CRISTAL
+    [12,['criancas']], //WORLD OF DISCOVERIES
+    [13,['criancas']], //SEALIFE
+    [14,['ar-livre','criancas']], //ZOO STO INACIO
+    [15,['ar-livre','criancas','gratis']], //PARQUE DA CIDADE
+    [16,['turistico']], //CASA DA MUSICA
+    [23, ['turistico']], //MERCADO BOM SUCESSO
+    [17,['ar-livre','criancas','gratis']], //JARDIM DAS VIRTUDES
+    [18,['turistico','ar-livre','gratis']], //FAROLIM DAS FELGUEIRAS
+    [19,['ar-livre','criancas']], //MINIGOLFE
+    [20,['turistico','criancas']], //CPPB
+    [21, ['turistico','ar-livre','criancas','gratis']], //SAO ROQUE
+  ])
+  entryMap: { id: number, categorias: Categorias[] } []
 
   trackById(index: number, entry: {id}) {
     return entry.id;
@@ -72,7 +72,8 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
 
   ngOnInit(): void {
     this.filterMap = Object.entries(this.filters).map(([key, value]) => ({ name: key, form: value }));
-    this.entryMap = Object.entries(this.entries).map(([key, value]) => ({ id: key, categorias: value }));
+    this.entryMap = Array.from(this.entries, ([id, categorias]) => ({ id, categorias }));
+    console.log(this.entryMap)
     this.filtersIcons();
   }
 
@@ -85,7 +86,7 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
   }
 
   shouldShow(i: number): boolean {
-    const categories = this.entries[i];
+    const categories = this.entries.get(i);
     const selectedFilters = Object.keys(this.filters)
       .filter(key => this.filters[key as Categorias].value) as Categorias[];
     if (selectedFilters.length == 0) {
