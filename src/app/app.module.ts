@@ -9,7 +9,7 @@ import { MatExpansionModule } from '@angular/material/expansion'
 import { MatTabsModule } from '@angular/material/tabs'
 import { MatTooltipModule } from '@angular/material/tooltip'
 import { MatCheckboxModule } from '@angular/material/checkbox'
-import { MatBadgeModule } from '@angular/material/badge'
+import { MatSnackBarModule } from '@angular/material/snack-bar'
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http'
@@ -50,7 +50,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     LembrancasComponent,
     CulturaComponent,
     RoteirosProntosComponent,
-    UtilidadesComponent
+    UtilidadesComponent,
   ],
   imports: [
     BrowserModule,
@@ -75,7 +75,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatTabsModule,
     MatTooltipModule,
     MatCheckboxModule,
-    MatBadgeModule,
+    MatSnackBarModule,
   ],
   providers: [
     {provide: LocationStrategy, useClass:HashLocationStrategy}
