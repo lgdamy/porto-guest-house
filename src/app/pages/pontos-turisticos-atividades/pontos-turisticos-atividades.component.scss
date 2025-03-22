@@ -1,7 +1,12 @@
 .filters-section {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     display: flex;
     justify-content: flex-end;
     padding: 4px 16px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .filter-button {
     background-color: dimgray;

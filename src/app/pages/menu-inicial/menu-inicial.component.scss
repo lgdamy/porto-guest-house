@@ -12,10 +12,7 @@ button {
 .container {
     display: flex;
     flex-direction: column;
-    padding-top: 16px;
-    @media screen and (min-width: 901px) {
-        margin-top: -36px;
-    }
+    padding-top:16px;
 }
 .tile {
     background-size: 100%;

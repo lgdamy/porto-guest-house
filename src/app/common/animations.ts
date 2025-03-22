@@ -1,6 +1,7 @@
 import { animate, style, transition, trigger } from "@angular/animations";
-import { ElementRef, HostBinding, ViewChild } from "@angular/core";
+import { AfterViewInit, ChangeDetectorRef, ElementRef, HostBinding, Optional, ViewChild } from "@angular/core";
 import { MatExpansionPanel } from "@angular/material/expansion";
+import { ContainerService } from "./container.service";
 
 export const slideInOut = trigger('routeAnimation', [
     transition(':enter', [
@@ -22,16 +23,30 @@ export const fadeInOut = trigger('routeAnimation', [
     ])
   ]);
 
-export abstract class AnimatedComponent{
+export abstract class AnimatedComponent implements AfterViewInit{
   @HostBinding('@routeAnimation') animateRoute = true;
   @ViewChild('expansionPanel', { static: false }) expansionPanel: ElementRef;
+  @ViewChild('accordion', { static: false }) accordionRef: ElementRef;
+
+  constructor(private readonly containerService? : ContainerService) {}
+
+  private container : HTMLElement
+
+  private readonly panelHeaderHeight = 64;
+  protected addedOffset = 0;
+  
+  ngAfterViewInit(): void {
+    this.containerService.getContainer().subscribe(ref => {
+      this.container = ref.nativeElement;
+    })
+  }
 
   onPanelOpened(panel: MatExpansionPanel) {
     setTimeout(() => {
-      const top = panel._body.nativeElement.getBoundingClientRect().top;
-      const offset = window.outerWidth < 599 ? 120 :  window.outerWidth < 900 ? 130 : 160;
-      window.scrollTo({
-        top: top + window.scrollY - offset,
+      console.log(this.addedOffset);
+      const top = panel._body.nativeElement.getBoundingClientRect().top - this.container.getBoundingClientRect().top;
+      this.container.scrollTo({
+        top: this.container.scrollTop + top - this.panelHeaderHeight - this.addedOffset,
         behavior: 'smooth'
       });
     }, 300);
