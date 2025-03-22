@@ -8,6 +8,7 @@ import { PontosTuristicosAtividadesComponent } from '@app/pages/pontos-turistico
 import { RoteirosProntosComponent } from '@app/pages/roteiros-prontos/roteiros-prontos.component';
 import { VidaNoturnaComponent } from '@app/pages/vida-noturna/vida-noturna.component';
 import { UtilidadesComponent } from '@app/pages/utilidades/utilidades.component';
+import { UnderConstructionGuard } from './common/under-construction.guard';
 
 
 export const routes: Routes = [
@@ -41,7 +42,8 @@ export const routes: Routes = [
   },
   {
     path:'roteiros-prontos',
-    component: RoteirosProntosComponent
+    component: RoteirosProntosComponent,
+    canActivate: [UnderConstructionGuard],
   },
   {
     path:'**',
@@ -49,6 +51,7 @@ export const routes: Routes = [
     redirectTo: '/'
   }
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {useHash: true})],
