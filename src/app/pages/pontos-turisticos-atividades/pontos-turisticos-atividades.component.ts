@@ -3,6 +3,7 @@ import { FormControl } from '@angular/forms';
 import { MatIconRegistry } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
 import { AnimatedComponent, slideInOut } from '@app/common/animations';
+import { ContainerService } from '@app/common/container.service';
 import { GeolocatorService } from '@app/common/geolocator.service';
 
 type Categorias = 'turistico'|'ar-livre'|'criancas'|'gratis';
@@ -62,12 +63,15 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
   
   geoUrls$ = this.geolocatorService.getUrls('pontos-turisticos-atividades');
 
+  addedOffset = 48;
+
   constructor(
     private readonly geolocatorService: GeolocatorService,
     private readonly iconRegistry: MatIconRegistry,
-    private readonly domSanitizer: DomSanitizer,  
+    private readonly domSanitizer: DomSanitizer,
+    containerService: ContainerService,
   ) {
-      super();
+      super(containerService);
   }
 
   ngOnInit(): void {
