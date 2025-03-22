@@ -15,36 +15,37 @@
             [formControl]="filter.form"> {{'pontos-turisticos-atividades.filter.' + filter.name | translate}}</mat-checkbox>
     </mat-menu>
 </div>
-
-<mat-accordion>
-    <ng-container *ngFor="let i of entryMap; trackBy: trackById">
-        <mat-expansion-panel *ngIf="shouldShow(i.id)" (afterExpand)="onPanelOpened(expansionPanel)"  #expansionPanel>
-            <mat-expansion-panel-header>
-                <mat-panel-title class="panel-title">
-                    {{'pontos-turisticos-atividades.' + i.id + '.title' | translate}}
-                    <div class="panel-categories">
-                        <mat-icon *ngFor="let categoria of i.categorias" matTooltip="{{'pontos-turisticos-atividades.filter.' + categoria | translate }}" svgIcon="{{ categoria }}"></mat-icon>
+<div class="accordion">
+    <mat-accordion>
+        <ng-container *ngFor="let i of entryMap; trackBy: trackById">
+            <mat-expansion-panel *ngIf="shouldShow(i.id)" (afterExpand)="onPanelOpened(expansionPanel)"  #expansionPanel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title class="panel-title">
+                        {{'pontos-turisticos-atividades.' + i.id + '.title' | translate}}
+                        <div class="panel-categories">
+                            <mat-icon *ngFor="let categoria of i.categorias" matTooltip="{{'pontos-turisticos-atividades.filter.' + categoria | translate }}" svgIcon="{{ categoria }}"></mat-icon>
+                        </div>
+                        </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ng-template matExpansionPanelContent>
+                    <div class="panel-content">
+                        <img class="panel-img" [src]="'assets/img/pontos-turisticos-atividades/' + i.id + '.png'">
+                        <div>
+                            <div class="panel-text" [innerHTML]="'pontos-turisticos-atividades.' + i.id + '.content' | translate"></div>
+                            <ng-container *ngIf="geoUrls$ | async as geoUrls">
+                                <iframe *ngIf="geoUrls[i.id]"
+                                        width="100%"
+                                        height="300"
+                                        frameborder="0"
+                                        scrolling="no"
+                                        marginheight="0"
+                                        marginwidth="0"
+                                [src]=geoUrls[i.id]></iframe>
+                            </ng-container>
+                        </div>
                     </div>
-                    </mat-panel-title>
-            </mat-expansion-panel-header>
-            <ng-template matExpansionPanelContent>
-                <div class="panel-content">
-                    <img class="panel-img" [src]="'assets/img/pontos-turisticos-atividades/' + i.id + '.png'">
-                    <div>
-                        <div class="panel-text" [innerHTML]="'pontos-turisticos-atividades.' + i.id + '.content' | translate"></div>
-                        <ng-container *ngIf="geoUrls$ | async as geoUrls">
-                            <iframe *ngIf="geoUrls[i.id]"
-                                    width="100%"
-                                    height="300"
-                                    frameborder="0"
-                                    scrolling="no"
-                                    marginheight="0"
-                                    marginwidth="0"
-                            [src]=geoUrls[i.id]></iframe>
-                        </ng-container>
-                    </div>
-                </div>
-            </ng-template>
-        </mat-expansion-panel>
-    </ng-container>
-</mat-accordion>
+                </ng-template>
+            </mat-expansion-panel>
+        </ng-container>
+    </mat-accordion>
+</div>
