@@ -56,6 +56,8 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
   ])
   entryMap: { id: number, categorias: Categorias[] } []
 
+  private distanceMap: Map<number,number>;
+
   trackById(index: number, entry: {id}) {
     return entry.id;
   }
@@ -73,7 +75,6 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
   ngOnInit(): void {
     this.filterMap = Object.entries(this.filters).map(([key, value]) => ({ name: key, form: value }));
     this.entryMap = Array.from(this.entries, ([id, categorias]) => ({ id, categorias }));
-    console.log(this.entryMap)
     this.filtersIcons();
   }
 
@@ -97,5 +98,31 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
   
   selectedFiltersCount(): number {
     return Object.values(this.filters).filter(filter => filter.value).length;
+  }
+
+  sort(sortBy: 'location'| 'default') {
+    switch(sortBy) {
+      case 'location':
+        this.geolocatorService.getDistances('pontos-turisticos-atividades').then(
+          distances => {
+            this.distanceMap = distances;
+            const order = Array.from(distances.keys());
+            this.entryMap.sort((a,b) => order.indexOf(a.id) - order.indexOf(b.id))
+          }
+        );
+        break;
+      default:
+        const order = Array.from(this.entries.keys())
+        this.distanceMap = null;
+        this.entryMap.sort((a,b) => order.indexOf(a.id) - order.indexOf(b.id)); 
+    }
+  }
+
+  getDistance(item: number): string {
+    const distance = this.distanceMap?.get(item);
+    if (!distance) return null;
+    if (distance < 1) return `${Math.round(distance * 10) * 100}m`;
+    if (distance <= 5) return `${(Math.round(distance * 10) / 10).toFixed(1)}km`;
+    return ">5km";
   }
 }
