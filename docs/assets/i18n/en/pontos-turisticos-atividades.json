@@ -1,5 +1,9 @@
 {
     "pontos-turisticos-atividades": {
+        "sort": {
+            "relevance": "Relevance",
+            "location": "Proximity"
+        },
         "filter": {
             "turistico": "Tourist Attractions",
             "ar-livre": "Outdoor Activities",
