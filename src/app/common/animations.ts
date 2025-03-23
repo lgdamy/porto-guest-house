@@ -1,5 +1,5 @@
 import { animate, style, transition, trigger } from "@angular/animations";
-import { ElementRef, HostBinding, ViewChild } from "@angular/core";
+import { AfterViewInit, ElementRef, HostBinding, ViewChild } from "@angular/core";
 import { MatExpansionPanel } from "@angular/material/expansion";
 
 export const slideInOut = trigger('routeAnimation', [
@@ -22,9 +22,13 @@ export const fadeInOut = trigger('routeAnimation', [
     ])
   ]);
 
-export abstract class AnimatedComponent{
+export abstract class AnimatedComponent implements AfterViewInit{
   @HostBinding('@routeAnimation') animateRoute = true;
   @ViewChild('expansionPanel', { static: false }) expansionPanel: ElementRef;
+  
+  ngAfterViewInit(): void {
+    setTimeout(() => window.scrollTo({top:0}),300);
+  }
 
   onPanelOpened(panel: MatExpansionPanel) {
     setTimeout(() => {

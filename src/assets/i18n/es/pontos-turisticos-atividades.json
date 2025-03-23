@@ -1,3 +1,106 @@
 {
-    
+    "pontos-turisticos-atividades": {
+        "filter": {
+            "turistico": "Lugares Turísticos",
+            "ar-livre": "Actividades al Aire Libre",
+            "criancas": "Actividades para Niños",
+            "gratis": "Actividades Gratuitas"
+        },
+        "1": {
+            "title": "Barrio de la Ribeira",
+            "content": "<p>Uno de los barrios más vibrantes de Oporto, la Ribeira encanta con sus casas coloridas, callejones pintorescos y restaurantes animados a orillas del río Duero. Es el lugar perfecto para pasear, saborear la gastronomía local y admirar el icónico Puente Luís I.</p><p>Cómo llegar:</p><ul><li><b>Funicular de los Guindais</b> - Sal del edificio, gira a la izquierda, cruza la Praça da Batalha y baja por la Rua de Augusto Rosa. Toma el funicular a la derecha de la calle y baja hasta la Avenida Gustavo Eiffel. Gira a la derecha y ¡listo, has llegado!</li><li><b>A pie por la Escalera de los Guindais</b> - Sigue el mismo camino hasta la Muralla Fernandina, mantente a la izquierda y baja las escaleras. Cuando llegues a la Avenida Gustavo Eiffel, gira a la derecha y disfruta de la Ribeira.</li></ul>"
+        },
+        "2": {
+            "title": "Puente Luís I",
+            "content": "<p>El icónico puente metálico de dos pisos conecta Oporto con Vila Nova de Gaia y ofrece vistas panorámicas increíbles. Diseñado por un discípulo de Gustave Eiffel, su plataforma superior es perfecta para paseos a pie, especialmente al atardecer.</p><p>De los seis puentes de Oporto, este es el más emblemático, ¡y lo mejor es que estás a solo 600 metros de él, pudiendo admirarlo desde diferentes ángulos!</p>"
+        },
+        "3": {
+            "title": "Librería Lello",
+            "content": "<p>Considerada una de las librerías más bonitas del mundo, la Librería Lello destaca por su arquitectura neogótica, madera tallada y su impresionante escalera roja. Se dice que inspiró a J.K. Rowling mientras vivió en Oporto, aunque la autora ya ha negado esta influencia en la creación de Harry Potter.</p> La librería está a 1 km del apartamento. La entrada al interior está regulada por horarios organizados, por lo que te recomendamos anticipar la hora de tu visita y <a href=\"https://livrarialello.pt\" target=\"_blank\">comprar un boleto</a> con antelación. Ten en cuenta que el precio del boleto se puede utilizar para comprar algunos de sus libros realmente únicos.</p><p>La Librería Lello también es un importante referente cultural en Oporto, atrayendo no solo a los amantes de los libros, sino también a turistas de todo el mundo que se maravillan con su belleza única y su atmósfera mágica.</p>"
+        },
+        "4": {
+            "title": "Torre de los Clérigos",
+            "content": "<p>Uno de los íconos más representativos de Oporto, la Torre de los Clérigos fue construida en el siglo XVIII y tiene 76 metros de altura, siendo visible desde varios puntos de la ciudad. Subir sus 225 escalones es una experiencia única, recompensada por una vista panorámica impresionante de Oporto y el río Duero.</p><p>La visita externa a la iglesia y la torre es gratuita, pero para subir, es necesario comprar un boleto en la entrada o en el <a href=\"https://torredosclerigos.pt\" target=\"_blank\">sitio oficial</a>. En fechas especiales, se realizan visitas nocturnas, ofreciendo una vista aún más mágica de la ciudad iluminada.</p><p>Si te hospedas con nosotros, no te pierdas esta experiencia inolvidable.</p>"
+        },
+        "5": {
+            "title": "Estación de São Bento",
+            "content": "<p>La Estación de São Bento es mucho más que un simple punto de partida para viajes en tren; es un verdadero tesoro histórico y cultural de Oporto. Famosa por sus impresionantes paneles de azulejos azules y blancos, la estación retrata escenas significativas de la historia de Portugal, como la batalla de Buçaco y la llegada del tren a la ciudad. La belleza de los azulejos, con sus colores vibrantes y detalles minuciosos, encantará incluso a los visitantes que no estén viajando en tren. Al pasar por allí, tendrás la oportunidad de sumergirte en la rica historia del país, mientras admiras la grandeza arquitectónica de este lugar icónico. Por lo tanto, aunque no tengas planes de tomar un tren, vale mucho la pena hacer una parada para explorar esta estación, que es un verdadero hito de la ciudad de Oporto.</p>"
+        },
+        "6": {
+            "title": "Catedral de Oporto",
+            "content": "<p>La Catedral de Oporto es uno de los monumentos más emblemáticos de la ciudad y se encuentra a pocos minutos de nuestro apartamento: ¡una parada obligatoria! La iglesia fue construida en el siglo XII, su imponente fachada y la mezcla de estilos románico y gótico la convierten en un verdadero tesoro histórico. El interior cautiva con detalles en talla dorada y una atmósfera única.</p><p>Subir a la torre de la catedral es una experiencia imprescindible. Desde lo alto, disfrutarás de una vista impresionante de la ciudad, con panorámicas de la Ribeira, el río Duero y las colinas de Oporto. Si te hospedas con nosotros, aprovecha la proximidad y descubre este hito histórico con una de las vistas más increíbles de la ciudad.</p>"
+        },
+        "7": {
+            "title": "Palacio de la Bolsa",
+            "content": "<p>Construido en el siglo XIX para albergar la Bolsa de Valores, el Palacio de la Bolsa es hoy un importante punto turístico de Oporto. Al entrar, quedarás inmediatamente fascinado por la grandeza de sus interiores, especialmente el deslumbrante Salón Árabe, con sus detalles ornamentales y su atmósfera exótica.</p><p>Explora el magnífico patio interior y las otras salas, todas llenas de historia y belleza. El Palacio de la Bolsa ofrece visitas guiadas que te transportarán en el tiempo, revelando curiosidades fascinantes sobre la historia del comercio y la ciudad.</p><p>Ubicado a pocos minutos de nuestro apartamento, es una excelente experiencia para aquellos que deseen conocer Oporto en toda su riqueza histórica y cultural.</p>"
+        },
+        "8": {
+            "title": "Iglesia de San Francisco",
+            "content": "<p>La Iglesia de San Francisco es una de las joyas góticas de Oporto, famosa por su interior deslumbrante, completamente revestido de talla dorada. Sus altares barrocos, ricamente esculpidos, crean un ambiente de belleza y reverencia.</p><p>Junto al Palacio de la Bolsa, la iglesia ofrece un recorrido histórico completo. Además de su impresionante decoración, la visita incluye las catacumbas, donde descansan miembros de la Orden de San Francisco y familias nobles de Oporto. Un paseo imprescindible para quienes deseen sumergirse en la historia y cultura de la ciudad.</p>"
+        },
+        "9": {
+            "title": "Vila Nova de Gaia & Bodegas de Vino de Oporto",
+            "content": "<p>Al otro lado del río Duero, cruzando el icónico Puente Luís I, Vila Nova de Gaia alberga las bodegas más renombradas de vino de Oporto, como Sandeman, Graham’s, Taylor’s y Ferreira. Es posible visitar las bodegas, donde tendrás la oportunidad de hacer un tour guiado, sumergiéndote en la fascinante historia del vino de Oporto y, por supuesto, disfrutar de una deliciosa cata.</p><p>Paseando por las orillas del río, sentirás la vibrante atmósfera local, con muchas actividades y un ambiente acogedor. Además de las bodegas, hay varios restaurantes típicos para degustar la cocina portuguesa. Y si el paseo por las orillas del Duero te deja con ganas de relajarte, no te preocupes: puedes optar por subir en teleférico y admirar la impresionante vista de la ciudad y el río. ¡Una experiencia única e imperdible!</p>"
+        },
+        "10": {
+            "title": "Fundación Serralves",
+            "content": "<p>La Fundación Serralves es uno de los principales centros culturales de Portugal, que reúne arte, arquitectura y naturaleza. Inaugurada en 1999, alberga el Museo de Arte Contemporáneo, la elegante Casa de Serralves, de estilo Art Deco, y un vasto parque con jardines y esculturas al aire libre.</p><p>El museo exhibe exposiciones de artistas nacionales e internacionales en un entorno moderno e inspirador. La Casa de Serralves transporta a los visitantes al encanto del Art Deco, mientras que el parque ofrece un refugio verde, con senderos, esculturas y el Treetop Walk, una pasarela elevada entre los árboles.</p><p>La Fundación también organiza eventos y actividades educativas, haciendo que la visita sea una experiencia cultural enriquecedora y relajante.</p>"
+        },
+        "11": {
+            "title": "Jardines del Palacio de Cristal",
+            "content": "<p>El Palacio de Cristal es uno de los espacios verdes más encantadores de Oporto, con una vista deslumbrante sobre el río Duero. El nombre hace referencia al antiguo pabellón de vidrio, que ya no existe, pero el parque sigue siendo uno de los lugares más tranquilos y hermosos de la ciudad.</p><p>El parque cuenta con jardines temáticos, lagos serenos y esculturas, creando el ambiente perfecto para un paseo relajante. No dejes de buscar los pavos reales, que circulan libremente y encantan, especialmente a los niños.</p><p>El Palacio de Cristal también alberga la Superbock Arena, que recibe eventos culturales y deportivos. ¡Si tu visita coincide con algún evento, vale la pena echar un vistazo!</p><p>Un lugar ideal para quienes buscan la unión entre naturaleza y cultura.</p>"
+        },
+        "12": {
+            "title": "World of Discoveries",
+            "content": "<p>Sumérgete en la historia de las grandes navegaciones portuguesas en el World of Discoveries, un museo interactivo y parque temático. Explora las rutas de los navegantes de los siglos XV y XVI a través de exposiciones inmersivas, escenarios impresionantes e incluso un paseo en barco que te transporta al pasado.</p><p>Una experiencia única, que combina aprendizaje y diversión para todas las edades, donde historia y emoción se encuentran a cada paso. ¡Si deseas viajar en el tiempo, este es el lugar ideal para comenzar!</p>"
+        },
+        "13": {
+            "title": "Sealife",
+            "content": "<p>Prepárate para un viaje submarino en Sea Life Oporto, un acuario interactivo con diversas especies marinas, como tiburones, rayas, pulpos y caballitos de mar. Lo más destacado es el túnel submarino, que ofrece una experiencia inmersiva en el océano.</p><p>Sea Life también ofrece actividades educativas sobre la vida marina y la preservación de los océanos.</p><p>Ubicado cerca de la playa, puedes aprovechar para pasear por la costa y saborear mariscos en uno de los excelentes restaurantes de la zona. ¡Una experiencia completa de vida marina y gastronomía local!</p>"
+        },
+        "14": {
+            "title": "Zoo Santo Inácio",
+            "content": "<p>El Zoo Santo Inácio es el zoológico más grande del norte de Portugal, con más de 200 especies, incluidos leones, tigres, jirafas y pingüinos. Inaugurado en 2000, es un espacio dedicado a la conservación de la biodiversidad, ofreciendo hábitats naturales para los animales.</p><p>Además de las exposiciones, el zoológico promueve actividades educativas y presentaciones diarias sobre la conservación de la vida silvestre. ¡Una visita ideal para todas las edades, combinando diversión y aprendizaje!</p>"
+        },
+        "15": {
+            "title": "Parque de la Ciudad de Oporto",
+            "content": "<p>El Parque de la Ciudad es el mayor espacio verde urbano de Portugal, con 83 hectáreas de naturaleza. Ideal para paseos relajantes o actividades al aire libre, el parque ofrece más de 10 km de senderos, lagos tranquilos y una rica fauna y flora.</p><p>Familias, turistas e incluso perros disfrutan de la vastedad del parque para caminar, andar en bicicleta o socializar. Para los niños, es un lugar inolvidable. En la salida oeste, llegarás a la playa de Matosinhos, perfecta para un atardecer impresionante. ¡La naturaleza y la ciudad se encuentran aquí!</p>"
+        },
+        "16": {
+            "title": "Casa de la Música",
+            "content": "<p>La Casa de la Música es un ícono cultural y arquitectónico de Oporto, con una acústica impecable y una programación que va desde la música clásica hasta el jazz, la electrónica y la música mundial. Sede de la Orquesta Sinfónica de Oporto, también ofrece actividades culturales y educativas.</p><p>El espacio ofrece visitas guiadas que permiten explorar su arquitectura única y conocer más sobre su rica programación musical. Las visitas tienen una duración de aproximadamente 1 hora y se realizan diariamente, con horarios en portugués a las 11h y en inglés a las 16h. El precio para participar es de €10 por persona, con entrada gratuita para niños hasta 12 años, siempre que estén acompañados por un adulto con boleto pagado. Cabe destacar que el valor del boleto puede utilizarse como crédito para la compra de entradas para cualquier concierto de la programación de la Casa de la Música. Para garantizar tu lugar, es recomendable adquirir las entradas con antelación, directamente en la taquilla o por teléfono al +351 220 120 220.</p><p>La Casa de la Música está ubicada cerca de la Rotonda de Boavista, y vale la pena aprovechar la visita para explorar la plaza circundante. Allí, encontrarás el Monumento a los Héroes de la Guerra Peninsular, un imponente obelisco de 45 metros de altura, que es un hito histórico de la ciudad.</p>"
+        },
+        "17": {
+            "title": "Parque de las Virtudes",
+            "content": "<p>El Parque de las Virtudes es uno de los secretos más encantadores de Oporto, ofreciendo vistas increíbles del río Duero. Ubicado en terrenos históricos de la Compañía Hortícola Portuense, el parque destaca por sus terrazas ajardinadas, perfectas para relajarse, hacer un picnic o admirar el atardecer. Uno de sus mayores atractivos es el Ginkgo Biloba, uno de los árboles más antiguos de la ciudad. Ideal para un paseo tranquilo o para escapar del bullicio urbano, el parque es un verdadero refugio de paz en el centro de Oporto.</p>"
+        },
+        "18": {
+            "title": "Farol de Felgueiras",
+            "content": "<p>El Farol de Felgueiras es un hito histórico muy importante en la entrada del río Duero y una de las vistas más inolvidables de la ciudad.</p><p>Construido en el siglo XIX, el Farol de Felgueiras orienta la navegación en el estuario del río Duero y es una referencia importante en la tradición marítima de Oporto. Aunque se ha vuelto más simbólico con el avance de la tecnología de navegación, todavía emite señales luminosas para guiar a los barcos en la entrada del Duero.</p><p>Con su torre de piedra robusta y la luz intensa que emite, el faro ofrece una vista espectacular de la costa atlántica y de la desembocadura del Duero.</p><p>Es el lugar perfecto para un paseo tranquilo junto al mar, con una vista panorámica impresionante durante el día, pero ofrece, sobre todo, un atardecer inolvidable junto al mar. ¡Un lugar lleno de historia y belleza natural!</p>"
+        },
+        "19": {
+            "title": "Clube Minigolfe do Porto",
+            "content": "<p>Si estás buscando diversión al aire libre, ¡el Clube Minigolfe do Porto es el lugar ideal! Con campos de minigolf bien cuidados, el club ofrece una experiencia relajada y divertida para todas las edades. Si estás con la familia o amigos, este es el lugar perfecto para un día de recreo. Además de ser una opción popular para quienes quieren divertirse, el club también organiza eventos y competiciones, añadiendo aún más emoción al juego. ¡Prepárate para una experiencia divertida, llena de risas y momentos memorables!</p>"
+        },
+        "20": {
+            "title": "Casa Portuguesa do Pastel de Bacalhau",
+            "content": "<p>Si aún no has probado el famoso pastel de bacalao portugués, ¡la Casa Portuguesa do Pastel de Bacalhau en Vila Nova de Gaia es el lugar perfecto para hacerlo! Este restaurante único, con dos plantas y estantes llenos de libros, ofrece una experiencia gastronómica muy especial. En el centro del salón, un imponente órgano de tubos es el protagonista, con conciertos realizados cada 15 minutos, creando un ambiente único. ¿El plato estrella? El pastel de bacalao relleno de queso de oveja de la Serra da Estrela, acompañado de una copa de vino de Oporto blanco. No hay duda: este es el mejor pastel de bacalao que probarás en Oporto, ¡y saldrás de allí con la sensación de haber vivido una auténtica experiencia portuguesa!</p>"
+        },
+        "21": {
+            "title": "Casa São Roque",
+            "content": "<p>La Casa São Roque es uno de los edificios más históricos de Oporto, ofreciendo una experiencia cultural increíble. Este encantador lugar es conocido no solo por su impresionante arquitectura, sino también por su parque botánico, lleno de plantas y flores de diversas procedencias. El punto culminante del parque es el laberinto redondo, que ofrece diversión para los niños y es un lugar perfecto para explorar en familia. Además, la casa suele albergar exposiciones de arte contemporáneo y eventos musicales, haciendo de la visita una verdadera inmersión en la cultura local. ¡Un espacio que combina historia, arte y naturaleza a la perfección!</p>"
+        },
+        "22": {
+            "title": "Mercado do Bolhão",
+            "content": "<p>El Mercado do Bolhão es una de las joyas más emblemáticas de Oporto, recientemente restaurado para preservar su alma única, pero con un toque moderno. Ubicado en el centro histórico de la ciudad, este mercado icónico ofrece una experiencia auténtica con más de 70 comerciantes, destacándose por sus puestos de productos frescos, como pescado, frutas, verduras, quesos y embutidos.</p><p>Además, el mercado cuenta con tiendas de artesanía, cafeterías e incluso restaurantes, perfectos para disfrutar de un aperitivo o una comida típica. Durante el verano, el mercado cobra vida con presentaciones de artistas locales, haciendo que la visita sea aún más especial.</p>"
+        },
+        "23": {
+            "title": "Mercado Bom Sucesso",
+            "content": "<p>El Mercado Bom Sucesso, cerca de la estación Casa da Música, es un espacio moderno y vibrante. Con un ambiente amplio y luminoso, ofrece una variedad de opciones gastronómicas locales e internacionales, desde cafés y pasteles hasta comidas completas. También hay puestos especializados en quesos, carnes y productos típicos portugueses, además de un bar de cervezas.</p><p>Además de la gastronomía, el mercado es un punto cultural, con artesanía y presentaciones musicales en vivo, algunas veces por semana. También hay áreas exteriores para relajarse y disfrutar del ambiente de la ciudad.</p>"
+        },
+        "24": {
+            "title": "TimeOut Market",
+            "content": "<p>Recientemente inaugurado, se encuentra cerca de la estación de São Bento. Este moderno mercado está dividido en dos pisos, siendo el nivel cero el área principal de restauración. Encontrarás una variedad de opciones gastronómicas de alta calidad, desde platos típicos portugueses hasta cocina internacional.</p><p>En el piso superior, la experiencia es más tranquila, ofreciendo una vista privilegiada de la estación de tren. La atmósfera del lugar es acogedora y dinámica, con espacios al aire libre para quienes desean disfrutar del ambiente de la ciudad mientras saborean un buen plato.</p><p>Además de las opciones gastronómicas, el mercado cuenta con tiendas de productos artesanales y una sala de catas de vinos del Duero y Oporto, instalada en una torre metálica inspirada en los antiguos reservorios de agua de las estaciones ferroviarias. Una experiencia para quienes desean explorar lo mejor de los vinos portugueses en un ambiente sofisticado.</p>"
+        }
+    }
 }
