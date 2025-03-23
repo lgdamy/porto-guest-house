@@ -32,26 +32,26 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
     [1,['turistico','ar-livre','gratis']], //RIBEIRA
     [2,['turistico','ar-livre','gratis']], //PONTE DOM LUIS
     [22, ['turistico']], //MERCADO BOLHAO
-    [3,['turistico']], //LIVRARIA LELLO
-    [4,['turistico']], //CLERIGOS
-    [24, ['turistico']], //TIMEOUT MARKET
     [5,['turistico','gratis']], //SAO BENTO
     [6,['turistico']], //SE DO PORTO
+    [16,['turistico']], //CASA DA MUSICA
+    [3,['turistico']], //LIVRARIA LELLO
+    [24, ['turistico']], //TIMEOUT MARKET
+    [11,['ar-livre','criancas']], //PALACIO DE CRISTAL
+    [4,['turistico']], //CLERIGOS
     [7,['turistico']], //PALACIO DA BOLSA
     [8,['turistico']], //SAO FRANCISCO
     [9,['turistico']], //GAIA
+    [20,['turistico','criancas']], //CPPB
     [10,['ar-livre','criancas']], //SERRALVES
-    [11,['ar-livre','criancas']], //PALACIO DE CRISTAL
     [12,['criancas']], //WORLD OF DISCOVERIES
     [13,['criancas']], //SEALIFE
     [14,['ar-livre','criancas']], //ZOO STO INACIO
     [15,['ar-livre','criancas','gratis']], //PARQUE DA CIDADE
-    [16,['turistico']], //CASA DA MUSICA
     [23, ['turistico']], //MERCADO BOM SUCESSO
     [17,['ar-livre','criancas','gratis']], //JARDIM DAS VIRTUDES
     [18,['turistico','ar-livre','gratis']], //FAROLIM DAS FELGUEIRAS
     [19,['ar-livre','criancas']], //MINIGOLFE
-    [20,['turistico','criancas']], //CPPB
     [21, ['turistico','ar-livre','criancas','gratis']], //SAO ROQUE
   ])
   entryMap: { id: number, categorias: Categorias[] } []
