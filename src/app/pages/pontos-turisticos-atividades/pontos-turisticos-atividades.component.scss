@@ -1,7 +1,9 @@
 .filters-section {
     display: flex;
-    justify-content: flex-end;
     padding: 4px 16px;
+}
+.h-space {
+    flex: 1 1 auto;
 }
 .filter-button {
     background-color: dimgray;

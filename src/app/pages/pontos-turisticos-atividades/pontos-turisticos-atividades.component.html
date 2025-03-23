@@ -1,4 +1,12 @@
 <div class="filters-section">
+    <button mat-mini-fab class="filter-button" [matMenuTriggerFor]="sortMenu">
+        <mat-icon class="filter-button">sort</mat-icon>
+    </button>
+    <mat-menu #sortMenu="matMenu">
+        <button mat-menu-item (click)="sort('default')">{{'pontos-turisticos-atividades.sort.relevance' | translate}}</button>
+        <button mat-menu-item (click)="sort('location')">{{'pontos-turisticos-atividades.sort.location' | translate}}</button>
+    </mat-menu>
+    <span class="h-space"></span>
     <ng-container *ngFor="let filter of filterMap; trackBy: trackByName">
         <button mat-mini-fab *ngIf="filter.form.value" class="enabled-filters" (click)="filter.form.setValue(false)">
             <mat-icon
@@ -23,6 +31,7 @@
                 <mat-panel-title class="panel-title">
                     {{'pontos-turisticos-atividades.' + i.id + '.title' | translate}}
                     <div class="panel-categories">
+                        <button mat-button color="accent" *ngIf="getDistance(i.id)">{{getDistance(i.id)}}</button>
                         <mat-icon *ngFor="let categoria of i.categorias" matTooltip="{{'pontos-turisticos-atividades.filter.' + categoria | translate }}" svgIcon="{{ categoria }}"></mat-icon>
                     </div>
                     </mat-panel-title>
