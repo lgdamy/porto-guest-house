@@ -1,5 +1,9 @@
 {
     "pontos-turisticos-atividades": {
+        "sort": {
+            "relevance": "Relevancia",
+            "location": "Proximidad"
+        },
         "filter": {
             "turistico": "Lugares Turísticos",
             "ar-livre": "Actividades al Aire Libre",

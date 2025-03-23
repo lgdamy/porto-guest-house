@@ -1,5 +1,9 @@
 {
     "pontos-turisticos-atividades": {
+        "sort": {
+            "relevance": "Pertinence",
+            "location": "Proximité"
+        },
         "filter": {
             "turistico": "Sites Touristiques",
             "ar-livre": "Activités en Plein Air",

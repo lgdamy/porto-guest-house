@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 })
 export class GeolocatorService {
 
-  private geoPoints = {
+  private geoPoints: Record<string,Record<number,number[]>> = {
     'pontos-turisticos-atividades': {
       1: [41.140674, -8.610941], // RIBEIRA
       2: [41.142598, -8.610186], // PONTE DOM LUIS
@@ -110,8 +110,63 @@ export class GeolocatorService {
     this.$geoUrlsSubject.next(this.geoUrls);
   };
 
-  public getUrls(page: string) : Observable<{[key: number] : SafeResourceUrl}> {
+  getUrls(page: string) : Observable<{[key: number] : SafeResourceUrl}> {
     return this.$geoUrlsSubject.pipe(map(urls => urls[page]));
   }
 
+  async getDistances(page: string) {
+    try {
+      const userCoords = await this.getUserLocation();
+      const distances = new Map<number,number>();
+      Object.entries(this.geoPoints[page])
+        .map(([item,coords]) => {return {id: Number(item), distance: this.getDistance(userCoords.lat, userCoords.lon, coords[0],coords[1])}})
+        .sort((a, b) => a.distance - b.distance)
+        .forEach(item => distances.set(item.id, item.distance));
+      return distances;
+    } catch(error) {
+      console.log(error);
+    }
+  }
+  private getUserLocation(): Promise<{lat,lon}> {
+    let lat = 41.14549891861889;
+    let lon = -8.605505197117774;
+    return new Promise((resolve) => {
+      navigator.geolocation?.getCurrentPosition(
+        success => resolve({lat: success.coords.latitude, lon: success.coords.longitude}),
+        error => {
+          console.error(error);
+          resolve({lat: lat, lon: lon})
+        },
+        {
+          maximumAge: 15_000,
+          timeout: 30_000,
+          enableHighAccuracy: false
+        }
+      )
+    })
+  }
+
+  private getDistance(lat1Graus, lon1Graus, lat2Graus, lon2Graus): number {
+    const lat1 = this.toRad(lat1Graus);
+    const lon1 = this.toRad(lon1Graus);
+    const lat2 = this.toRad(lat2Graus);
+    const lon2 = this.toRad(lon2Graus);
+    
+    const { sin, cos, sqrt, atan2 } = Math;
+    
+    const R = 6371; // earth radius in km 
+    const dLat = lat2 - lat1;
+    const dLon = lon2 - lon1;
+    const a = sin(dLat / 2) * sin(dLat / 2)
+            + cos(lat1) * cos(lat2)
+            * sin(dLon / 2) * sin(dLon / 2);
+    const c = 2 * atan2(sqrt(a), sqrt(1 - a)); 
+    const d = R * c;
+    return d; // distance in km
+
+  }
+
+  private toRad(degree) {
+    return degree * Math.PI / 180;
+  }
 }
