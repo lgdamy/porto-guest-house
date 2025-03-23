@@ -4,6 +4,7 @@ import { MatIconRegistry } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
 import { AnimatedComponent, slideInOut } from '@app/common/animations';
 import { GeolocatorService } from '@app/common/geolocator.service';
+import { TranslateService } from '@ngx-translate/core';
 
 type Categorias = 'turistico'|'ar-livre'|'criancas'|'gratis';
 
@@ -67,7 +68,8 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
   constructor(
     private readonly geolocatorService: GeolocatorService,
     private readonly iconRegistry: MatIconRegistry,
-    private readonly domSanitizer: DomSanitizer,  
+    private readonly domSanitizer: DomSanitizer,
+    private readonly translateService: TranslateService
   ) {
       super();
   }
@@ -117,12 +119,22 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
         this.entryMap.sort((a,b) => order.indexOf(a.id) - order.indexOf(b.id)); 
     }
   }
-
+  private UM_KM_EM_JARDAS = 1093.6133;
+  private UMA_MILHA_EM_JARDAS = 1760;
+  
   getDistance(item: number): string {
     const distance = this.distanceMap?.get(item);
     if (!distance) return null;
-    if (distance < 1) return `${Math.round(distance * 10) * 100}m`;
-    if (distance <= 5) return `${(Math.round(distance * 10) / 10).toFixed(1)}km`;
-    return ">5km";
+    if (this.translateService.currentLang.startsWith('en')) {
+      const distancejardas = distance * this.UM_KM_EM_JARDAS;
+      if (distancejardas <= 800) return `${(Math.ceil(distancejardas / 50) * 50).toLocaleString(this.translateService.currentLang, {maximumSignificantDigits: 3})} yds`
+      if (distancejardas < this.UMA_MILHA_EM_JARDAS) return `${(distancejardas / this.UMA_MILHA_EM_JARDAS).toLocaleString(this.translateService.currentLang, {maximumSignificantDigits: 1})} mi`
+      if (distancejardas <= 10 * this.UMA_MILHA_EM_JARDAS) return `${(distancejardas / this.UMA_MILHA_EM_JARDAS).toLocaleString(this.translateService.currentLang, {maximumSignificantDigits: 2})} mi`
+      return '10 mi+'
+    }
+    if (distance < 0.95) return `${((Math.ceil(distance * 1000 / 50) * 50)).toLocaleString(this.translateService.currentLang, {maximumSignificantDigits: 3})} m`;
+    if (distance < 1) return '1 km'
+    if (distance <= 10) return `${distance.toLocaleString(this.translateService.currentLang, {maximumSignificantDigits: 2})} km`;
+    return '10 km+';
   }
 }
