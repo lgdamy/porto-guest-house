@@ -133,14 +133,21 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
     if (!distance) return null;
     if (this.translateService.currentLang.startsWith('en')) {
       const distancejardas = distance * this.UM_KM_EM_JARDAS;
-      if (distancejardas <= 950) return `${(Math.ceil(distancejardas / 50) * 50).toLocaleString(this.translateService.currentLang, {maximumSignificantDigits: 3})} yds`
-      if (distancejardas < this.UMA_MILHA_EM_JARDAS) return `${(distancejardas / this.UMA_MILHA_EM_JARDAS).toLocaleString(this.translateService.currentLang, {maximumSignificantDigits: 1})} mi`
-      if (distancejardas <= 10 * this.UMA_MILHA_EM_JARDAS) return `${(distancejardas / this.UMA_MILHA_EM_JARDAS).toLocaleString(this.translateService.currentLang, {maximumSignificantDigits: 2})} mi`
+      if (distancejardas <= 950) return this.format((Math.ceil(distancejardas / 50) * 50), 'yard');
+      if (distancejardas <= 10 * this.UMA_MILHA_EM_JARDAS) return this.format((distancejardas / this.UMA_MILHA_EM_JARDAS),'mile');
       return '10 mi+'
     }
-    if (distance < 0.95) return `${((Math.ceil(distance * 1000 / 50) * 50)).toLocaleString(this.translateService.currentLang, {maximumSignificantDigits: 3})} m`;
-    if (distance < 1) return '1 km'
-    if (distance <= 10) return `${distance.toLocaleString(this.translateService.currentLang, {maximumSignificantDigits: 2})} km`;
+    if (distance < 0.95) return this.format((Math.ceil(distance * 1000 / 50) * 50),'meter');
+    if (distance <= 10) return this.format(distance,'kilometer');
     return '10 km+';
+  }
+
+  private format(distance: number, unit: 'yard' | 'mile' | 'meter' | 'kilometer') : string {
+    return Intl.NumberFormat(this.translateService.currentLang, {
+      style: 'unit',
+      unit: unit,
+      maximumFractionDigits: ['yard', 'meter'].includes(unit) ? 0 : 1,
+      notation: 'standard'
+    } as any).format(distance);
   }
 }
