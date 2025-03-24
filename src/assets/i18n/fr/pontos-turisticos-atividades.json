@@ -2,7 +2,9 @@
     "pontos-turisticos-atividades": {
         "sort": {
             "relevance": "Pertinence",
-            "location": "Proximité"
+            "location": "Proximité",
+            "alphabetical":"Alphabétique"
+
         },
         "filter": {
             "turistico": "Sites Touristiques",
