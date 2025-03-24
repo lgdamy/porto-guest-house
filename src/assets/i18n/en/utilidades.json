@@ -1,1 +1,28 @@
-{}
+{
+    "utilidades": {
+        "1": {
+            "title": "Public Transport",
+            "content": "<p>The apartment's location is already close to various interesting spots in Porto, but if you want to go further, the city has a modern and punctual public transport system. Both the metro and buses require a digital ticket that lasts approximately one hour. To purchase this ticket, you will need to buy an <b>Andante</b> card and load it.</p><p>The metro operates until 1 AM, and during the night, there are special bus lines. Usually, the routes provided by Google Maps have accurate circulation itineraries and are a good option for planning your transportation.</p><p>If you want to travel longer distances, São Bento train station will probably be your starting point. With the same <b>Andante</b> card, you can purchase your ticket. If you're heading to a city that is not near a railway line, a good alternative might be <a href=\"https://www.flixbus.pt/\" target=\"_blank\">FlixBus</a>. In this case, your departure point will be the Campanhã terminal.</p>"
+        },
+        "2": {
+            "title": "Public Parking",
+            "content": "<p>If you are driving, you have probably parked in a public parking lot and used coins to pay for it. Since this is the city center, there are no free street parking spots.</p><p>Paid parking hours in this area are from 8 AM to 6 PM and are free on weekends. As you cannot pay for more than two hours at a time, you might be worried about refilling the meter before it expires. A solution to this problem could be <a href=\"https://telpark.page.link/store\" target=\"_blank\">Telpark</a>, which allows you to pay without needing coins and extend your parking time remotely.</p>"
+        },
+        "3": {
+            "title": "Iberia Garage",
+            "content": "<p>If you can't find a parking spot nearby or if you prefer to park in a covered area, the Iberia Garage is the closest option. It can be a good alternative if you plan to leave your car for an extended period and only pick it up at the end of your visit.</p>"
+        },
+        "4": {
+            "title": "Pingo Doce Supermarket",
+            "content": "<p>A medium-sized supermarket located near the apartment. It also serves full meals, which can be a quick and healthy alternative. Pingo Doce is known for offering high-quality store-brand products, making it an economical option for shopping.</p><p>Pingo Doce is open from 8 AM to 9 PM. If you need to go to the supermarket after hours, a good alternative is Mini Preço, across the street, which stays open until 11 PM.</p>"
+        },
+        "5": {
+            "title": "Continente Supermarket",
+            "content": "<p>Sometimes, you need a larger supermarket, either to buy a specific product or to shop in bulk. Although it's not as close, Continente offers a greater variety of products, and the distance is still manageable for carrying your groceries back comfortably.</p>"
+        },
+        "6": {
+            "title": "Henriques Pharmacy",
+            "content": "<p>Nearby supermarkets usually sell basic medications, but if you need a prescription drug or a quick bandage, the nearest pharmacy is right next door and can be a great first option.</p>"
+        }
+    }
+}
