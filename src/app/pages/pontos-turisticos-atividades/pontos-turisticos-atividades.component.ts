@@ -108,7 +108,6 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
       case 'location':
         this.distanceMap = await this.geolocatorService.getDistances('pontos-turisticos-atividades');
         order = Array.from(this.distanceMap.keys());
-        this.geolocatorService.getDistances('pontos-turisticos-atividades');
         break;
       case 'alphabetical':
         order = Array.from(this.entries.keys()).sort((a,b) => this.translateService.instant(`pontos-turisticos-atividades.${a}.title`) < this.translateService.instant(`pontos-turisticos-atividades.${b}.title`) ? -1 : 1);
