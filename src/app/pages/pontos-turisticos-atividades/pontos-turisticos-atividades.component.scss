@@ -15,6 +15,10 @@
 .panel-title {
     align-items: center;
 }
+.distance-button{
+    pointer-events: none;
+    user-select: none;
+}
 .panel-categories {
     display: flex;
     flex: content;
