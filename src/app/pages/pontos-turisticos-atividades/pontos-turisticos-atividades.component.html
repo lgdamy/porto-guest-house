@@ -32,7 +32,7 @@
                 <mat-panel-title class="panel-title">
                     {{'pontos-turisticos-atividades.' + i.id + '.title' | translate}}
                     <div class="panel-categories">
-                        <button mat-button color="accent" *ngIf="getDistance(i.id)">{{getDistance(i.id)}}</button>
+                        <button class="distance-button" mat-button color="accent" *ngIf="getDistance(i.id)">{{getDistance(i.id)}}</button>
                         <mat-icon *ngFor="let categoria of i.categorias" matTooltip="{{'pontos-turisticos-atividades.filter.' + categoria | translate }}" svgIcon="{{ categoria }}"></mat-icon>
                     </div>
                     </mat-panel-title>
