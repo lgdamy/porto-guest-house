@@ -22,9 +22,13 @@ export const fadeInOut = trigger('routeAnimation', [
     ])
   ]);
 
+  const PANEL_HEADER_OFFSET = 64;
+
 export abstract class AnimatedComponent implements AfterViewInit{
   @HostBinding('@routeAnimation') animateRoute = true;
   @ViewChild('expansionPanel', { static: false }) expansionPanel: ElementRef;
+
+  protected extraOffset: number = 0;
   
   ngAfterViewInit(): void {
     setTimeout(() => window.scrollTo({top:0}),300);
@@ -33,9 +37,10 @@ export abstract class AnimatedComponent implements AfterViewInit{
   onPanelOpened(panel: MatExpansionPanel) {
     setTimeout(() => {
       const top = panel._body.nativeElement.getBoundingClientRect().top;
-      const offset = window.outerWidth < 599 ? 120 :  window.outerWidth < 900 ? 130 : 160;
+      const toolbarOffset = window.outerWidth < 599 ? 56 :  window.outerWidth < 900 ? 64 : 100;
+      const panelHeaderOffset = 64;
       window.scrollTo({
-        top: top + window.scrollY - offset,
+        top: top + window.scrollY - toolbarOffset - PANEL_HEADER_OFFSET - this.extraOffset,
         behavior: 'smooth'
       });
     }, 300);

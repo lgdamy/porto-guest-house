@@ -1,12 +1,19 @@
 .filters-section {
     display: flex;
     padding: 4px 16px;
+    position:sticky;
+    z-index: 1;
+    background-color: rgba(220,220,255,0.7);
+    top: 100px;
+    @media screen and (max-width: 900px) {
+        top: 64px;
+    }
+    @media screen  and (max-width: 599px){
+        top: 56px;
+    }
 }
 .h-space {
     flex: 1 1 auto;
-}
-.filter-button {
-    background-color: dimgray;
 }
 .enabled-filters {
     --icon-color: white;
