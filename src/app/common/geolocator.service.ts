@@ -115,31 +115,31 @@ export class GeolocatorService {
   }
 
   async getDistances(page: string) {
-    try {
-      const userCoords = await this.getUserLocation();
-      const distances = new Map<number,number>();
-      Object.entries(this.geoPoints[page])
-        .map(([item,coords]) => {return {id: Number(item), distance: this.getDistance(userCoords.lat, userCoords.lon, coords[0],coords[1])}})
-        .sort((a, b) => a.distance - b.distance)
-        .forEach(item => distances.set(item.id, item.distance));
-      return distances;
-    } catch(error) {
-      console.log(error);
-    }
+    const userCoords = await this.getUserLocation();
+    const distances = new Map<number,number>();
+    Object.entries(this.geoPoints[page])
+      .map(([item,coords]) => {return {id: Number(item), distance: this.getDistance(userCoords.lat, userCoords.lon, coords[0],coords[1])}})
+      .sort((a, b) => a.distance - b.distance)
+      .forEach(item => distances.set(item.id, item.distance));
+    return distances;
+    
   }
   private getUserLocation(): Promise<{lat,lon}> {
     let lat = 41.14549891861889;
     let lon = -8.605505197117774;
     return new Promise((resolve) => {
-      navigator.geolocation?.getCurrentPosition(
+      if(!navigator.geolocation) {
+        resolve({lat: lat, lon: lon});
+      }
+      navigator.geolocation.getCurrentPosition(
         success => resolve({lat: success.coords.latitude, lon: success.coords.longitude}),
         error => {
           console.error(error);
           resolve({lat: lat, lon: lon})
         },
         {
-          maximumAge: 15_000,
-          timeout: 30_000,
+          maximumAge: 30_000,
+          timeout: 15_000,
           enableHighAccuracy: false
         }
       )

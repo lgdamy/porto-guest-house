@@ -2,7 +2,8 @@
     "pontos-turisticos-atividades": {
         "sort": {
             "relevance": "Relevance",
-            "location": "Proximity"
+            "location": "Proximity",
+            "alphabetical":"Alphabetical"
         },
         "filter": {
             "turistico": "Tourist Attractions",
