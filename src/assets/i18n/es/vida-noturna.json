@@ -1,1 +1,36 @@
-{}
+{
+    "vida-noturna": {
+        "1": {
+            "title" : "Galeria de Paris",
+            "content" : "<p>¡El corazón de la vida nocturna de Oporto! Una calle llena de bares y clubes, perfecta para hacer un recorrido de bares. Los fines de semana, la gente suele beber en la calle, creando un ambiente animado.</p><p>Las Galerías de París suelen ser frecuentadas por muchos jóvenes y estudiantes, quienes a su vez reciben a los turistas con gran alegría. Seguramente serás contagiado por la energía del espíritu festivo.</p>"
+        },
+        "2": {
+            "title" : "Base Porto",
+            "content" : "<p>Un bar al aire libre junto a la Torre de los Clérigos, ideal para quienes buscan un ambiente más relajado, con buenos cócteles y DJs tocando música chill-out.</p><p>El gran atractivo aquí es el parque lleno de olivos en una zona elevada, perfecto para refrescarse en las tardes calurosas. Los visitantes suelen sentarse en el césped para disfrutar de sus bebidas y la música.</p>"
+        },
+        "3": {
+            "title" : "Pérola Negra",
+            "content" : "<p>Un antiguo cabaret convertido en discoteca, con un ambiente retro y música ecléctica. Ideal para quienes quieren bailar toda la noche.</p><p>Debido a su ubicación cerca de la Estación de Trindade, Pérola Negra suele atraer a personas de más lejos, y siempre están dispuestos a pasar toda la noche allí esperando que el metro comience a funcionar.</p>"
+        },
+        "4": {
+            "title" : "Maus Hábitos",
+            "content" : "<p>Un espacio cultural alternativo que mezcla arte, gastronomía y fiestas. Además de las discotecas, hay conciertos y exposiciones.</p><p>El espacio también está abierto durante el día, y debido a que está cerca del apartamento, también puede ser un buen lugar para almorzar. Al ser panorámico y relativamente elevado, la vista de la ciudad es espectacular.</p>"
+        },
+        "5": {
+            "title" : "Plano B",
+            "content" : "<p>Un club con dos plantas y diferentes estilos musicales (electrónica, indie, rock). Una buena opción para quienes disfrutan de la variedad.</p><p>El lugar está cerca de las Galerías de París, y curiosamente puede ser un plan B para quienes van a las Galerías pero desean cambiar de ambiente.</p>"
+        },
+        "6": {
+            "title" : "Hot Five Jazz & Blues Club",
+            "content" : "<p>Para los fanáticos del jazz y el blues, este bar ofrece presentaciones en vivo de alta calidad en un ambiente sofisticado. La arquitectura del bar recuerda un poco al Moulin Rouge.</p><p>Está ubicado a pocos metros de la Casa da Música, lo que puede ser un buen comienzo para la noche, brindando una experiencia cultural realmente única.</p>"
+        },
+        "7": {
+            "title" : "World of Wine",
+            "content" : "<p>Un complejo turístico y cultural enfocado en experiencias culturales y gastronómicas, especialmente centrado en el vino de Oporto. El WOW está compuesto por varias atracciones, como museos y galerías, y ofrece una experiencia educativa e interactiva.</p><p>El distrito suele albergar grandes eventos bien planificados e inolvidables, con espacios dedicados a niños, pistas de baile y bares con diversos cócteles. Atrae a visitantes de todas las edades y culturas, por lo que te recomiendo revisar el <a href=\"https://agendaculturalporto.org/agenda-de-eventos-no-wow-gaia\" target=\"_blank\">canal oficial</a> para ver si alguno de estos eventos está ocurriendo mientras te alojas aquí.</p>"
+        },
+        "8": {
+            "title" : "Maria Pistolas",
+            "content" : "<p>Esta discoteca es realmente grande, con diversas áreas que cuentan con diferentes DJs, por lo que es común que los asistentes hagan una especie de recorrido por los distintos estilos.</p><p>En el último piso de la discoteca hay un lounge con cómodos sillones, lo que te permitirá hacer una pausa temporal antes de volver a las pistas de baile.</p>"
+        }
+    }
+}
