@@ -4,6 +4,7 @@
     </button>
     <mat-menu #sortMenu="matMenu">
         <button mat-menu-item (click)="sort('default')">{{'pontos-turisticos-atividades.sort.relevance' | translate}}</button>
+        <button mat-menu-item (click)="sort('alphabetical')">{{'pontos-turisticos-atividades.sort.alphabetical' | translate}}</button>
         <button mat-menu-item (click)="sort('location')">{{'pontos-turisticos-atividades.sort.location' | translate}}</button>
     </mat-menu>
     <span class="h-space"></span>

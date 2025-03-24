@@ -102,23 +102,25 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
     return Object.values(this.filters).filter(filter => filter.value).length;
   }
 
-  sort(sortBy: 'location'| 'default') {
+  async sort(sortBy: 'location'| 'alphabetical' | 'default') {
+    var order;
     switch(sortBy) {
       case 'location':
-        this.geolocatorService.getDistances('pontos-turisticos-atividades').then(
-          distances => {
-            this.distanceMap = distances;
-            const order = Array.from(distances.keys());
-            this.entryMap.sort((a,b) => order.indexOf(a.id) - order.indexOf(b.id))
-          }
-        );
+        this.distanceMap = await this.geolocatorService.getDistances('pontos-turisticos-atividades');
+        order = Array.from(this.distanceMap.keys());
+        this.geolocatorService.getDistances('pontos-turisticos-atividades');
+        break;
+      case 'alphabetical':
+        order = Array.from(this.entries.keys()).sort((a,b) => this.translateService.instant(`pontos-turisticos-atividades.${a}.title`) < this.translateService.instant(`pontos-turisticos-atividades.${b}.title`) ? -1 : 1);
+        this.distanceMap = null;
         break;
       default:
-        const order = Array.from(this.entries.keys())
+        order = Array.from(this.entries.keys())
         this.distanceMap = null;
-        this.entryMap.sort((a,b) => order.indexOf(a.id) - order.indexOf(b.id)); 
-    }
+      }
+      this.entryMap.sort((a,b) => order.indexOf(a.id) - order.indexOf(b.id)); 
   }
+
   private UM_KM_EM_JARDAS = 1093.6133;
   private UMA_MILHA_EM_JARDAS = 1760;
   
@@ -127,7 +129,7 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
     if (!distance) return null;
     if (this.translateService.currentLang.startsWith('en')) {
       const distancejardas = distance * this.UM_KM_EM_JARDAS;
-      if (distancejardas <= 800) return `${(Math.ceil(distancejardas / 50) * 50).toLocaleString(this.translateService.currentLang, {maximumSignificantDigits: 3})} yds`
+      if (distancejardas <= 950) return `${(Math.ceil(distancejardas / 50) * 50).toLocaleString(this.translateService.currentLang, {maximumSignificantDigits: 3})} yds`
       if (distancejardas < this.UMA_MILHA_EM_JARDAS) return `${(distancejardas / this.UMA_MILHA_EM_JARDAS).toLocaleString(this.translateService.currentLang, {maximumSignificantDigits: 1})} mi`
       if (distancejardas <= 10 * this.UMA_MILHA_EM_JARDAS) return `${(distancejardas / this.UMA_MILHA_EM_JARDAS).toLocaleString(this.translateService.currentLang, {maximumSignificantDigits: 2})} mi`
       return '10 mi+'
