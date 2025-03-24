@@ -1,5 +1,6 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, QueryList, ViewChildren } from '@angular/core';
 import { FormControl } from '@angular/forms';
+import { MatExpansionPanel } from '@angular/material/expansion';
 import { MatIconRegistry } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
 import { AnimatedComponent, slideInOut } from '@app/common/animations';
@@ -15,6 +16,8 @@ type Categorias = 'turistico'|'ar-livre'|'criancas'|'gratis';
   animations: [slideInOut]
 })
 export class PontosTuristicosAtividadesComponent extends AnimatedComponent implements OnInit {
+
+  @ViewChildren(MatExpansionPanel) panels: QueryList<MatExpansionPanel>;
     
   private filters: Record<Categorias,FormControl> = {
     'turistico': new FormControl(false), 
@@ -57,11 +60,12 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
   ])
   entryMap: { id: number, categorias: Categorias[] } []
 
-  private distanceMap: Map<number,number>;
-
-  trackById(index: number, entry: {id}) {
-    return entry.id;
+  
+  trackByIndex(index: number) {
+    return index;
   }
+
+  private distanceMap: Map<number,number>;
   
   geoUrls$ = this.geolocatorService.getUrls('pontos-turisticos-atividades');
 
@@ -76,7 +80,7 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
 
   ngOnInit(): void {
     this.filterMap = Object.entries(this.filters).map(([key, value]) => ({ name: key, form: value }));
-    this.entryMap = Array.from(this.entries, ([id, categorias]) => ({ id, categorias }));
+    this.entryMap = Array.from(this.entries, ([id, categorias]) => ({id: id, categorias: categorias }));
     this.filtersIcons();
   }
 
@@ -103,6 +107,7 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
   }
 
   async sort(sortBy: 'location'| 'alphabetical' | 'default') {
+    this.panels.forEach(panel => panel.close());
     var order;
     switch(sortBy) {
       case 'location':
@@ -117,7 +122,7 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
         order = Array.from(this.entries.keys())
         this.distanceMap = null;
       }
-      this.entryMap.sort((a,b) => order.indexOf(a.id) - order.indexOf(b.id)); 
+      this.entryMap.sort((a,b) => order.indexOf(a.id) - order.indexOf(b.id));
   }
 
   private UM_KM_EM_JARDAS = 1093.6133;
