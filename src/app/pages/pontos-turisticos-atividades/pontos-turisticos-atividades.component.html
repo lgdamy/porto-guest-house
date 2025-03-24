@@ -26,7 +26,7 @@
 </div>
 
 <mat-accordion>
-    <ng-container *ngFor="let i of entryMap; trackBy: trackById">
+    <ng-container *ngFor="let i of entryMap; trackBy: trackByIndex">
         <mat-expansion-panel *ngIf="shouldShow(i.id)" (afterExpand)="onPanelOpened(expansionPanel)"  #expansionPanel>
             <mat-expansion-panel-header>
                 <mat-panel-title class="panel-title">
