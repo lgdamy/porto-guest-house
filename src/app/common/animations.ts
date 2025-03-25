@@ -38,7 +38,6 @@ export abstract class AnimatedComponent implements AfterViewInit{
     setTimeout(() => {
       const top = panel._body.nativeElement.getBoundingClientRect().top;
       const toolbarOffset = window.outerWidth < 599 ? 56 :  window.outerWidth < 900 ? 64 : 100;
-      const panelHeaderOffset = 64;
       window.scrollTo({
         top: top + window.scrollY - toolbarOffset - PANEL_HEADER_OFFSET - this.extraOffset,
         behavior: 'smooth'

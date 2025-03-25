@@ -26,7 +26,7 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
     'gratis': new FormControl(false)
   }
 
-  extraOffset = 40;
+  extraOffset = 48;
 
   filterMap: { name:string, form: FormControl }[]
 
