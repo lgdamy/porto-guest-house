@@ -1,5 +1,6 @@
 {
     "under-construction":"Ops, ainda não terminamos de construir esta página.",
+    "geolocation-error":"Não conseguimos acessar sua localização, as distâncias estão relativas ao apartamento.",
     "pages":{
         "index": "Apartamento Elegante na Batalha, Centro",
         "pontos-turisticos-atividades": "Pontos Turísticos & Atividades",

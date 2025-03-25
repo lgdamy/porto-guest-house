@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { TranslateService } from '@ngx-translate/core';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { last, map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -90,7 +91,8 @@ export class GeolocatorService {
 
   constructor(
     private readonly translate: TranslateService,
-    private readonly domSanitizer: DomSanitizer
+    private readonly domSanitizer: DomSanitizer,
+    private readonly snackbar: MatSnackBar,
     ) {
       translate.onLangChange.subscribe(() => this.updateUrls())
       this.updateUrls();
@@ -129,13 +131,12 @@ export class GeolocatorService {
     let lon = -8.605505197117774;
     return new Promise((resolve) => {
       if(!navigator.geolocation) {
-        resolve({lat: lat, lon: lon});
+        resolve(this.fallback());
       }
       navigator.geolocation.getCurrentPosition(
         success => resolve({lat: success.coords.latitude, lon: success.coords.longitude}),
         error => {
-          console.error(error);
-          resolve({lat: lat, lon: lon})
+          resolve(this.fallback(error));
         },
         {
           maximumAge: 30_000,
@@ -144,6 +145,17 @@ export class GeolocatorService {
         }
       )
     })
+  }
+
+  private fallback(error?): {lat, lon} {
+    if (error) console.error(error);
+    this.snackbar.open(this.translate.instant('geolocation-error'), undefined, {
+      horizontalPosition: 'center',
+      verticalPosition: 'bottom',
+      duration: 5000,
+    });
+    return { lat: 41.14549891861889, lon: -8.605505197117774 }
+
   }
 
   private getDistance(lat1Graus, lon1Graus, lat2Graus, lon2Graus): number {
