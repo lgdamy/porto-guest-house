@@ -1,5 +1,5 @@
 <div class="filters-section mat-elevation-z3">
-    <button mat-icon-button [matMenuTriggerFor]="sortMenu"><mat-icon>sort</mat-icon></button>
+    <button mat-icon-button color="accent" [matMenuTriggerFor]="sortMenu"><mat-icon>sort</mat-icon></button>
     <mat-menu #sortMenu="matMenu">
         <button mat-menu-item (click)="sort('default')">{{'pontos-turisticos-atividades.sort.relevance' | translate}}</button>
         <button mat-menu-item (click)="sort('alphabetical')">{{'pontos-turisticos-atividades.sort.alphabetical' | translate}}</button>
@@ -13,7 +13,7 @@
             svgIcon="{{ filter.name }}"></mat-icon>
         </button>
     </ng-container>
-    <button mat-icon-button [matMenuTriggerFor]="filtersMenu"><mat-icon>filter_alt</mat-icon></button>
+    <button mat-icon-button color="accent" [matMenuTriggerFor]="filtersMenu"><mat-icon>filter_alt</mat-icon></button>
     <mat-menu #filtersMenu="matMenu">
         <mat-checkbox class="mat-menu-item" *ngFor="let filter of filterMap; trackBy: trackByName"
             (click)="$event.stopPropagation()"
