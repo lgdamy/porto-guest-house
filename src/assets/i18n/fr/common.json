@@ -1,5 +1,6 @@
 {
     "under-construction":"Oups, nous n'avons pas encore fini de construire cette page.",
+    "geolocation-error":"Nous ne pouvons pas accéder à votre emplacement, les distances sont relatives à l'appartement.",
     "pages": {
         "index": "Appartement Élégant à Batalha, Centre",
         "pontos-turisticos-atividades": "Points Touristiques et Activités",
