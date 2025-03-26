@@ -20,7 +20,36 @@
       "menu": "Mapa del sitio"
     }
   },
-  "cultura": {},
+  "cultura": {
+    "1": {
+      "title": "Museo de Serralves",
+      "content": "<p>Este museo de arte contemporáneo es uno de los más importantes de Portugal. El edificio en sí es una obra arquitectónica inconfundible, con varias salas amplias que ofrecen características únicas. También vale la pena mencionar los jardines que rodean el museo, que cuentan con varias esculturas al aire libre que seguramente te impresionarán.</p><p>Puedes seguir las exposiciones del museo a través del <a href=\"https://www.serralves.pt/agenda-serralves\" target=\"_blank\">sitio web oficial</a>. No tendrás dificultades para adquirir tus entradas en el momento de la visita, ya que el museo es bastante amplio y puede albergar a muchos visitantes.</p>"
+    },
+    "2": {
+      "title": "Museo Nacional Soares dos Reis",
+      "content": "<p>Creado a principios del siglo XIX, fue el primer museo público de arte en Portugal. Allí encontrarás numerosas piezas de gran valor histórico para el país, resaltando la inmensa riqueza cultural y artística de Portugal, así como los tesoros traídos a lo largo de los años gracias a los grandes descubrimientos.</p>"
+    },
+    "3": {
+      "title": "Centro Portugués de Fotografía",
+      "content": "<p>Ubicado en una antigua prisión en el corazón de Oporto, también conocida como Cadeia da Relação, el edificio es un motivo de orgullo para la ciudad. Las exposiciones que se presentan allí son un complemento fascinante que suele impresionar a los amantes de la fotografía. Muchos grandes fotógrafos han tenido sus obras expuestas allí.</p><p>La entrada a la exposición es gratuita, y se recomienda planificar la visita en un día soleado, ya que la abundante luz natural hace que el lugar sea aún más especial... Aprovecha para explorar los alrededores y descubrir todas las habitaciones de esta prisión de más de 300 años.</p>"
+    },
+    "4": {
+      "title": "Cine Batalha",
+      "content": "<p>El Cine Batalha, o simplemente Batalha Centro de Cinema, es un espacio cultural icónico en Oporto, ubicado en la Praça da Batalha. Inaugurado en 1947, el edificio tiene un estilo arquitectónico modernista y fue uno de los principales cines de la ciudad durante décadas.</p><p>Tras años de cierre, el espacio fue renovado y reabierto en 2022 como un centro dedicado al cine, proyectando películas clásicas, independientes y contemporáneas, además de albergar festivales y eventos culturales. El lugar también acoge exposiciones, conferencias y actividades educativas relacionadas con el séptimo arte. Consulta la programación en el <a href=\"https://www.batalhacentrodecinema.pt/\" target=\"_blank\">sitio web oficial</a> y elige una sesión que te intrigue.</p>"
+    },
+    "5": {
+      "title": "Teatro Nacional São João",
+      "content": "<p>Este antiguo edificio fue construido a finales del siglo XVIII y se llamaba <em>Teatro do Príncipe</em>, pero un incendio lo destruyó en 1908. Debido a su importancia cultural para Oporto, fue restaurado 12 años después y hoy se encuentra en excelentes condiciones de conservación, habiendo sido clasificado como monumento nacional.</p><p>Es una de las joyas que muestran cómo el pueblo portugués tiene una relación íntima con el arte. La programación del teatro incluye no solo teatro clásico y contemporáneo, sino también eventos de danza, música y otras presentaciones de gran valor cultural. Consulta la <a href=\"https://www.tnsj.pt/pt/agenda\" target=\"_blank\">agenda</a> y mira si algo llama tu atención.</p>"
+    },
+    "6": {
+      "title": "Casa da Música",
+      "content": "<p>La Casa da Música es una de las principales salas de conciertos de Oporto. El edificio tiene un diseño atrevido y futurista que destaca en el paisaje urbano. Es la sede no solo de la <em>Orquestra Sinfónica do Porto</em>, sino también de otras prestigiosas formaciones musicales.</p><p>La programación de la Casa da Música es muy variada, pero algunos de los aspectos más destacados incluyen:<ul><li><b>Conciertos de música clásica</b> - Presentaciones de la Orquestra Sinfónica do Porto, Remix Ensemble y Orquestra Barroca.</li><li><b>Música contemporánea experimental</b> - Eventos de jazz, electrónica, músicas del mundo y nuevas tendencias.</li><li><b>Festivales temáticos</b> - Como el Festival de Piano, Maratón Beethoven y Otoño en Jazz.</li><li><b>Conciertos de bandas y artistas internacionales</b> - De diversos géneros, desde rock hasta indie y música electrónica.</li><li><b>Talleres y actividades educativas</b> - Para niños, jóvenes y adultos, explorando el mundo de la música.</li></ul></p>"
+    },
+    "7": {
+      "title": "Alfândega do Porto",
+      "content": "<p>Es un enorme edificio ubicado a orillas del río Duero, que en el pasado funcionaba como almacén y centro de comercio. Debido a su tamaño, ha sido utilizado para ferias, exposiciones y eventos culturales. Varios artistas modernos han realizado eventos en sus patios, y algunas salas se utilizan regularmente para exposiciones interactivas que aumentan significativamente la inmersión en la muestra.</p><p>Además, allí también se encuentra el Museo del Transporte y las Comunicaciones, donde las exposiciones tratan sobre la historia del transporte en Portugal.</p>"
+    }
+  },
   "gastronomia": {
     "description": "<p>La cocina de Oporto es uno de los mayores encantos de la ciudad, reflejando no solo los sabores característicos de la región, sino también la profunda conexión de la ciudad con el mar y su historia de intercambios culturales a lo largo de los siglos. La ciudad, que fue uno de los mayores puertos comerciales de Portugal, absorbió influencias de diversas partes del mundo, resultando en una gastronomía rica, diversa y llena de tradiciones.</p>",
     "comidas-tipicas": {

@@ -1,1 +1,30 @@
-{}
+{
+    "1": {
+        "title": "Serralves Museum",
+        "content": "<p>This contemporary art museum is one of the most important in Portugal. The building itself is an unmistakable architectural masterpiece, with several spacious rooms offering unique characteristics. It's also worth mentioning the gardens surrounding the museum, which feature various outdoor sculptures that will surely impress you.</p><p>You can follow the museum's exhibitions through the <a href=\"https://www.serralves.pt/agenda-serralves\" target=\"_blank\">official website</a>. You won't have any trouble purchasing tickets on-site, as the museum is quite large and can accommodate many visitors.</p>"
+    },
+    "2": {
+        "title": "National Museum Soares dos Reis",
+        "content": "<p>Founded in the early 19th century, it was the first public art museum in Portugal. Here, you will find numerous pieces of great historical value for Portugal, highlighting the country's rich artistic and cultural heritage, as well as the treasures brought over the years from major discoveries.</p>"
+    },
+    "3": {
+        "title": "Portuguese Centre of Photography",
+        "content": "<p>Located in a former prison in the heart of Porto, also known as Cadeia da Relação, the building is a source of pride for the city. The exhibitions held here are a fascinating complement that often impress photography lovers, with many great photographers having had their works displayed there.</p><p>Admission to the exhibition is free, and it is recommended to visit on a sunny day, as the abundant natural lighting makes the place even more special... Take the opportunity to explore the surroundings and discover all the rooms of this 300-year-old prison.</p>"
+    },
+    "4": {
+        "title": "Batalha Cinema",
+        "content": "<p>Batalha Cinema, or simply Batalha Centro de Cinema, is an iconic cultural venue in Porto, located in Praça da Batalha. Opened in 1947, the building has a modernist architectural style and was one of the city's main cinemas for decades.</p><p>After years of closure, the space was renovated and reopened in 2022 as a cinema center, screening classic, independent, and contemporary films, as well as hosting festivals and cultural events. The venue also houses exhibitions, conferences, and educational activities related to the seventh art. Check the program on the <a href=\"https://www.batalhacentrodecinema.pt/\" target=\"_blank\">official website</a> and choose a session that intrigues you the most.</p>"
+    },
+    "5": {
+        "title": "São João National Theatre",
+        "content": "<p>This historic building was erected at the end of the 18th century and was initially called <em>Teatro do Príncipe</em>. However, a devastating fire destroyed it in 1908. Due to its cultural importance to Porto, it was rebuilt 12 years later and is now in excellent condition, classified as a national monument.</p><p>It is one of the gems that showcase how the Portuguese people have an intimate relationship with the arts. The theatre's program includes not only classical and contemporary plays but also dance, music, and other performances of immense cultural value. Follow the <a href=\"https://www.tnsj.pt/pt/agenda\" target=\"_blank\">agenda</a> and see if something catches your attention.</p>"
+    },
+    "6": {
+        "title": "Casa da Música",
+        "content": "<p>Casa da Música is one of Porto's main concert halls. The building features a bold and futuristic design, standing out in the urban landscape. It is home not only to the <em>Orquestra Sinfónica do Porto</em> but also to other major musical ensembles.</p><p>The Casa da Música program is quite diverse, but some highlights include:<ul><li><b>Classical music concerts</b> - Performances by the Orquestra Sinfónica do Porto, Remix Ensemble, and Orquestra Barroca.</li><li><b>Contemporary experimental music</b> - Jazz, electronic, world music, and new trend events.</li><li><b>Thematic festivals</b> - Such as the Piano Festival, Beethoven Marathon, and Autumn in Jazz.</li><li><b>Concerts by international bands and artists</b> - Covering various genres, from rock to indie and electronic music.</li><li><b>Workshops and educational activities</b> - For children, young people, and adults, exploring the world of music.</li></ul></p>"
+    },
+    "7": {
+        "title": "Alfândega do Porto",
+        "content": "<p>This is a massive building located on the banks of the Douro River, formerly functioning as a warehouse and trade center. Due to its size, it has been used for fairs, exhibitions, and cultural events. Several modern artists have held events in its courtyards, and some rooms are regularly used for interactive exhibitions that greatly enhance the experience.</p><p>Additionally, it houses the Museum of Transport and Communications, where the exhibitions focus on the history of transportation in Portugal.</p>"
+    }
+}
