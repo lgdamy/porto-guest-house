@@ -1,0 +1,65 @@
+{
+    "description": "<p>La cocina de Oporto es uno de los mayores encantos de la ciudad, reflejando no solo los sabores característicos de la región, sino también la profunda conexión de la ciudad con el mar y su historia de intercambios culturales a lo largo de los siglos. La ciudad, que fue uno de los mayores puertos comerciales de Portugal, absorbió influencias de diversas partes del mundo, resultando en una gastronomía rica, diversa y llena de tradiciones.</p>",
+    "comidas-tipicas": {
+        "title": "Platos Típicos",
+        "1": {
+            "title": "Francesinha",
+            "content": "<p>Uno de los platos más emblemáticos de Oporto, la francesinha es un sándwich relleno de carne (generalmente bistec, chorizo y jamón) cubierto con queso y una salsa picante a base de tomate y cerveza. Normalmente se sirve con patatas fritas y un huevo frito encima.</p><p>Se dice que la francesinha fue una adaptación del parisino Croque-monsieur, por lo que recibió este nombre. Muchos turistas vienen a Oporto y prueban la francesinha en varios establecimientos para comparar cuál les gusta más, y realmente es imposible saber cuál restaurante la prepara mejor. Pero aquí hay algunas opciones muy cerca que consideramos excelentes lugares para conocer:</p><ul><li>Brasão Coliseu</li><li>Dona Francesinha</li><li>Lado B</li><li>Café Santiago</li><li>Santa Francesinha</li></ul>"
+        },
+        "2": {
+            "title": "Tripas à Moda do Porto",
+            "content": "<p>Este plato tradicional tiene raíces históricas que se remontan al siglo XV, cuando los habitantes de Oporto, en una época de escasez, abastecieron los barcos que iban a la batalla con toda la carne de la ciudad, dejando solo las tripas para su consumo. El plato es una mezcla de callos de vaca cocidos con frijoles, carnes y verduras.</p><p>Los habitantes de Oporto son orgullosamente llamados \"tripeiros\", y este plato es la demostración de ello. En cualquier restaurante que sirva comida típica encontrarás este plato; acompáñalo con un buen vino tinto y tendrás un almuerzo lleno de historia y orgullo de la ciudad invicta.</p>"
+        },
+        "3": {
+            "title": "Mariscos Frescos",
+            "content": "<p>La proximidad al mar convierte a Oporto en un lugar privilegiado para el consumo de mariscos frescos. Platos como pulpo a la lagareiro (pulpo asado con patatas y aceite de oliva), arroz de mariscos y caldereta de pescado son comunes en los restaurantes de la ciudad. Los mariscos, como camarones, mejillones y almejas, también se sirven en diversas preparaciones, desde caldos hasta platos más elaborados.</p><p>Los restaurantes que sirven mariscos son conocidos aquí como \"marisqueiras\". Las buenas marisquerías generalmente se encuentran más cerca de las playas; toma el metro hasta la estación Brito Capelo, baja hasta la Ribeira, o dirígete a la Marina de Vila Nova de Gaia... hay muchas marisquerías en esas zonas.</p>"
+        },
+        "4": {
+            "title": "Queso de la Sierra y Embutidos",
+            "content": "<p>Aunque Oporto no es directamente conocido por sus quesos, el Queijo da Serra da Estrela, un queso de oveja curado, se consume ampliamente en la ciudad. También es común encontrar platos que combinan quesos y embutidos, como chorizo, salpicón y jamón, a menudo servidos como aperitivos en tabernas y restaurantes.</p><p>La gente del norte tiene fama de ser más cálida y disfruta de encuentros casuales para socializar. A menudo se reúnen en tabernas para tomar una buena cerveza fría, comer aperitivos, escuchar buena música y conversar durante horas. El queso de la sierra y los embutidos tradicionales realmente complementan esta atmósfera de los portuenses.</p>"
+        }
+    },
+    "restaurantes": {
+        "title": "Restaurantes",
+        "1": {
+            "title": "Conga, Casa das Bifanas",
+            "content": "<p>Un lugar antiguo y muy tradicional, bastante simple e íntimo, pero que sirve su inconfundible bifana (carne de cerdo laminada con un condimento único). Venir a Oporto y perderse esta experiencia sería realmente una pena.</p>"
+        },
+        "2": {
+            "title": "Brasão",
+            "content": "<p>Es una cadena de restaurantes que se popularizó por servir una de las mejores francesinhas, pero no te equivoques al pensar que es el único plato que encontrarás allí. El menú tiene muchas opciones y te invita a una cena inolvidable.</p>"
+        },
+        "3": {
+            "title": "Casa Guedes",
+            "content": "<p>El restaurante se hizo famoso por su famoso sándwich de pernil, pero ha crecido y hoy se especializa en aperitivos y comidas ideales para acompañar con una cerveza o cócteles. La premisa de la casa es hacerte sentir cómodo para relajarte mientras comes.</p>"
+        },
+        "4": {
+            "title": "Abadia do Porto",
+            "content": "<p>Un restaurante antiguo, muy tradicional, con casi cien años de historia. Destaca por su celebración de la gastronomía de Oporto, donde podrás disfrutar de las tripas à moda do Porto y de abundantes platos de mariscos.</p>"
+        },
+        "5": {
+            "title": "Cervejaria Gazela",
+            "content": "<p><em>Aquí es la casa de los famosos cachorrinhos de Batalha</em>. Definitivamente caminarás frente al restaurante varias veces durante tu estancia, vale mucho la pena entrar y probar el cachorrinho o incluso el \"prego\" (sándwich de carne).</p>"
+        },
+        "6": {
+            "title": "Sancho Panza",
+            "content": "<p>Reserva el día que vayas a cenar allí para volver caminando, porque seguramente saldrás muy satisfecho. Sancho Panza es uno de esos restaurantes que suele recibir grandes grupos de personas, ya que tiene un espacio bastante amplio. El menú es muy completo; entre sus especialidades, vale la pena probar la sapateira rellena, su fabuloso arroz de tomate, los rojones (carne de cerdo cocida lentamente), entre muchas otras opciones tradicionales.</p>"
+        },
+        "7": {
+            "title": "Laréu",
+            "content": "<p>Un jardín urbano bastante íntimo es el ambiente que propone el restaurante. Rodeado de personas extremadamente amables, serás recibido con calidez en tu visita. En el menú encontrarás pizzas, sándwiches italianos, hamburguesas y algunos platos portugueses.</p>"
+        },
+        "8": {
+            "title": "Douro Sentido",
+            "content": "<p>Restaurante muy enfocado en la cocina tradicional portuguesa, la gran estrella de la casa son definitivamente los platos de bacalao, que te dejarán un recuerdo agradable en el paladar. Si vas, intenta hablar con el dueño, que siempre está presente; te dará consejos útiles sobre la ciudad.</p>"
+        },
+        "9": {
+            "title": "éLeBê",
+            "content": "<p>Una verdadera experiencia gastronómica, con sabores bastante complejos y únicos. La casa prepara orgullosamente todos sus ingredientes, creando así platos de temporada y distintos entre sí.</p>"
+        },
+        "10": {
+            "title": "Torreão",
+            "content": "<p>Si vas a visitar, elige un horario que no sea demasiado tarde. Además de platos de alta calidad, el restaurante ofrece una magnífica vista del Duero. Pasar el atardecer disfrutando del vino de la casa y degustando una comida de carnes nobles dejará un recuerdo eterno de tu visita a Oporto.</p>"
+        }
+    }
+}

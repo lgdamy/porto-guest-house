@@ -1,0 +1,65 @@
+{
+        "description": "<p>La cuisine de Porto est l'un des plus grands charmes de la ville, reflétant non seulement les saveurs caractéristiques de la région, mais aussi le lien profond de la ville avec la mer et son histoire d'échanges culturels au fil des siècles. La ville, qui fut l'un des plus grands ports commerciaux du Portugal, a absorbé des influences de différentes parties du monde, résultant en une cuisine riche, diversifiée et remplie de traditions.</p>",
+        "comidas-tipicas": {
+            "title": "Plats Typiques",
+            "1": {
+                "title" : "Francesinha",
+                "content" : "<p>Un des plats les plus emblématiques de Porto, la francesinha est un sandwich garni de viande (généralement du steak, de la saucisse et du jambon) recouvert de fromage et d'une sauce épicée à base de tomate et de bière. Elle est généralement servie avec des frites et un œuf frit sur le dessus.</p><p>On dit que la francesinha est une adaptation du Croque-monsieur parisien, c'est pourquoi elle a reçu ce nom. De nombreux touristes viennent à Porto et essaient la francesinha de divers établissements pour comparer laquelle ils préfèrent, et il est vraiment impossible de savoir quel restaurant prépare la meilleure francesinha. Mais voici quelques options proches d'ici que nous considérons comme de très bons endroits à découvrir :</p><ul><li>Brasão Coliseu</li><li>Dona Francesinha</li><li>Lado B</li><li>Café Santiago</li><li>Santa Francesinha</li></ul>"
+            },
+            "2": {
+                "title" : "Tripas à la Mode de Porto",
+                "content" : "<p>Ce plat traditionnel a des racines historiques remontant au XVe siècle, lorsque les habitants de Porto, pendant une période de pénurie, ont approvisionné les navires qui partaient en guerre avec toute la viande de la ville, ne laissant que les tripes à consommer. Le plat est un mélange de tripes de vache cuites avec des haricots, des viandes et des légumes.</p><p>Le peuple de Porto est fièrement appelé \"tripeiro\", et ce plat en est la démonstration. Dans n'importe quel restaurant servant de la cuisine typique, vous trouverez ce plat, accompagnez-le d'un bon vin rouge et vous aurez un déjeuner riche en histoire et en fierté de la ville invaincue.</p>"
+            },
+            "3": {
+                "title" : "Fruits de Mer Frais",
+                "content" : "<p>La proximité de la mer fait de Porto un lieu privilégié pour la consommation de fruits de mer frais. Des plats comme le poulpe à la lagareiro (poulpe rôti avec des pommes de terre et de l'huile d'olive), le riz aux fruits de mer et la caldeirada de poisson sont courants dans les restaurants de la ville. Les fruits de mer, comme les crevettes, les moules et les palourdes, sont également servis sous diverses préparations, allant des bouillons aux plats plus élaborés.</p><p>Les restaurants servant des fruits de mer sont connus ici sous le nom de marisqueiras. Et les bonnes marisqueiras se trouvent généralement plus près des plages, prenez le métro jusqu'à la station Brito Capelo, ou descendez vers la Ribeira, ou encore près de la Marina de Vila Nova de Gaia... il y a de nombreuses marisqueiras dans ces régions.</p>"
+            },
+            "4": {
+                "title" : "Fromage de la Serra et Charcuterie",
+                "content" : "<p>Bien que Porto ne soit pas directement connu pour ses fromages, le fromage de la Serra da Estrela, un fromage de brebis affiné, est largement consommé dans la ville. Il est également courant de trouver des plats combinant fromages et charcuterie, comme le chorizo, le salpicão et le jambon, souvent servis comme tapas dans les tascas et les restaurants.</p><p>Le peuple du nord est réputé pour être plus chaleureux et aime les rencontres informelles pour socialiser. Ils se retrouvent souvent dans les tascas pour boire une bonne bière bien fraîche, manger des tapas, écouter de la bonne musique et discuter pendant des heures interminables. Le fromage de la Serra et les charcuteries traditionnelles complètent vraiment cette ambiance des habitants de Porto.</p>"
+            }
+        },
+        "restaurantes": {
+            "title": "Restaurants",
+            "1": {
+                "title" : "Conga, Casa das Bifanas",
+                "content" : "<p>Un endroit ancien et très traditionnel, assez simple et intime, mais qui sert sa bifana (viande de porc tranchée avec un assaisonnement unique), venir à Porto et rater cette expérience serait vraiment dommage.</p>"
+            },
+            "2": {
+                "title" : "Brasão",
+                "content" : "<p>C'est une chaîne de restaurants qui est devenue populaire pour servir l'une des meilleures francesinhas, mais ne vous y trompez pas si vous pensez que c'est le seul plat que vous y trouverez. Le menu propose de nombreuses options et vous invite à un dîner inoubliable.</p>"
+            },
+            "3": {
+                "title" : "Casa Guedes",
+                "content" : "<p>Le restaurant a été popularisé pour son célèbre sandwich au porc, mais il a évolué et est maintenant spécialisé dans les tapas et des plats parfaits pour accompagner une bière ou des cocktails. Le principe de la maison est de vous laisser vous détendre pendant que vous mangez.</p>"
+            },
+            "4": {
+                "title" : "Abadia do Porto",
+                "content" : "<p>Un restaurant ancien, très traditionnel avec presque cent ans d'histoire. Il se distingue par sa célébration de la cuisine de Porto, ici vous pourrez déguster les tripas à la mode de Porto et des plats copieux de fruits de mer.</p>"
+            },
+            "5": {
+                "title" : "Cervejaria Gazela",
+                "content" : "<p><em>Ici, c'est la maison des célèbres cachorrinhos da Batalha</em>. Vous allez certainement passer devant le restaurant plusieurs fois pendant votre séjour, cela vaut vraiment la peine d'entrer et d'essayer le cachorrinho, ou même le \"prego\" (sandwich au steak).</p>"
+            },
+            "6": {
+                "title" : "Sancho Panza",
+                "content" : "<p>Réservez une journée pour dîner ici, car vous allez certainement en sortir très satisfait. Sancho Panza est un de ces restaurants qui reçoit souvent de grands groupes, car il dispose d'un espace assez vaste. Le menu est très complet, parmi ses spécialités, il vaut la peine de découvrir la sapateira farcie, son fabuleux riz à la tomate, les rojões (viande de porc cuite lentement), entre bien d'autres options traditionnelles.</p>"
+            },
+            "7": {
+                "title" : "Laréu",
+                "content" : "<p>Un jardin urbain assez intime est l'ambiance proposée par le restaurant. Entouré de personnes extrêmement sympathiques, vous serez accueilli lors de votre visite. Le menu propose des pizzas, des sandwiches italiens, des hamburgers et quelques plats portugais.</p>"
+            },
+            "8": {
+                "title" : "Douro Sentido",
+                "content" : "<p>Restaurant très axé sur la cuisine traditionnelle portugaise, la grande star de la maison est définitivement les plats de morue, qui vous laisseront un agréable souvenir en bouche. Si vous allez là-bas, essayez de discuter avec le propriétaire, qui est toujours présent, il vous donnera des conseils utiles sur la ville.</p>"
+            },
+            "9": {
+                "title" : "éLeBê",
+                "content" : "<p>Une véritable expérience gastronomique, avec des saveurs assez complexes et uniques. La maison prépare fièrement tous ses ingrédients, créant ainsi des plats saisonniers et distincts les uns des autres.</p>"
+            },
+            "10": {
+                "title" : "Torreão",
+                "content" : "<p>Si vous allez visiter, privilégiez une heure pas trop tardive. En plus des plats de haute qualité, le restaurant offre une vue magnifique sur le Douro. Passer le coucher du soleil en buvant le vin de la maison et en dégustant un repas de viandes nobles laissera un souvenir éternel de votre visite à Porto.</p>"
+            }
+        }
+}
