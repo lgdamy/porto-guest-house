@@ -20,7 +20,36 @@
       "menu": "Plan du site"
     }
   },
-  "cultura": {},
+  "cultura": {
+    "1": {
+      "title": "Musée de Serralves",
+      "content": "<p>Ce musée d'art contemporain est l'un des plus importants du Portugal. Le bâtiment lui-même est une œuvre architecturale inoubliable, avec plusieurs salles spacieuses offrant des caractéristiques uniques. Il convient également de mentionner les jardins entourant le musée, qui présentent diverses sculptures en plein air qui ne manqueront pas de vous impressionner.</p><p>Vous pouvez suivre les expositions du musée sur le <a href=\"https://www.serralves.pt/agenda-serralves\" target=\"_blank\">site officiel</a>. Vous n'aurez aucune difficulté à acheter vos billets sur place, car le musée est assez vaste et peut accueillir de nombreux visiteurs.</p>"
+    },
+    "2": {
+      "title": "Musée National Soares dos Reis",
+      "content": "<p>Créé au début du XIXe siècle, il s'agit du premier musée public d'art au Portugal. Vous y trouverez de nombreuses œuvres d'une grande valeur historique pour le pays, mettant en avant l'immense patrimoine culturel et artistique du Portugal, ainsi que les trésors ramenés au fil des années grâce aux grandes découvertes.</p>"
+    },
+    "3": {
+      "title": "Centre Portugais de la Photographie",
+      "content": "<p>Situé dans une ancienne prison au cœur de Porto, également connue sous le nom de Cadeia da Relação, ce bâtiment est une source de fierté pour la ville. Les expositions qui s'y tiennent sont un complément fascinant qui impressionne souvent les amateurs de photographie. De nombreux grands photographes y ont déjà exposé leurs œuvres.</p><p>L'entrée aux expositions est gratuite, et il est recommandé de planifier votre visite par une journée ensoleillée, car l'abondante lumière naturelle rend l'endroit encore plus spécial... Profitez-en pour explorer les environs et découvrir toutes les pièces de cette prison de plus de 300 ans.</p>"
+    },
+    "4": {
+      "title": "Cinéma Batalha",
+      "content": "<p>Le Cinéma Batalha, ou simplement Batalha Centro de Cinema, est un lieu culturel emblématique de Porto, situé sur la Praça da Batalha. Inauguré en 1947, le bâtiment arbore un style architectural moderniste et a été l'un des principaux cinémas de la ville pendant des décennies.</p><p>Après plusieurs années de fermeture, l'espace a été rénové et rouvert en 2022 en tant que centre dédié au cinéma, projetant des films classiques, indépendants et contemporains, et accueillant des festivals et événements culturels. Il abrite également des expositions, des conférences et des activités éducatives liées au septième art. Consultez la programmation sur le <a href=\"https://www.batalhacentrodecinema.pt/\" target=\"_blank\">site officiel</a> et choisissez une séance qui vous intrigue.</p>"
+    },
+    "5": {
+      "title": "Théâtre National São João",
+      "content": "<p>Ce bâtiment historique a été construit à la fin du XVIIIe siècle et était à l'origine appelé <em>Teatro do Príncipe</em>. Cependant, un incendie dévastateur l'a détruit en 1908. En raison de son importance culturelle pour Porto, il a été reconstruit 12 ans plus tard et est aujourd'hui en excellent état, classé monument national.</p><p>C'est l'un des joyaux qui montrent combien le peuple portugais entretient une relation intime avec l'art. La programmation du théâtre inclut non seulement des pièces classiques et contemporaines, mais aussi des événements de danse, de musique et d'autres spectacles d'une immense valeur culturelle. Consultez l'<a href=\"https://www.tnsj.pt/pt/agenda\" target=\"_blank\">agenda</a> et voyez si quelque chose attire votre attention.</p>"
+    },
+    "6": {
+      "title": "Casa da Música",
+      "content": "<p>La Casa da Música est l'une des principales salles de concert de Porto. Le bâtiment présente un design audacieux et futuriste, se distinguant dans le paysage urbain. Il abrite non seulement l'<em>Orquestra Sinfónica do Porto</em>, mais aussi d'autres formations musicales majeures.</p><p>La programmation de la Casa da Música est très variée, mais voici quelques points forts :<ul><li><b>Concerts de musique classique</b> - Performances de l'Orquestra Sinfónica do Porto, Remix Ensemble, Orquestra Barroca.</li><li><b>Musique contemporaine et expérimentale</b> - Jazz, musique électronique, musiques du monde et nouvelles tendances.</li><li><b>Festivals thématiques</b> - Comme le Festival de Piano, le Marathon Beethoven, l'Automne en Jazz.</li><li><b>Concerts de groupes et d'artistes internationaux</b> - De différents genres, du rock à l'indie et à la musique électronique.</li><li><b>Ateliers et activités éducatives</b> - Pour les enfants, les jeunes et les adultes, explorant le monde de la musique.</li></ul></p>"
+    },
+    "7": {
+      "title": "Alfândega do Porto",
+      "content": "<p>C'est un immense bâtiment situé sur les rives du fleuve Douro, qui servait autrefois d'entrepôt et de centre commercial. En raison de sa taille, il est aujourd'hui utilisé pour des foires, des expositions et des événements culturels. De nombreux artistes contemporains y ont organisé des événements dans ses cours, et certaines salles sont régulièrement utilisées pour des expositions interactives qui améliorent considérablement l'expérience.</p><p>En outre, il abrite le Musée des Transports et des Communications, où les expositions portent sur l'histoire des transports au Portugal.</p>"
+    }
+  },
   "gastronomia": {
     "description": "<p>La cuisine de Porto est l'un des plus grands charmes de la ville, reflétant non seulement les saveurs caractéristiques de la région, mais aussi le lien profond de la ville avec la mer et son histoire d'échanges culturels au fil des siècles. La ville, qui fut l'un des plus grands ports commerciaux du Portugal, a absorbé des influences de différentes parties du monde, résultant en une cuisine riche, diversifiée et remplie de traditions.</p>",
     "comidas-tipicas": {
