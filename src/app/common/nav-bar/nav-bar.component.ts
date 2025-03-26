@@ -68,7 +68,7 @@ export class NavBarComponent implements OnInit {
   }
 
   private updateTooltips() {
-    Object.keys(this.tooltip).forEach(key => this.translateService.get(`navbar.${key}`)
+    Object.keys(this.tooltip).forEach(key => this.translateService.get(`common.navbar.${key}`)
       .subscribe(value => this.tooltip[key] = value));
   }
 

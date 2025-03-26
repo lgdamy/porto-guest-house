@@ -1,0 +1,26 @@
+{
+    "1": {
+        "title": "Transporte Público",
+        "content": "<p>A localização do apartamento já é bem próxima de diversos pontos interessantes do Porto, mas se você quiser ir para mais longe, a cidade possui um sistema de transporte público moderno e pontual. Tanto o metro quanto os autocarros (ônibus) são pagos com uma passagem digital que possui duração de aproximadamente uma hora, para adquirir esta passagem você precisará comprar um cartão <b>Andante</b> e carregar ele.</p><p>O horário de funcionamento do metro é até 01am e durante a madrugada, há linhas especiais de autocarros. Normalmente as rotas fornecidas pelo google maps possuem os itinerários precisos de circulação, e costumam ser uma boa opção para pesquisar sua locomoção.</p><p>Se você quiser viajar distâncias maiores, o terminal de comboios de São Bento provavelmente vai ser o seu ponto de partida, com o mesmo cartão <b>Andante</b> você conseguirá adquirir sua passagem. Se pretende ir a uma cidade que não é próxima de uma linha ferroviária, uma boa alternativa pode ser o <a href=\"https://www.flixbus.pt/\" target=\"_blank\">FlixBus</a>, o ponto de partida nesse caso será o terminal de Campanhã</p>"
+    },
+    "2": {
+        "title": "Estacionamentos Públicos",
+        "content": "<p>Se você estiver de carro, deve ter parado provavelmente em um estacionamento público e utilizado moedas para pagar o estacionamento. Como aqui é o centro da cidade, nenhum lugar na rua vai ser gratuito para estacionar.</p><p>O horário pago de estacionamento dessa zona é das 8 da manhã até as 6 da tarde, e gratuito aos fins de semana. Como não se pode pagar mais de duas horas de estacionamento, algumas vezes você vai ficar preocupado em carregar o parquímetro antes da validade. Uma solução para este problema pode ser o <a href=\"https://telpark.page.link/store\" target=\"_blank\">Telpark</a>, com ele você não precisa se preocupar em ter moedas, e pode estender o tempo do seu estacionamento sem precisar ir para o carro.</p>"
+    },
+    "3": {
+        "title": "Garagem Ibéria",
+        "content": "<p>Se você não conseguir encontrar nenhuma vaga minimamente perto para estacionar, ou se você quiser parar o carro em um lugar coberto, a Garagem Ibéria é a mais próxima daqui. E pode ser uma boa alternativa se a sua intenção for deixar o carro por um período longo para só buscar no fim da sua visita.</p>"
+    },
+    "4": {
+        "title": "Mercado Pingo Doce",
+        "content": "<p>Um mercado de porte médio localizado perto do apartamento, nele servem-se refeições completas que pode ser uma alternativa rápida e saudável. O Pingo doce tem a fama de possuir produtos de marca própria com boa qualidade, o que também pode ser uma alternativa econômica ao realizar suas compras.</p><p>O horário de funcionamento do Pingo Doce é 8 da manhã e 9 da noite. Uma boa alternativa para quando você precisa ir ao mercado depois do horário é o Mini Preço, do outro lado da rua, que fica aberto até as 11 da noite.</p>"
+    },
+    "5": {
+        "title": "Mercado Continente",
+        "content": "<p>Em algumas ocasiões você precisa de um mercado de porte maior, seja para comprar um produto muito específico, ou para comprar algo em grande quantidade. Uma opção que não é tão próxima, mas que vai te dar uma variedade maior de produtos, é o mercado Continente, sua distância ainda é confortável para poder levar suas compras de volta sem dificuldades.</p>"
+    },
+    "6": {
+        "title": "Farmácia Henriques",
+        "content": "<p>Normalmente os mercados mais próximos vendem medicamentos básicos, porém se você precisar de um medicamento controlado, ou se você precisar de um curativo rápido, a farmácia mais próxima é logo ao lado e pode ser uma boa primeira opção.</p>"
+    }
+}

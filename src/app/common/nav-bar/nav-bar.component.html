@@ -1,6 +1,6 @@
 <mat-toolbar color="primary" class="mat-elevation-z6">
     <mat-toolbar-row>
-        <span class="title">{{'pages.' + currentRoute | translate}}</span>
+        <span class="title">{{'common.pages.' + currentRoute | translate}}</span>
         <span class="h-space"></span>
         <button mat-icon-button *ngIf="navdetails" 
             [matTooltip]="tooltip.home"
@@ -21,10 +21,10 @@
             [matMenuTriggerFor]="navmenu"><mat-icon>menu</mat-icon>
         </button>
         <mat-menu #navmenu="matMenu">
-            <button *ngFor="let route of availableRoutes" mat-menu-item [routerLink]="route">{{ 'pages.' + route | translate }}</button>
+            <button *ngFor="let route of availableRoutes" mat-menu-item [routerLink]="route">{{ 'common.pages.' + route | translate }}</button>
         </mat-menu>
     </mat-toolbar-row>
     <mat-toolbar-row class="desktop-items" *ngIf="navdetails && !mobile">
-        <button *ngFor="let route of availableRoutes" mat-button [routerLink]="route">{{ 'pages.' + route | translate }}</button>
+        <button *ngFor="let route of availableRoutes" mat-button [routerLink]="route">{{ 'common.pages.' + route | translate }}</button>
     </mat-toolbar-row>
 </mat-toolbar>

@@ -4,7 +4,7 @@
     <p>{{ 'menu-inicial.p2' | translate }}</p>
     <mat-grid-list [cols]="gridCols" rowHeight="4:3" (window:resize)="onResize($event)">
         <mat-grid-tile *ngFor="let route of availableRoutes" class="tile" [ngStyle]="{'background-image': 'url(assets/img/menu-inicial/' + route + '.png)'}">
-            <button mat-button color="secondary" routerLink="{{route}}">{{'pages.'+ route | translate }}</button>
+            <button mat-button color="secondary" routerLink="{{route}}">{{'common.pages.'+ route | translate }}</button>
         </mat-grid-tile>
     </mat-grid-list>
     <footer class="footer">

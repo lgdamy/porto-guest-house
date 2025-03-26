@@ -149,7 +149,7 @@ export class GeolocatorService {
 
   private fallback(error?): {lat, lon} {
     if (error) console.error(error);
-    this.snackbar.open(this.translate.instant('geolocation-error'), undefined, {
+    this.snackbar.open(this.translate.instant('common.geolocation-error'), undefined, {
       horizontalPosition: 'center',
       verticalPosition: 'bottom',
       duration: 5000,
