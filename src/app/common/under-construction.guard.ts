@@ -19,7 +19,7 @@ export class UnderConstructionGuard implements CanActivate {
   canActivate(
     next: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
-      this.snackbar.open(this.translate.instant('under-construction'), undefined, {
+      this.snackbar.open(this.translate.instant('common.under-construction'), undefined, {
         horizontalPosition: 'center',
         verticalPosition: 'bottom',
         duration: 3000,

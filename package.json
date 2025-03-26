@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "merge-i18n": "node i18n/merge.js",
+    "build": "npm run merge-i18n && ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -24,7 +25,7 @@
     "@angular/router": "~9.1.3",
     "@ngx-translate/core": "^12.1.2",
     "@ngx-translate/http-loader": "^5.0.0",
-    "ngx-translate-multi-http-loader": "^2.1.2",
+    "fs-extra": "^11.3.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
