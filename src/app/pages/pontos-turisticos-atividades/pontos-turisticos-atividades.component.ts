@@ -1,4 +1,4 @@
-import { Component, OnInit, QueryList, ViewChildren } from '@angular/core';
+import { Component, Injector, OnInit, QueryList, ViewChildren } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { MatExpansionPanel } from '@angular/material/expansion';
 import { MatIconRegistry } from '@angular/material/icon';
@@ -75,15 +75,17 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
     private readonly geolocatorService: GeolocatorService,
     private readonly iconRegistry: MatIconRegistry,
     private readonly domSanitizer: DomSanitizer,
-    private readonly translateService: TranslateService
+    private readonly translateService: TranslateService,
+    injector: Injector
   ) {
-      super();
+      super(injector);
   }
 
   ngOnInit(): void {
     this.filterMap = Object.entries(this.filters).map(([key, value]) => ({ name: key, form: value }));
     this.entryMap = Array.from(this.entries, ([id, categorias]) => ({id: id, categorias: categorias }));
     this.filtersIcons();
+    this.filterMap.forEach(filter => filter.form.valueChanges.subscribe(value => this.trackingService.track('filter_items',`${filter.name}:${value}`, 'USER_ACTION')))
   }
 
   private filtersIcons() {
@@ -109,6 +111,7 @@ export class PontosTuristicosAtividadesComponent extends AnimatedComponent imple
   }
 
   async sort(sortBy: 'location'| 'alphabetical' | 'default') {
+    this.trackingService.track('sort_items', sortBy, 'USER_ACTION');
     this.panels.forEach(panel => panel.close());
     var order;
     switch(sortBy) {

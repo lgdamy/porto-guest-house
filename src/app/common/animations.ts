@@ -1,6 +1,7 @@
 import { animate, style, transition, trigger } from "@angular/animations";
-import { AfterViewInit, ElementRef, HostBinding, ViewChild } from "@angular/core";
+import { AfterViewInit, ElementRef, HostBinding, Inject, Injector, QueryList, ViewChild, ViewChildren } from "@angular/core";
 import { MatExpansionPanel } from "@angular/material/expansion";
+import { TrackingService } from "./tracking.service";
 
 export const slideInOut = trigger('routeAnimation', [
     transition(':enter', [
@@ -26,15 +27,22 @@ export const fadeInOut = trigger('routeAnimation', [
 
 export abstract class AnimatedComponent implements AfterViewInit{
   @HostBinding('@routeAnimation') animateRoute = true;
-  @ViewChild('expansionPanel', { static: false }) expansionPanel: ElementRef;
 
   protected extraOffset: number = 0;
+
+  protected trackingService: TrackingService;
+
+  constructor(protected readonly injector: Injector){
+    this.trackingService = injector.get(TrackingService);
+  }
   
   ngAfterViewInit(): void {
     setTimeout(() => window.scrollTo({top:0}),300);
   }
 
   onPanelOpened(panel: MatExpansionPanel) {
+    const panelTitle = document.getElementById(panel._headerId).innerText;
+    this.trackingService.track('panel_expanded', panelTitle,'USER_ACTION');
     setTimeout(() => {
       const top = panel._body.nativeElement.getBoundingClientRect().top;
       const toolbarOffset = window.outerWidth < 599 ? 56 :  window.outerWidth < 900 ? 64 : 100;

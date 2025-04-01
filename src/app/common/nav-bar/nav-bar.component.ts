@@ -5,6 +5,7 @@ import { NavigationEnd, Router } from '@angular/router';
 import { routes } from '@app/app-routing.module';
 import { TranslateService } from '@ngx-translate/core';
 import {filter} from 'rxjs/operators'
+import { TrackingService } from '../tracking.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -34,6 +35,7 @@ export class NavBarComponent implements OnInit {
     private readonly domSanitizer: DomSanitizer,
     private readonly router: Router,
     private readonly translateService: TranslateService,
+    private readonly tracking: TrackingService,
     ) {
   }
 
@@ -46,9 +48,10 @@ export class NavBarComponent implements OnInit {
     this.availableRoutes = routes.filter(route => !route.redirectTo).map(route => route.path).filter(routes=>!!routes);
     this.router.events.pipe(
       filter(event => event instanceof NavigationEnd)
-    ).subscribe(() => {
-      this.navdetails = this.router.url !== '/';
+    ).subscribe((event : NavigationEnd) => {
+      this.navdetails = event.urlAfterRedirects !== '/';
       this.currentRoute = this.availableRoutes.find(route => this.router.url.includes(route)) ?? 'index';
+      this.tracking.track('page_view', this.currentRoute, 'ROUTING')
     });
   }
 
@@ -64,6 +67,7 @@ export class NavBarComponent implements OnInit {
     const startingLang = window.localStorage.getItem('lang') ?? navigator.language.slice(0,2);
     if (Object.keys(this.availableLangs).includes(startingLang)) {
       this.translateService.use(startingLang);
+      this.tracking.track('language_init', startingLang, 'TRANSLATE');
     }
   }
 
@@ -75,6 +79,7 @@ export class NavBarComponent implements OnInit {
   changeLang(lang: string) {
     this.translateService.use(lang);
     window.localStorage.setItem('lang', lang);
+    this.tracking.track('language_changed', lang,'TRANSLATE');
     this.updateTooltips();
   }
 }

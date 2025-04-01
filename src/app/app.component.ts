@@ -10,14 +10,5 @@ import { TrackingService } from '@app/common/tracking.service';
 export class AppComponent {
   title = 'porto-guest-house';
 
-  constructor(
-    public router : Router,
-    tracking : TrackingService,
-    ) {
-    this.router.events.subscribe(event => {
-      if (event instanceof NavigationEnd) {
-        tracking.track('page_view', event.urlAfterRedirects, 'ROUTING');
-      }
-    })
-  }
+  constructor(){}
 }

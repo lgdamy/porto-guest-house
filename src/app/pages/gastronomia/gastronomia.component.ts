@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Injector } from '@angular/core';
 import { AnimatedComponent, slideInOut } from '@app/common/animations';
 import { GeolocatorService } from '@app/common/geolocator.service';
 
@@ -33,8 +33,10 @@ export class GastronomiaComponent extends AnimatedComponent {
 
   geoUrls$ = this.geolocatorService.getUrls('gastronomia');
 
-  constructor(private readonly geolocatorService: GeolocatorService) {
-      super();
+  constructor(private readonly geolocatorService: GeolocatorService,
+    injector: Injector
+    ) {
+      super(injector);
   }
 
 }
