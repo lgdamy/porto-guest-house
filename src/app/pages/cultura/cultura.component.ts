@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Injector } from '@angular/core';
 import { AnimatedComponent, slideInOut } from '@app/common/animations';
 import { GeolocatorService } from '@app/common/geolocator.service';
 
@@ -24,8 +24,9 @@ export class CulturaComponent extends AnimatedComponent {
 
   constructor(
     private readonly geolocatorService: GeolocatorService,
+    injector: Injector
   ) {
-      super();
+      super(injector);
   }
 
 }
