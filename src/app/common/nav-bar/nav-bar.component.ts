@@ -50,7 +50,7 @@ export class NavBarComponent implements OnInit {
       filter(event => event instanceof NavigationEnd)
     ).subscribe((event : NavigationEnd) => {
       this.navdetails = event.urlAfterRedirects !== '/';
-      this.currentRoute = this.availableRoutes.find(route => this.router.url.includes(route)) ?? 'index';
+      this.currentRoute = this.availableRoutes.find(route => this.router.url.includes(route)) ?? 'home';
       this.tracking.track('page_view', this.currentRoute, 'ROUTING')
     });
   }
