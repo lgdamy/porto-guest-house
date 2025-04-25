@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Porto Guest House</title>
+  <base href="/">  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/icons/pwa/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="assets/icons/pwa/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/pwa/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Porto Guest House" />
+  <link rel="manifest" href="assets/site.webmanifest" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--gtag-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F8HFS72W4Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-F8HFS72W4Y', {'send_page_view': false, 'cookie_domain':'auto'});
+  </script>
+  <!--gtag-->
+  <style>
+    /* Preloader styles */
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+    .spinner {
+      border: 8px solid rgba(0, 0, 0, 0.1);
+      width: 50px;
+      height: 50px;
+      border-radius: 70%;
+      border-left-color: #7a5643;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+<link rel="stylesheet" href="styles.9707e379e938b3f6644e.css"></head>
+<body class="mat-typography">
+  <div id="preloader">
+    <div class="spinner"></div>
+  </div>
+  <app-root></app-root>
+  <script>
+    window.addEventListener('load', function () {
+      document.getElementById('preloader').style.display = 'none';
+    });
+  </script>
+<script src="runtime-es2015.17457c14264390561f33.js" type="module"></script><script src="runtime-es5.17457c14264390561f33.js" nomodule defer></script><script src="polyfills-es5.096a618207a0370b413f.js" nomodule defer></script><script src="polyfills-es2015.8b55eca9d69bc249f05a.js" type="module"></script><script src="main-es2015.0278eabd0022a6fb8c4d.js" type="module"></script><script src="main-es5.0278eabd0022a6fb8c4d.js" nomodule defer></script></body>
+</html>

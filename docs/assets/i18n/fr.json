@@ -1,0 +1,324 @@
+{
+  "common": {
+    "under-construction": "Oups, nous n'avons pas encore fini de construire cette page.",
+    "geolocation-error": "Nous ne pouvons pas accéder à votre emplacement, les distances sont relatives à l'appartement.",
+    "pages": {
+      "home": "Appartement Élégant à Batalha, Centre",
+      "pontos-turisticos-atividades": "Points Touristiques et Activités",
+      "gastronomia": "Gastronomie",
+      "utilidades": "Utilitaires",
+      "vida-noturna": "Vie Nocturne",
+      "atividades-criancas": "Activités pour Enfants",
+      "atividades-ar-livre": "Activités de Plein Air",
+      "lembrancas": "Souvenirs",
+      "cultura": "Culture",
+      "roteiros-prontos": "Itinéraires Prêts"
+    },
+    "navbar": {
+      "home": "Accueil",
+      "language": "Langue (Français)",
+      "menu": "Plan du site"
+    }
+  },
+  "cultura": {
+    "1": {
+      "title": "Musée de Serralves",
+      "content": "<p>Ce musée d'art contemporain est l'un des plus importants du Portugal. Le bâtiment lui-même est une œuvre architecturale inoubliable, avec plusieurs salles spacieuses offrant des caractéristiques uniques. Il convient également de mentionner les jardins entourant le musée, qui présentent diverses sculptures en plein air qui ne manqueront pas de vous impressionner.</p><p>Vous pouvez suivre les expositions du musée sur le <a href=\"https://www.serralves.pt/agenda-serralves\" target=\"_blank\">site officiel</a>. Vous n'aurez aucune difficulté à acheter vos billets sur place, car le musée est assez vaste et peut accueillir de nombreux visiteurs.</p>"
+    },
+    "2": {
+      "title": "Musée National Soares dos Reis",
+      "content": "<p>Créé au début du XIXe siècle, il s'agit du premier musée public d'art au Portugal. Vous y trouverez de nombreuses œuvres d'une grande valeur historique pour le pays, mettant en avant l'immense patrimoine culturel et artistique du Portugal, ainsi que les trésors ramenés au fil des années grâce aux grandes découvertes.</p>"
+    },
+    "3": {
+      "title": "Centre Portugais de la Photographie",
+      "content": "<p>Situé dans une ancienne prison au cœur de Porto, également connue sous le nom de Cadeia da Relação, ce bâtiment est une source de fierté pour la ville. Les expositions qui s'y tiennent sont un complément fascinant qui impressionne souvent les amateurs de photographie. De nombreux grands photographes y ont déjà exposé leurs œuvres.</p><p>L'entrée aux expositions est gratuite, et il est recommandé de planifier votre visite par une journée ensoleillée, car l'abondante lumière naturelle rend l'endroit encore plus spécial... Profitez-en pour explorer les environs et découvrir toutes les pièces de cette prison de plus de 300 ans.</p>"
+    },
+    "4": {
+      "title": "Cinéma Batalha",
+      "content": "<p>Le Cinéma Batalha, ou simplement Batalha Centro de Cinema, est un lieu culturel emblématique de Porto, situé sur la Praça da Batalha. Inauguré en 1947, le bâtiment arbore un style architectural moderniste et a été l'un des principaux cinémas de la ville pendant des décennies.</p><p>Après plusieurs années de fermeture, l'espace a été rénové et rouvert en 2022 en tant que centre dédié au cinéma, projetant des films classiques, indépendants et contemporains, et accueillant des festivals et événements culturels. Il abrite également des expositions, des conférences et des activités éducatives liées au septième art. Consultez la programmation sur le <a href=\"https://www.batalhacentrodecinema.pt/\" target=\"_blank\">site officiel</a> et choisissez une séance qui vous intrigue.</p>"
+    },
+    "5": {
+      "title": "Théâtre National São João",
+      "content": "<p>Ce bâtiment historique a été construit à la fin du XVIIIe siècle et était à l'origine appelé <em>Teatro do Príncipe</em>. Cependant, un incendie dévastateur l'a détruit en 1908. En raison de son importance culturelle pour Porto, il a été reconstruit 12 ans plus tard et est aujourd'hui en excellent état, classé monument national.</p><p>C'est l'un des joyaux qui montrent combien le peuple portugais entretient une relation intime avec l'art. La programmation du théâtre inclut non seulement des pièces classiques et contemporaines, mais aussi des événements de danse, de musique et d'autres spectacles d'une immense valeur culturelle. Consultez l'<a href=\"https://www.tnsj.pt/pt/agenda\" target=\"_blank\">agenda</a> et voyez si quelque chose attire votre attention.</p>"
+    },
+    "6": {
+      "title": "Casa da Música",
+      "content": "<p>La Casa da Música est l'une des principales salles de concert de Porto. Le bâtiment présente un design audacieux et futuriste, se distinguant dans le paysage urbain. Il abrite non seulement l'<em>Orquestra Sinfónica do Porto</em>, mais aussi d'autres formations musicales majeures.</p><p>La programmation de la Casa da Música est très variée, mais voici quelques points forts :<ul><li><b>Concerts de musique classique</b> - Performances de l'Orquestra Sinfónica do Porto, Remix Ensemble, Orquestra Barroca.</li><li><b>Musique contemporaine et expérimentale</b> - Jazz, musique électronique, musiques du monde et nouvelles tendances.</li><li><b>Festivals thématiques</b> - Comme le Festival de Piano, le Marathon Beethoven, l'Automne en Jazz.</li><li><b>Concerts de groupes et d'artistes internationaux</b> - De différents genres, du rock à l'indie et à la musique électronique.</li><li><b>Ateliers et activités éducatives</b> - Pour les enfants, les jeunes et les adultes, explorant le monde de la musique.</li></ul></p>"
+    },
+    "7": {
+      "title": "Alfândega do Porto",
+      "content": "<p>C'est un immense bâtiment situé sur les rives du fleuve Douro, qui servait autrefois d'entrepôt et de centre commercial. En raison de sa taille, il est aujourd'hui utilisé pour des foires, des expositions et des événements culturels. De nombreux artistes contemporains y ont organisé des événements dans ses cours, et certaines salles sont régulièrement utilisées pour des expositions interactives qui améliorent considérablement l'expérience.</p><p>En outre, il abrite le Musée des Transports et des Communications, où les expositions portent sur l'histoire des transports au Portugal.</p>"
+    }
+  },
+  "gastronomia": {
+    "description": "<p>La cuisine de Porto est l'un des plus grands charmes de la ville, reflétant non seulement les saveurs caractéristiques de la région, mais aussi le lien profond de la ville avec la mer et son histoire d'échanges culturels au fil des siècles. La ville, qui fut l'un des plus grands ports commerciaux du Portugal, a absorbé des influences de différentes parties du monde, résultant en une cuisine riche, diversifiée et remplie de traditions.</p>",
+    "comidas-tipicas": {
+      "1": {
+        "title": "Francesinha",
+        "content": "<p>Un des plats les plus emblématiques de Porto, la francesinha est un sandwich garni de viande (généralement du steak, de la saucisse et du jambon) recouvert de fromage et d'une sauce épicée à base de tomate et de bière. Elle est généralement servie avec des frites et un œuf frit sur le dessus.</p><p>On dit que la francesinha est une adaptation du Croque-monsieur parisien, c'est pourquoi elle a reçu ce nom. De nombreux touristes viennent à Porto et essaient la francesinha de divers établissements pour comparer laquelle ils préfèrent, et il est vraiment impossible de savoir quel restaurant prépare la meilleure francesinha. Mais voici quelques options proches d'ici que nous considérons comme de très bons endroits à découvrir :</p><ul><li>Brasão Coliseu</li><li>Dona Francesinha</li><li>Lado B</li><li>Café Santiago</li><li>Santa Francesinha</li></ul>"
+      },
+      "2": {
+        "title": "Tripas à la Mode de Porto",
+        "content": "<p>Ce plat traditionnel a des racines historiques remontant au XVe siècle, lorsque les habitants de Porto, pendant une période de pénurie, ont approvisionné les navires qui partaient en guerre avec toute la viande de la ville, ne laissant que les tripes à consommer. Le plat est un mélange de tripes de vache cuites avec des haricots, des viandes et des légumes.</p><p>Le peuple de Porto est fièrement appelé \"tripeiro\", et ce plat en est la démonstration. Dans n'importe quel restaurant servant de la cuisine typique, vous trouverez ce plat, accompagnez-le d'un bon vin rouge et vous aurez un déjeuner riche en histoire et en fierté de la ville invaincue.</p>"
+      },
+      "3": {
+        "title": "Fruits de Mer Frais",
+        "content": "<p>La proximité de la mer fait de Porto un lieu privilégié pour la consommation de fruits de mer frais. Des plats comme le poulpe à la lagareiro (poulpe rôti avec des pommes de terre et de l'huile d'olive), le riz aux fruits de mer et la caldeirada de poisson sont courants dans les restaurants de la ville. Les fruits de mer, comme les crevettes, les moules et les palourdes, sont également servis sous diverses préparations, allant des bouillons aux plats plus élaborés.</p><p>Les restaurants servant des fruits de mer sont connus ici sous le nom de marisqueiras. Et les bonnes marisqueiras se trouvent généralement plus près des plages, prenez le métro jusqu'à la station Brito Capelo, ou descendez vers la Ribeira, ou encore près de la Marina de Vila Nova de Gaia... il y a de nombreuses marisqueiras dans ces régions.</p>"
+      },
+      "4": {
+        "title": "Fromage de la Serra et Charcuterie",
+        "content": "<p>Bien que Porto ne soit pas directement connu pour ses fromages, le fromage de la Serra da Estrela, un fromage de brebis affiné, est largement consommé dans la ville. Il est également courant de trouver des plats combinant fromages et charcuterie, comme le chorizo, le salpicão et le jambon, souvent servis comme tapas dans les tascas et les restaurants.</p><p>Le peuple du nord est réputé pour être plus chaleureux et aime les rencontres informelles pour socialiser. Ils se retrouvent souvent dans les tascas pour boire une bonne bière bien fraîche, manger des tapas, écouter de la bonne musique et discuter pendant des heures interminables. Le fromage de la Serra et les charcuteries traditionnelles complètent vraiment cette ambiance des habitants de Porto.</p>"
+      },
+      "title": "Plats Typiques"
+    },
+    "restaurantes": {
+      "1": {
+        "title": "Conga, Casa das Bifanas",
+        "content": "<p>Un endroit ancien et très traditionnel, assez simple et intime, mais qui sert sa bifana (viande de porc tranchée avec un assaisonnement unique), venir à Porto et rater cette expérience serait vraiment dommage.</p>"
+      },
+      "2": {
+        "title": "Brasão",
+        "content": "<p>C'est une chaîne de restaurants qui est devenue populaire pour servir l'une des meilleures francesinhas, mais ne vous y trompez pas si vous pensez que c'est le seul plat que vous y trouverez. Le menu propose de nombreuses options et vous invite à un dîner inoubliable.</p>"
+      },
+      "3": {
+        "title": "Casa Guedes",
+        "content": "<p>Le restaurant a été popularisé pour son célèbre sandwich au porc, mais il a évolué et est maintenant spécialisé dans les tapas et des plats parfaits pour accompagner une bière ou des cocktails. Le principe de la maison est de vous laisser vous détendre pendant que vous mangez.</p>"
+      },
+      "4": {
+        "title": "Abadia do Porto",
+        "content": "<p>Un restaurant ancien, très traditionnel avec presque cent ans d'histoire. Il se distingue par sa célébration de la cuisine de Porto, ici vous pourrez déguster les tripas à la mode de Porto et des plats copieux de fruits de mer.</p>"
+      },
+      "5": {
+        "title": "Cervejaria Gazela",
+        "content": "<p><em>Ici, c'est la maison des célèbres cachorrinhos da Batalha</em>. Vous allez certainement passer devant le restaurant plusieurs fois pendant votre séjour, cela vaut vraiment la peine d'entrer et d'essayer le cachorrinho, ou même le \"prego\" (sandwich au steak).</p>"
+      },
+      "6": {
+        "title": "Sancho Panza",
+        "content": "<p>Réservez une journée pour dîner ici, car vous allez certainement en sortir très satisfait. Sancho Panza est un de ces restaurants qui reçoit souvent de grands groupes, car il dispose d'un espace assez vaste. Le menu est très complet, parmi ses spécialités, il vaut la peine de découvrir la sapateira farcie, son fabuleux riz à la tomate, les rojões (viande de porc cuite lentement), entre bien d'autres options traditionnelles.</p>"
+      },
+      "7": {
+        "title": "Laréu",
+        "content": "<p>Un jardin urbain assez intime est l'ambiance proposée par le restaurant. Entouré de personnes extrêmement sympathiques, vous serez accueilli lors de votre visite. Le menu propose des pizzas, des sandwiches italiens, des hamburgers et quelques plats portugais.</p>"
+      },
+      "8": {
+        "title": "Douro Sentido",
+        "content": "<p>Restaurant très axé sur la cuisine traditionnelle portugaise, la grande star de la maison est définitivement les plats de morue, qui vous laisseront un agréable souvenir en bouche. Si vous allez là-bas, essayez de discuter avec le propriétaire, qui est toujours présent, il vous donnera des conseils utiles sur la ville.</p>"
+      },
+      "9": {
+        "title": "éLeBê",
+        "content": "<p>Une véritable expérience gastronomique, avec des saveurs assez complexes et uniques. La maison prépare fièrement tous ses ingrédients, créant ainsi des plats saisonniers et distincts les uns des autres.</p>"
+      },
+      "10": {
+        "title": "Torreão",
+        "content": "<p>Si vous allez visiter, privilégiez une heure pas trop tardive. En plus des plats de haute qualité, le restaurant offre une vue magnifique sur le Douro. Passer le coucher du soleil en buvant le vin de la maison et en dégustant un repas de viandes nobles laissera un souvenir éternel de votre visite à Porto.</p>"
+      },
+      "title": "Restaurants"
+    }
+  },
+  "lembrancas": {
+    "1": {
+      "title": "Ó Ceramica",
+      "content": "<p>Au cœur du quartier des arts, à Miguel Bombarda, se trouve Ó Cerâmica, un espace qui combine boutique, galerie et studio créatif. Axée sur la céramique, la boutique propose des pièces d'artisans portugais et étrangers, tout en mettant en avant le design contemporain.</p><p>En plus d'une sélection exclusive de pièces artisanales, Ó Cerâmica organise des expositions, des résidences artistiques, des conférences et des ateliers, permettant aux visiteurs d’interagir avec les artistes et de s’immerger dans le processus créatif de la céramique.</p><p>Carreaux peints à la main, bols, assiettes, tasses, sculptures, cruches et vases réalisés par des artistes locaux font d’Ó Cerâmica l’endroit idéal pour rapporter chez soi un morceau de l’art et de la culture portugaise. Une visite incontournable pour les amateurs de céramique !</p>"
+    },
+    "2": {
+      "title": "Ó Galeria",
+      "content": "<p>Ó Galeria est un espace charmant dédié à l’art contemporain, où chaque pièce raconte une histoire. Petite en taille mais riche en diversité, la galerie expose des illustrations, des gravures et des cartes postales d’artistes locaux et internationaux, faisant d’elle l’endroit idéal pour trouver des souvenirs uniques.</p><p>En plus des œuvres d’art, la galerie propose des t-shirts, des sacs et d’autres articles créatifs, tous avec une touche artistique exclusive. Le meilleur ? Chaque achat soutient directement un artiste vivant !</p><p>Si vous cherchez un souvenir authentique et abordable, vous pouvez rapporter chez vous des cartes postales et des gravures à encadrer, des t-shirts et sacs illustrés, ou encore de petites impressions artistiques à collectionner.</p><p><em>Visitez Ó Galeria et repartez avec un morceau de l’art de Porto !</em></p>"
+    },
+    "3": {
+      "title": "Garrafeira do Carmo",
+      "content": "<p>Porto est célèbre pour son vin, en particulier le vin de Porto. La visite d'une cave locale pour une dégustation est incontournable, mais n'oubliez pas d’emporter une ou deux bouteilles chez vous. Les vins portugais, y compris le Vinho Verde et les vins du Douro, sont des cadeaux fantastiques pour les amateurs de vin. Vous pouvez également opter pour une bonne bouteille de vin de Porto, symbole de la ville.</p>"
+    },
+    "4": {
+      "title": "Toranja",
+      "content": "<p>Toranja est une boutique de souvenirs pleine de personnalité, offrant des illustrations vibrantes et des photographies d’artistes nationaux sur des produits exclusifs. Vous y trouverez des t-shirts, leggings, sacs, coussins, affiches, carreaux de faïence, dessous de verre et mugs, tous avec une touche unique pour votre maison.</p><p>Pour un usage quotidien, il y a des carnets, des étuis à lunettes et des coques de téléphone, tous fabriqués à la main au Portugal.</p><p>Plus qu’une simple boutique de souvenirs, Toranja est un espace où l’art local reflète l’essence de Porto dans chaque détail. Si vous cherchez un souvenir spécial ou un cadeau unique, c’est une excellente option !</p>"
+    },
+    "5": {
+      "title": "Casa Natal",
+      "content": "<p>Casa Natal, située en plein cœur de Porto, est une épicerie historique qui propose une sélection de produits authentiques de la gastronomie portugaise. Avec des arômes d’épices flottant dans l’air, c’est l’endroit idéal pour trouver de la morue séchée, des vins de Porto et de table, des eaux-de-vie, des liqueurs, des conserves, de la charcuterie, des fromages, des huiles d’olive, des douceurs traditionnelles et des fruits secs.</p><p>Parfait pour ceux qui souhaitent rapporter un morceau de Porto chez eux ou offrir des produits authentiquement portugais, Casa Natal est également réputée pour son accueil chaleureux et ses conseils avisés.</p>"
+    },
+    "6": {
+      "title": "Pérola do Bolhão",
+      "content": "<p>Pérola do Bolhão, fondée en 1917 et située en face du célèbre marché du Bolhão, est l’une des épiceries les plus traditionnelles et emblématiques de Porto. Avec sa façade Art Nouveau décorée de carreaux de faïence, la boutique séduit par son mélange d’histoire et de qualité.</p><p>À l’intérieur, les visiteurs trouvent une sélection de fromages de montagne, de charcuterie régionale, de fruits secs, de vins, de biscuits traditionnels et d’une variété de produits portugais authentiques. Spécialisée à l’origine dans les thés, cafés et épices, la boutique est aussi célèbre pour son cochon de lait rôti et son jambon, issus de porcs élevés en plein air.</p><p>Avec un service attentionné, Pérola do Bolhão est l’endroit idéal pour ceux qui recherchent un souvenir gastronomique ou veulent découvrir les saveurs traditionnelles de Porto. Parmi les options, on trouve des conserves, des vins de Porto, des liqueurs, des fromages et de la charcuterie sous vide, des biscuits artisanaux et des douceurs typiques.</p>"
+    },
+    "7": {
+      "title": "Prometeu",
+      "content": "<p>Prometeu est l’endroit idéal pour ceux qui recherchent des souvenirs traditionnels de Porto. Avec plusieurs boutiques dans les zones touristiques, elle propose une large sélection de souvenirs, tels que des aimants, des porte-clés, des carreaux de faïence, des bijoux et des pièces en porcelaine, parfaits à rapporter chez soi ou à offrir.</p><p>Avec une gamme de prix variée, les vitrines de Prometeu offrent une expérience visuelle charmante.</p>"
+    }
+  },
+  "menu-inicial": {
+    "welcome": "Bienvenue dans notre appartement confortable à Porto !",
+    "p1": "Nous sommes ravis de vous accueillir. Que vous soyez ici pour explorer l’histoire riche de la ville, profiter des magnifiques vues ou simplement vous détendre, nous espérons que vous vivrez une expérience inoubliable. N’hésitez pas à nous contacter si vous avez besoin de quoi que ce soit pendant votre séjour.",
+    "p2": "Profitez bien de votre séjour à Porto !",
+    "footer": "N'oubliez pas de noter votre visite 😊"
+  },
+  "pontos-turisticos-atividades": {
+    "1": {
+      "title": "Quartier de la Ribeira",
+      "content": "<p>Un des quartiers les plus vibrants de Porto, la Ribeira séduit par ses maisons colorées, ses ruelles charmantes et ses restaurants animés au bord du fleuve Douro. C'est l'endroit idéal pour se promener, savourer la cuisine locale et admirer le célèbre Pont Dom Luis I.</p><p>Comment y arriver :</p><ul><li><b>Funiculaire des Guindais</b> - Sortez du bâtiment, tournez à gauche, traversez la Praça da Batalha et descendez la Rua de Augusto Rosa. Prenez le funiculaire à droite de la rue et descendez jusqu'à l'Avenida Gustavo Eiffel. Tournez à droite et voilà, vous êtes arrivés !</li><li><b>À pied par l'escalier des Guindais</b> - Suivez le même chemin jusqu'à la Muralha Fernandina, restez à gauche et descendez les escaliers. Une fois arrivé à l'Avenida Gustavo Eiffel, tournez à droite et profitez de la Ribeira !</li></ul>"
+    },
+    "2": {
+      "title": "Pont Dom Luis I",
+      "content": "<p>Ce pont emblématique à deux niveaux relie Porto à Vila Nova de Gaia et offre des vues panoramiques spectaculaires. Conçu par un disciple de Gustave Eiffel, sa plateforme supérieure est idéale pour une promenade à pied, surtout au coucher du soleil.</p><p>Parmi les six ponts de Porto, c'est le plus marquant - et le meilleur : vous êtes à seulement 600 mètres de celui-ci, vous pouvez l'admirer sous différents angles !</p>"
+    },
+    "3": {
+      "title": "Librairie Lello",
+      "content": "<p>Considérée comme l'une des plus belles librairies du monde, la Librairie Lello se distingue par son architecture néogothique, son bois sculpté et son impressionnant escalier rouge. On dit qu'elle a inspiré J.K. Rowling lorsqu'elle vivait à Porto, bien que l'auteure ait nié cette influence dans la création de Harry Potter.</p> La librairie se trouve à 1 km de l'appartement. L'entrée à l'intérieur est régulée par des horaires spécifiques, donc anticipez l'heure de votre visite et <a href=\"https://livrarialello.pt\" target=\"_blank\">achetez un billet</a> à l'avance. Notez que le prix du billet peut être utilisé pour acheter l'un de ses livres vraiment uniques.</p><p>La Librairie Lello est également un point de référence culturel important à Porto, attirant non seulement les amateurs de livres, mais aussi des touristes du monde entier qui sont émerveillés par sa beauté unique et son atmosphère magique.</p>"
+    },
+    "4": {
+      "title": "Tour des Clérigos",
+      "content": "<p>Un des symboles les plus emblématiques de Porto, la Tour des Clérigos a été construite au XVIIIe siècle et mesure 76 mètres de hauteur, visible depuis plusieurs points de la ville. Monter ses 225 marches est une expérience unique, récompensée par une vue panoramique spectaculaire de Porto et du fleuve Douro.</p><p>La visite de l'extérieur de l'église et de la tour est gratuite, mais pour monter, il est nécessaire d'acheter un billet à l'entrée ou sur le <a href=\"https://torredosclerigos.pt\" target=\"_blank\">site officiel</a>. Lors de dates spéciales, des visites nocturnes sont proposées, offrant une vue encore plus magique de la ville illuminée.</p><p>Si vous êtes logé chez nous, ne manquez pas cette expérience inoubliable !</p>"
+    },
+    "5": {
+      "title": "Gare de São Bento",
+      "content": "<p>La gare de São Bento est bien plus qu'un simple point de départ pour les voyages en train ; c'est un véritable trésor historique et culturel de Porto. Célèbre pour ses impressionnants panneaux de carreaux bleus et blancs, la gare retrace des scènes marquantes de l'histoire du Portugal, telles que la bataille de Buçaco et l'arrivée du train dans la ville. La beauté des carreaux, avec leurs couleurs vibrantes et leurs détails minutieux, séduira même les visiteurs qui ne prennent pas le train. En passant par là, vous aurez l'occasion de vous immerger dans la riche histoire du pays, tout en admirant la grandeur architecturale de cet endroit emblématique. Ainsi, même si vous n'avez pas l'intention de prendre le train, il vaut la peine de faire une pause pour explorer cette gare qui est un véritable monument de la ville de Porto.</p>"
+    },
+    "6": {
+      "title": "Cathédrale de Porto",
+      "content": "<p>La Cathédrale de Porto est l'un des monuments les plus emblématiques de la ville et se trouve à quelques minutes de notre appartement – une étape incontournable ! L'église a été construite au XIIe siècle, sa façade imposante et le mélange des styles roman et gothique en font un véritable trésor historique. L'intérieur est fascinant avec ses détails en bois doré et une atmosphère unique.</p><p>Monter à la tour de la cathédrale est une expérience à ne pas manquer. De là-haut, vous aurez une vue imprenable sur la ville, avec des panoramas sur la Ribeira, le fleuve Douro et les collines de Porto. Si vous êtes logé chez nous, profitez de la proximité et découvrez ce monument historique avec l'une des vues les plus incroyables de la ville !</p>"
+    },
+    "7": {
+      "title": "Palais de la Bourse",
+      "content": "<p>Construit au XIXe siècle pour abriter la Bourse des valeurs, le Palais de la Bourse est aujourd'hui un point touristique important de Porto. En entrant, vous serez immédiatement séduit par la grandeur de ses intérieurs, en particulier le magnifique Salon Arabe, avec ses détails décoratifs et son atmosphère exotique.</p><p>Explorez la magnifique cour intérieure et les autres salles, toutes riches en histoire et en beauté. Le Palais de la Bourse propose des visites guidées qui vous transporteront dans le temps, révélant des anecdotes fascinantes sur l'histoire du commerce et de la ville.</p><p>Situé à quelques minutes de notre appartement, c'est une excellente expérience pour ceux qui souhaitent découvrir Porto dans toute sa richesse historique et culturelle !</p>"
+    },
+    "8": {
+      "title": "Église de Saint François",
+      "content": "<p>L'Église de Saint François est l'un des joyaux gothiques de Porto, célèbre pour son intérieur époustouflant, entièrement recouvert de bois doré. Ses autels baroques, richement sculptés, créent une atmosphère de beauté et de révérence.</p><p>Située à côté du Palais de la Bourse, l'église permet un circuit historique complet. En plus de sa décoration impressionnante, la visite inclut les catacombes, où reposent des membres de l'Ordre des Franciscains et des familles nobles de Porto. Une visite incontournable pour ceux qui souhaitent plonger dans l'histoire et la culture de la ville.</p>"
+    },
+    "9": {
+      "title": "Vila Nova de Gaia & Caves de Vin de Porto",
+      "content": "<p>De l'autre côté du fleuve Douro, en traversant le célèbre Pont Dom Luis I, Vila Nova de Gaia abrite les caves les plus renommées de vin de Porto, telles que Sandeman, Graham’s, Taylor’s et Ferreira. Il est possible de visiter les caves, où vous aurez l'opportunité de faire une visite guidée, plongeant dans l'histoire fascinante du vin de Porto et, bien sûr, de profiter d'une dégustation délicieuse.</p><p>En marchant le long des rives du fleuve, vous ressentirez l'atmosphère vibrante locale, avec de nombreuses activités et un environnement accueillant. En plus des caves, il existe plusieurs restaurants typiques pour déguster la cuisine portugaise. Et si la marche le long des rives du Douro vous donne envie de vous détendre, ne vous inquiétez pas : vous pouvez choisir de monter en téléphérique et admirer la vue imprenable sur la ville et le fleuve. Une expérience unique et à ne pas manquer !</p>"
+    },
+    "10": {
+      "title": "Fondation Serralves",
+      "content": "<p>La Fondation Serralves est l'un des principaux centres culturels du Portugal, réunissant l'art, l'architecture et la nature. Inaugurée en 1999, elle abrite le Musée d'Art Contemporain, la magnifique Maison de Serralves, de style Art Déco, et un vaste parc avec des jardins et des sculptures en plein air.</p><p>Le musée présente des expositions d'artistes nationaux et internationaux dans un environnement moderne et inspirant. La Maison de Serralves transporte les visiteurs dans le charme de l'Art Déco, tandis que le parc offre un refuge vert, avec des sentiers, des sculptures et la passerelle entre les arbres (Treetop Walk).</p><p>La Fondation organise également des événements et des activités éducatives, rendant la visite encore plus enrichissante et relaxante.</p>"
+    },
+    "11": {
+      "title": "Jardins du Palais de Cristal",
+      "content": "<p>Le Palais de Cristal est l'un des espaces verts les plus charmants de Porto, offrant une vue imprenable sur le fleuve Douro. Le nom fait référence à l'ancien pavillon en verre, qui n'existe plus, mais le parc reste l'un des endroits les plus tranquilles et beaux de la ville.</p><p>Le parc dispose de jardins thématiques, de lacs paisibles et de sculptures, créant ainsi l'ambiance parfaite pour une promenade relaxante. N'oubliez pas de chercher les paons qui se promènent librement et qui enchantent, surtout les enfants.</p><p>Le Palais de Cristal abrite également la Superbock Arena, qui accueille des événements culturels et sportifs. Si votre visite coïncide avec un événement, cela vaut la peine d'y jeter un œil !</p><p>Un lieu idéal pour ceux qui recherchent l'union entre nature et culture.</p>"
+    },
+    "12": {
+      "title": "World of Discoveries",
+      "content": "<p>Plongez dans l'histoire des grandes explorations portugaises au World of Discoveries, un musée interactif et un parc à thème. Explorez les routes des navigateurs des XVe et XVIe siècles à travers des expositions immersives, des décors impressionnants et même une promenade en bateau qui vous transporte dans le passé.</p><p>Une expérience unique qui combine apprentissage et divertissement pour tous les âges, où histoire et émotion se rencontrent à chaque étape. Si vous souhaitez voyager dans le temps, c'est l'endroit idéal pour commencer !</p>"
+    },
+    "13": {
+      "title": "Sealife",
+      "content": "<p>Préparez-vous pour un voyage sous-marin au Sea Life Porto, un aquarium interactif avec diverses espèces marines, comme des requins, des raies, des pieuvres et des hippocampes. L'attraction phare est le tunnel sous-marin, qui offre une expérience immersive dans l'océan.</p><p>Sea Life propose également des activités éducatives sur la vie marine et la préservation des océans.</p><p>Situé près de la plage, vous pouvez en profiter pour vous promener le long du rivage et savourer des fruits de mer dans l'un des excellents restaurants de la région. Une expérience complète de la vie marine et de la gastronomie locale !</p>"
+    },
+    "14": {
+      "title": "Zoo Santo Inácio",
+      "content": "<p>Le Zoo Santo Inácio est le plus grand zoo du nord du Portugal, avec plus de 200 espèces, dont des lions, des tigres, des girafes et des pingouins. Inauguré en 2000, c'est un espace dédié à la conservation de la biodiversité, offrant des habitats naturels pour les animaux.</p><p>En plus des expositions, le zoo propose des activités éducatives et des présentations quotidiennes sur la préservation de la faune. Une visite idéale pour tous les âges, alliant plaisir et apprentissage !</p>"
+    },
+    "15": {
+      "title": "Parc de la Ville de Porto",
+      "content": "<p>Le Parc de la Ville est le plus grand espace vert urbain du Portugal, avec 83 hectares de nature. Idéal pour des promenades relaxantes ou des activités de plein air, le parc offre plus de 10 km de sentiers, des lacs paisibles et une faune et une flore riches.</p><p>Les familles, les touristes et même les chiens profitent de l'immensité du parc pour se promener, faire du vélo ou socialiser. Pour les enfants, c'est un lieu inoubliable. À la sortie ouest, vous atteignez la plage de Matosinhos, parfaite pour un coucher de soleil spectaculaire. La nature et la ville se rencontrent ici !</p>"
+    },
+    "16": {
+      "title": "Casa da Música",
+      "content": "<p>La Casa da Música est un icône culturel et architectural de Porto, avec une acoustique impeccable et une programmation allant du classique au jazz, à l'électronique et à la musique du monde. Siège de l'Orchestre symphonique de Porto, elle propose également des activités culturelles et éducatives.</p><p>Le lieu propose des visites guidées permettant d'explorer son architecture unique et d'en apprendre davantage sur sa riche programmation musicale. Les visites durent environ 1 heure et se font quotidiennement, avec des horaires en portugais à 11h et en anglais à 16h. Le prix pour participer est de 10€ par personne, avec entrée gratuite pour les enfants jusqu'à 12 ans, accompagnés d'un adulte avec un billet payant. Il est à noter que le prix du billet peut être utilisé comme crédit pour l'achat de billets pour n'importe quel concert de la programmation de la Casa da Música. Il est recommandé d'acheter les billets à l'avance, soit directement à la billetterie, soit par téléphone au +351 220 120 220.</p><p>La Casa da Música est située près de la Rotunda da Boavista, et il est intéressant de profiter de la visite pour explorer la place environnante. Vous y trouverez le Monument aux Héros de la Guerre Péninsulaire, un imposant obélisque de 45 mètres de hauteur, qui est un point historique de la ville.</p>"
+    },
+    "17": {
+      "title": "Parc des Vertus",
+      "content": "<p>Le Parc des Vertus est l'un des secrets les plus charmants de Porto, offrant des vues incroyables sur le fleuve Douro. Situé sur des terrains historiques de la Companhia Hortícola Portuense, le parc se distingue par ses terrasses jardinées, idéales pour se détendre, pique-niquer ou admirer le coucher du soleil. L'une de ses plus grandes attractions est le Gingko Biloba, l'un des arbres les plus anciens de la ville. Idéal pour une promenade tranquille ou pour échapper à l'agitation urbaine, ce parc est un véritable havre de paix au centre de Porto.</p>"
+    },
+    "18": {
+      "title": "Phare de Felgueiras",
+      "content": "<p>Le Phare de Felgueiras est un point historique très important à l'entrée du fleuve Douro et l'une des vues les plus inoubliables de la ville.</p><p>Construit au XIXe siècle, le Phare de Felgueiras guide la navigation dans l'estuaire du fleuve Douro et constitue une référence importante dans la tradition maritime de Porto. Bien qu'il soit devenu plus symbolique avec les avancées de la technologie de navigation, il continue d'émettre des signaux lumineux pour guider les navires à l'entrée du Douro.</p><p>Avec sa tour en pierre robuste et la lumière intense qu'il émet, le phare offre une vue spectaculaire sur la côte atlantique et l'embouchure du Douro.</p><p>C'est l'endroit idéal pour une promenade tranquille au bord de l'eau, avec une vue panoramique à couper le souffle pendant la journée, mais il offre surtout un coucher de soleil inoubliable en bord de mer. Un lieu chargé d'histoire et de beauté naturelle !</p>"
+    },
+    "19": {
+      "title": "Club Minigolfe de Porto",
+      "content": "<p>Si vous cherchez à vous divertir en plein air, le Club Minigolfe de Porto est l'endroit idéal ! Avec des terrains de minigolf bien entretenus, le club offre une expérience détendue et amusante pour tous les âges. Que vous soyez en famille ou entre amis, c'est l'endroit parfait pour une journée de loisirs. En plus d'être une option populaire pour ceux qui veulent s'amuser, le club organise également des événements et des compétitions, ajoutant encore plus d'excitation au jeu. Préparez-vous à une expérience amusante, pleine de rires et de moments mémorables !</p>"
+    },
+    "20": {
+      "title": "Casa Portuguesa do Pastel de Bacalhau",
+      "content": "<p>Si vous n'avez pas encore goûté au fameux pastel de bacalhau portugais, la Casa Portuguesa do Pastel de Bacalhau à Vila Nova de Gaia est l'endroit parfait pour cela ! Ce restaurant unique, avec deux étages et des étagères de livres, offre une expérience gastronomique très spéciale. Au centre de la salle, un imposant orgue à tuyaux est l'attraction principale, avec des concerts tous les 15 minutes, créant une ambiance unique. Le plat vedette ? Le pastel de bacalhau farci de fromage de brebis de la Serra da Estrela, accompagné d'un verre de vin blanc de Porto. Il ne fait aucun doute : c'est le meilleur pastel de bacalhau que vous goûterez à Porto, et vous repartirez avec la sensation d'avoir vécu une véritable expérience portugaise.</p>"
+    },
+    "21": {
+      "title": "Casa São Roque",
+      "content": "<p>La Casa São Roque est l'un des bâtiments les plus historiques de Porto, offrant une expérience culturelle incroyable. Ce lieu charmant est connu non seulement pour son architecture splendide, mais aussi pour son parc botanique, rempli de plantes et de fleurs de différentes origines. Le point culminant du parc est le labyrinthe circulaire, qui offre du plaisir aux enfants et est un excellent endroit à explorer en famille. De plus, la maison abrite souvent des expositions d'art contemporain et des événements musicaux, rendant la visite une véritable immersion dans la culture locale. Un espace qui combine histoire, art et nature de manière parfaite !</p>"
+    },
+    "22": {
+      "title": "Marché du Bolhão",
+      "content": "<p>Le Marché du Bolhão est l'un des joyaux les plus emblématiques de Porto, récemment restauré pour préserver son âme unique, mais avec une touche moderne. Situé au cœur historique de la ville, ce marché iconique offre une expérience authentique avec plus de 70 commerçants, se distinguant par ses étals de produits frais tels que le poisson, les fruits, les légumes, les fromages et les charcuteries.</p><p>Le marché dispose également de boutiques d'artisanat, de cafés et même de restaurants, parfaits pour savourer un snack ou un repas typique. Pendant l'été, le marché prend vie avec des performances d'artistes locaux, rendant la visite encore plus spéciale.</p>"
+    },
+    "23": {
+      "title": "Marché Bom Sucesso",
+      "content": "<p>Le Marché Bom Sucesso, près de la station Casa da Música, est un espace moderne et dynamique. Avec son ambiance spacieuse et lumineuse, il offre une variété d'options gastronomiques locales et internationales, allant des cafés et gâteaux aux repas complets. Il y a aussi des étals spécialisés dans les fromages, les viandes et les produits typiques portugais, ainsi qu'un bar à bières.</p><p>En plus de la gastronomie, le marché est un lieu culturel, avec de l'artisanat et des performances musicales en direct, parfois plusieurs fois par semaine. Il y a aussi des espaces extérieurs pour se détendre et profiter de l'atmosphère de la ville.</p>"
+    },
+    "24": {
+      "title": "TimeOut Market",
+      "content": "<p>Récemment inauguré, il est situé près de la station de São Bento. Ce marché moderne est divisé en deux étages, avec le rez-de-chaussée étant la principale zone de restauration. Vous y trouverez une variété d'options gastronomiques de haute qualité, allant des plats typiques portugais à la cuisine internationale.</p><p>Au premier étage, l'expérience est plus tranquille, offrant une vue privilégiée sur la gare. L'atmosphère du lieu est chaleureuse et dynamique, avec des espaces extérieurs pour ceux qui souhaitent profiter de l'ambiance de la ville tout en savourant un bon plat.</p><p>En plus des options gastronomiques, le marché dispose de boutiques de produits artisanaux et d'une salle de dégustation de vins du Douro et de Porto, installée dans une tour métallique inspirée des anciens réservoirs d'eau des gares. Une expérience pour ceux qui souhaitent explorer les meilleurs vins portugais dans un cadre sophistiqué.</p>"
+    },
+    "sort": {
+      "relevance": "Pertinence",
+      "location": "Proximité",
+      "alphabetical": "Alphabétique"
+    },
+    "filter": {
+      "turistico": "Sites Touristiques",
+      "ar-livre": "Activités en Plein Air",
+      "criancas": "Activités pour Enfants",
+      "gratis": "Activités Gratuites"
+    }
+  },
+  "roteiros-prontos": {},
+  "utilidades": {
+    "1": {
+      "title": "Transports Publics",
+      "content": "<p>L'emplacement de l'appartement est déjà proche de nombreux endroits intéressants à Porto, mais si vous souhaitez aller plus loin, la ville dispose d'un système de transport public moderne et ponctuel. Le métro et les bus nécessitent un billet numérique valable environ une heure. Pour acheter ce billet, vous devrez acquérir une carte <b>Andante</b> et la recharger.</p><p>Le métro fonctionne jusqu'à 1h du matin et, pendant la nuit, il existe des lignes de bus spéciales. Les itinéraires fournis par Google Maps sont généralement précis et constituent une bonne option pour planifier vos déplacements.</p><p>Si vous souhaitez parcourir de plus longues distances, la gare de São Bento sera probablement votre point de départ. Avec la même carte <b>Andante</b>, vous pouvez acheter votre billet. Si vous devez vous rendre dans une ville non desservie par une ligne ferroviaire, une bonne alternative peut être <a href=\"https://www.flixbus.pt/\" target=\"_blank\">FlixBus</a>, avec un départ depuis la gare routière de Campanhã.</p>"
+    },
+    "2": {
+      "title": "Parkings Publics",
+      "content": "<p>Si vous êtes en voiture, vous avez probablement garé votre véhicule dans un parking public et payé avec des pièces. Comme nous sommes en centre-ville, il n'existe aucun stationnement gratuit dans la rue.</p><p>Les horaires de stationnement payant dans cette zone sont de 8h à 18h et sont gratuits le week-end. Comme vous ne pouvez pas payer plus de deux heures à l'avance, il peut être contraignant de renouveler le parcmètre avant son expiration. Une solution pratique est <a href=\"https://telpark.page.link/store\" target=\"_blank\">Telpark</a>, qui vous permet de payer sans pièces et de prolonger votre stationnement à distance.</p>"
+    },
+    "3": {
+      "title": "Garage Ibéria",
+      "content": "<p>Si vous ne trouvez pas de place de stationnement à proximité ou si vous préférez un parking couvert, le Garage Ibéria est le plus proche. C'est une bonne alternative si vous souhaitez laisser votre voiture pour une longue durée et ne la récupérer qu'à la fin de votre visite.</p>"
+    },
+    "4": {
+      "title": "Supermarché Pingo Doce",
+      "content": "<p>Un supermarché de taille moyenne situé près de l'appartement. Il propose également des repas complets, une alternative rapide et équilibrée. Pingo Doce est réputé pour ses produits de marque distributeur de bonne qualité, ce qui en fait une option économique.</p><p>Le Pingo Doce est ouvert de 8h à 21h. Si vous devez faire vos courses après cette heure, une bonne alternative est le Mini Preço, de l'autre côté de la rue, qui reste ouvert jusqu'à 23h.</p>"
+    },
+    "5": {
+      "title": "Supermarché Continente",
+      "content": "<p>Parfois, vous avez besoin d'un supermarché plus grand, que ce soit pour acheter un produit spécifique ou pour faire des achats en grande quantité. Bien qu'il ne soit pas tout proche, le Continente offre un plus grand choix de produits, et la distance reste raisonnable pour transporter vos courses.</p>"
+    },
+    "6": {
+      "title": "Pharmacie Henriques",
+      "content": "<p>Les supermarchés à proximité vendent généralement des médicaments de base, mais si vous avez besoin d'un médicament sur ordonnance ou d'un pansement rapide, la pharmacie la plus proche est juste à côté et constitue une excellente première option.</p>"
+    }
+  },
+  "vida-noturna": {
+    "1": {
+      "title": "Galerie de Paris",
+      "content": "<p>Le cœur de la vie nocturne de Porto ! Une rue pleine de bars et de clubs, idéale pour faire un tour des bars. Le week-end, les gens ont l'habitude de boire dans la rue, créant une ambiance animée.</p><p>Les Galeries de Paris sont souvent fréquentées par de nombreux jeunes et étudiants, qui accueillent les touristes avec une immense joie. Vous serez certainement contaminé par l'énergie de l'esprit festif.</p>"
+    },
+    "2": {
+      "title": "Base Porto",
+      "content": "<p>Un bar en plein air près de la Tour des Clérigos, idéal pour ceux qui recherchent un environnement plus décontracté, avec de bons cocktails et des DJs jouant de la musique chill-out.</p><p>Le grand attrait ici est le parc rempli d'oliviers surélevé, parfait pour se rafraîchir lors des chaudes après-midis. Les visiteurs s'assoient souvent sur l'herbe pour profiter de leurs boissons et de la musique.</p>"
+    },
+    "3": {
+      "title": "Pérola Negra",
+      "content": "<p>Un ancien cabaret transformé en discothèque, avec une ambiance rétro et une musique éclectique. Idéal pour ceux qui veulent danser toute la nuit.</p><p>Étant situé près de la station de Trindade, Pérola Negra attire souvent des personnes venant de plus loin, et elles sont toujours prêtes à passer toute la nuit là-bas en attendant le début du métro.</p>"
+    },
+    "4": {
+      "title": "Maus Hábitos",
+      "content": "<p>Un espace culturel alternatif qui mêle art, gastronomie et fêtes. En plus des soirées, il y a des concerts et des expositions.</p><p>L'espace est également ouvert pendant la journée, et étant proche de l'appartement, il peut aussi être une bonne option pour le déjeuner. Avec sa vue panoramique et relativement élevée, la vue sur la ville est spectaculaire.</p>"
+    },
+    "5": {
+      "title": "Plano B",
+      "content": "<p>Un club avec deux étages et différents styles musicaux (électronique, indie, rock). Une bonne option pour ceux qui aiment la variété.</p><p>Le lieu est proche des Galeries de Paris, et curieusement, il peut être une option B pour ceux qui se rendent aux Galeries mais souhaitent varier.</p>"
+    },
+    "6": {
+      "title": "Hot Five Jazz & Blues Club",
+      "content": "<p>Pour les amateurs de jazz et de blues, ce bar offre des concerts en direct de haute qualité dans une ambiance sophistiquée. L'architecture du bar rappelle un peu le Moulin Rouge.</p><p>Il est situé à quelques mètres de la Casa da Música, ce qui peut être un bon début pour la soirée, offrant une expérience culturelle vraiment unique.</p>"
+    },
+    "7": {
+      "title": "World of Wine",
+      "content": "<p>Un complexe touristique et culturel axé sur des expériences culturelles et gastronomiques, spécialement dédié au vin de Porto. Le WOW est composé de plusieurs attractions, comme des musées et des galeries, et offre une expérience éducative et interactive.</p><p>Le quartier accueille généralement des événements importants bien planifiés et inoubliables, avec des espaces dédiés aux enfants, des pistes de danse et des bars servant des cocktails variés. Attirant des visiteurs de tous âges et cultures, je vous recommande de consulter le <a href=\"https://agendaculturalporto.org/agenda-de-eventos-no-wow-gaia\" target=\"_blank\">canal officiel</a> pour vérifier si un de ces événements se déroule pendant votre séjour ici.</p>"
+    },
+    "8": {
+      "title": "Maria Pistolas",
+      "content": "<p>Cette discothèque est vraiment grande, avec plusieurs espaces offrant différents DJs, il est donc courant que les visiteurs fassent un parcours entre différents styles musicaux.</p><p>Au dernier étage de la discothèque, il y a un lounge avec des fauteuils confortables, ce qui peut vous inviter à faire une pause avant de revenir sur les pistes de danse.</p>"
+    }
+  }
+}

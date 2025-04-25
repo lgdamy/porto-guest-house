@@ -1,0 +1,324 @@
+{
+  "common": {
+    "under-construction": "¡Ups! Aún no hemos terminado de construir esta página.",
+    "geolocation-error": "No podemos acceder a su ubicación, las distancias están relativas al apartamento.",
+    "pages": {
+      "home": "Apartamento Elegante en Batalha, Centro",
+      "pontos-turisticos-atividades": "Puntos Turísticos y Actividades",
+      "gastronomia": "Gastronomía",
+      "utilidades": "Utilidades",
+      "vida-noturna": "Vida Nocturna",
+      "atividades-criancas": "Actividades para Niños",
+      "atividades-ar-livre": "Actividades al Aire Libre",
+      "lembrancas": "Recuerdos",
+      "cultura": "Cultura",
+      "roteiros-prontos": "Itinerarios de Viaje"
+    },
+    "navbar": {
+      "home": "Inicio",
+      "language": "Idioma (Español)",
+      "menu": "Mapa del sitio"
+    }
+  },
+  "cultura": {
+    "1": {
+      "title": "Museo de Serralves",
+      "content": "<p>Este museo de arte contemporáneo es uno de los más importantes de Portugal. El edificio en sí es una obra arquitectónica inconfundible, con varias salas amplias que ofrecen características únicas. También vale la pena mencionar los jardines que rodean el museo, que cuentan con varias esculturas al aire libre que seguramente te impresionarán.</p><p>Puedes seguir las exposiciones del museo a través del <a href=\"https://www.serralves.pt/agenda-serralves\" target=\"_blank\">sitio web oficial</a>. No tendrás dificultades para adquirir tus entradas en el momento de la visita, ya que el museo es bastante amplio y puede albergar a muchos visitantes.</p>"
+    },
+    "2": {
+      "title": "Museo Nacional Soares dos Reis",
+      "content": "<p>Creado a principios del siglo XIX, fue el primer museo público de arte en Portugal. Allí encontrarás numerosas piezas de gran valor histórico para el país, resaltando la inmensa riqueza cultural y artística de Portugal, así como los tesoros traídos a lo largo de los años gracias a los grandes descubrimientos.</p>"
+    },
+    "3": {
+      "title": "Centro Portugués de Fotografía",
+      "content": "<p>Ubicado en una antigua prisión en el corazón de Oporto, también conocida como Cadeia da Relação, el edificio es un motivo de orgullo para la ciudad. Las exposiciones que se presentan allí son un complemento fascinante que suele impresionar a los amantes de la fotografía. Muchos grandes fotógrafos han tenido sus obras expuestas allí.</p><p>La entrada a la exposición es gratuita, y se recomienda planificar la visita en un día soleado, ya que la abundante luz natural hace que el lugar sea aún más especial... Aprovecha para explorar los alrededores y descubrir todas las habitaciones de esta prisión de más de 300 años.</p>"
+    },
+    "4": {
+      "title": "Cine Batalha",
+      "content": "<p>El Cine Batalha, o simplemente Batalha Centro de Cinema, es un espacio cultural icónico en Oporto, ubicado en la Praça da Batalha. Inaugurado en 1947, el edificio tiene un estilo arquitectónico modernista y fue uno de los principales cines de la ciudad durante décadas.</p><p>Tras años de cierre, el espacio fue renovado y reabierto en 2022 como un centro dedicado al cine, proyectando películas clásicas, independientes y contemporáneas, además de albergar festivales y eventos culturales. El lugar también acoge exposiciones, conferencias y actividades educativas relacionadas con el séptimo arte. Consulta la programación en el <a href=\"https://www.batalhacentrodecinema.pt/\" target=\"_blank\">sitio web oficial</a> y elige una sesión que te intrigue.</p>"
+    },
+    "5": {
+      "title": "Teatro Nacional São João",
+      "content": "<p>Este antiguo edificio fue construido a finales del siglo XVIII y se llamaba <em>Teatro do Príncipe</em>, pero un incendio lo destruyó en 1908. Debido a su importancia cultural para Oporto, fue restaurado 12 años después y hoy se encuentra en excelentes condiciones de conservación, habiendo sido clasificado como monumento nacional.</p><p>Es una de las joyas que muestran cómo el pueblo portugués tiene una relación íntima con el arte. La programación del teatro incluye no solo teatro clásico y contemporáneo, sino también eventos de danza, música y otras presentaciones de gran valor cultural. Consulta la <a href=\"https://www.tnsj.pt/pt/agenda\" target=\"_blank\">agenda</a> y mira si algo llama tu atención.</p>"
+    },
+    "6": {
+      "title": "Casa da Música",
+      "content": "<p>La Casa da Música es una de las principales salas de conciertos de Oporto. El edificio tiene un diseño atrevido y futurista que destaca en el paisaje urbano. Es la sede no solo de la <em>Orquestra Sinfónica do Porto</em>, sino también de otras prestigiosas formaciones musicales.</p><p>La programación de la Casa da Música es muy variada, pero algunos de los aspectos más destacados incluyen:<ul><li><b>Conciertos de música clásica</b> - Presentaciones de la Orquestra Sinfónica do Porto, Remix Ensemble y Orquestra Barroca.</li><li><b>Música contemporánea experimental</b> - Eventos de jazz, electrónica, músicas del mundo y nuevas tendencias.</li><li><b>Festivales temáticos</b> - Como el Festival de Piano, Maratón Beethoven y Otoño en Jazz.</li><li><b>Conciertos de bandas y artistas internacionales</b> - De diversos géneros, desde rock hasta indie y música electrónica.</li><li><b>Talleres y actividades educativas</b> - Para niños, jóvenes y adultos, explorando el mundo de la música.</li></ul></p>"
+    },
+    "7": {
+      "title": "Alfândega do Porto",
+      "content": "<p>Es un enorme edificio ubicado a orillas del río Duero, que en el pasado funcionaba como almacén y centro de comercio. Debido a su tamaño, ha sido utilizado para ferias, exposiciones y eventos culturales. Varios artistas modernos han realizado eventos en sus patios, y algunas salas se utilizan regularmente para exposiciones interactivas que aumentan significativamente la inmersión en la muestra.</p><p>Además, allí también se encuentra el Museo del Transporte y las Comunicaciones, donde las exposiciones tratan sobre la historia del transporte en Portugal.</p>"
+    }
+  },
+  "gastronomia": {
+    "description": "<p>La cocina de Oporto es uno de los mayores encantos de la ciudad, reflejando no solo los sabores característicos de la región, sino también la profunda conexión de la ciudad con el mar y su historia de intercambios culturales a lo largo de los siglos. La ciudad, que fue uno de los mayores puertos comerciales de Portugal, absorbió influencias de diversas partes del mundo, resultando en una gastronomía rica, diversa y llena de tradiciones.</p>",
+    "comidas-tipicas": {
+      "1": {
+        "title": "Francesinha",
+        "content": "<p>Uno de los platos más emblemáticos de Oporto, la francesinha es un sándwich relleno de carne (generalmente bistec, chorizo y jamón) cubierto con queso y una salsa picante a base de tomate y cerveza. Normalmente se sirve con patatas fritas y un huevo frito encima.</p><p>Se dice que la francesinha fue una adaptación del parisino Croque-monsieur, por lo que recibió este nombre. Muchos turistas vienen a Oporto y prueban la francesinha en varios establecimientos para comparar cuál les gusta más, y realmente es imposible saber cuál restaurante la prepara mejor. Pero aquí hay algunas opciones muy cerca que consideramos excelentes lugares para conocer:</p><ul><li>Brasão Coliseu</li><li>Dona Francesinha</li><li>Lado B</li><li>Café Santiago</li><li>Santa Francesinha</li></ul>"
+      },
+      "2": {
+        "title": "Tripas à Moda do Porto",
+        "content": "<p>Este plato tradicional tiene raíces históricas que se remontan al siglo XV, cuando los habitantes de Oporto, en una época de escasez, abastecieron los barcos que iban a la batalla con toda la carne de la ciudad, dejando solo las tripas para su consumo. El plato es una mezcla de callos de vaca cocidos con frijoles, carnes y verduras.</p><p>Los habitantes de Oporto son orgullosamente llamados \"tripeiros\", y este plato es la demostración de ello. En cualquier restaurante que sirva comida típica encontrarás este plato; acompáñalo con un buen vino tinto y tendrás un almuerzo lleno de historia y orgullo de la ciudad invicta.</p>"
+      },
+      "3": {
+        "title": "Mariscos Frescos",
+        "content": "<p>La proximidad al mar convierte a Oporto en un lugar privilegiado para el consumo de mariscos frescos. Platos como pulpo a la lagareiro (pulpo asado con patatas y aceite de oliva), arroz de mariscos y caldereta de pescado son comunes en los restaurantes de la ciudad. Los mariscos, como camarones, mejillones y almejas, también se sirven en diversas preparaciones, desde caldos hasta platos más elaborados.</p><p>Los restaurantes que sirven mariscos son conocidos aquí como \"marisqueiras\". Las buenas marisquerías generalmente se encuentran más cerca de las playas; toma el metro hasta la estación Brito Capelo, baja hasta la Ribeira, o dirígete a la Marina de Vila Nova de Gaia... hay muchas marisquerías en esas zonas.</p>"
+      },
+      "4": {
+        "title": "Queso de la Sierra y Embutidos",
+        "content": "<p>Aunque Oporto no es directamente conocido por sus quesos, el Queijo da Serra da Estrela, un queso de oveja curado, se consume ampliamente en la ciudad. También es común encontrar platos que combinan quesos y embutidos, como chorizo, salpicón y jamón, a menudo servidos como aperitivos en tabernas y restaurantes.</p><p>La gente del norte tiene fama de ser más cálida y disfruta de encuentros casuales para socializar. A menudo se reúnen en tabernas para tomar una buena cerveza fría, comer aperitivos, escuchar buena música y conversar durante horas. El queso de la sierra y los embutidos tradicionales realmente complementan esta atmósfera de los portuenses.</p>"
+      },
+      "title": "Platos Típicos"
+    },
+    "restaurantes": {
+      "1": {
+        "title": "Conga, Casa das Bifanas",
+        "content": "<p>Un lugar antiguo y muy tradicional, bastante simple e íntimo, pero que sirve su inconfundible bifana (carne de cerdo laminada con un condimento único). Venir a Oporto y perderse esta experiencia sería realmente una pena.</p>"
+      },
+      "2": {
+        "title": "Brasão",
+        "content": "<p>Es una cadena de restaurantes que se popularizó por servir una de las mejores francesinhas, pero no te equivoques al pensar que es el único plato que encontrarás allí. El menú tiene muchas opciones y te invita a una cena inolvidable.</p>"
+      },
+      "3": {
+        "title": "Casa Guedes",
+        "content": "<p>El restaurante se hizo famoso por su famoso sándwich de pernil, pero ha crecido y hoy se especializa en aperitivos y comidas ideales para acompañar con una cerveza o cócteles. La premisa de la casa es hacerte sentir cómodo para relajarte mientras comes.</p>"
+      },
+      "4": {
+        "title": "Abadia do Porto",
+        "content": "<p>Un restaurante antiguo, muy tradicional, con casi cien años de historia. Destaca por su celebración de la gastronomía de Oporto, donde podrás disfrutar de las tripas à moda do Porto y de abundantes platos de mariscos.</p>"
+      },
+      "5": {
+        "title": "Cervejaria Gazela",
+        "content": "<p><em>Aquí es la casa de los famosos cachorrinhos de Batalha</em>. Definitivamente caminarás frente al restaurante varias veces durante tu estancia, vale mucho la pena entrar y probar el cachorrinho o incluso el \"prego\" (sándwich de carne).</p>"
+      },
+      "6": {
+        "title": "Sancho Panza",
+        "content": "<p>Reserva el día que vayas a cenar allí para volver caminando, porque seguramente saldrás muy satisfecho. Sancho Panza es uno de esos restaurantes que suele recibir grandes grupos de personas, ya que tiene un espacio bastante amplio. El menú es muy completo; entre sus especialidades, vale la pena probar la sapateira rellena, su fabuloso arroz de tomate, los rojones (carne de cerdo cocida lentamente), entre muchas otras opciones tradicionales.</p>"
+      },
+      "7": {
+        "title": "Laréu",
+        "content": "<p>Un jardín urbano bastante íntimo es el ambiente que propone el restaurante. Rodeado de personas extremadamente amables, serás recibido con calidez en tu visita. En el menú encontrarás pizzas, sándwiches italianos, hamburguesas y algunos platos portugueses.</p>"
+      },
+      "8": {
+        "title": "Douro Sentido",
+        "content": "<p>Restaurante muy enfocado en la cocina tradicional portuguesa, la gran estrella de la casa son definitivamente los platos de bacalao, que te dejarán un recuerdo agradable en el paladar. Si vas, intenta hablar con el dueño, que siempre está presente; te dará consejos útiles sobre la ciudad.</p>"
+      },
+      "9": {
+        "title": "éLeBê",
+        "content": "<p>Una verdadera experiencia gastronómica, con sabores bastante complejos y únicos. La casa prepara orgullosamente todos sus ingredientes, creando así platos de temporada y distintos entre sí.</p>"
+      },
+      "10": {
+        "title": "Torreão",
+        "content": "<p>Si vas a visitar, elige un horario que no sea demasiado tarde. Además de platos de alta calidad, el restaurante ofrece una magnífica vista del Duero. Pasar el atardecer disfrutando del vino de la casa y degustando una comida de carnes nobles dejará un recuerdo eterno de tu visita a Oporto.</p>"
+      },
+      "title": "Restaurantes"
+    }
+  },
+  "lembrancas": {
+    "1": {
+      "title": "Ó Ceramica",
+      "content": "<p>En el corazón del Barrio de las Artes, en Miguel Bombarda, se encuentra Ó Cerâmica, un espacio que combina tienda, galería y estudio creativo. Centrada en la cerámica, la tienda presenta piezas de ceramistas portugueses e internacionales, además de promover el diseño contemporáneo.</p><p>Además de una selección exclusiva de piezas artesanales, Ó Cerâmica ofrece exposiciones, residencias artísticas, charlas y talleres, permitiendo la interacción entre visitantes y artistas y ofreciendo una inmersión en el proceso creativo de la cerámica.</p><p>Azulejos pintados a mano, tazones, platos, tazas, esculturas, jarras y floreros hechos por artistas locales hacen de Ó Cerâmica el lugar ideal para llevarse a casa un pedazo del arte y la cultura portuguesa. ¡Una visita imprescindible para los amantes de la cerámica!</p>"
+    },
+    "2": {
+      "title": "Ó Galeria",
+      "content": "<p>Ó Galeria es un espacio encantador dedicado al arte contemporáneo, donde cada pieza cuenta una historia. Pequeña en tamaño, pero rica en diversidad, la galería exhibe ilustraciones, grabados y postales de artistas locales e internacionales, siendo el lugar ideal para quienes buscan recuerdos únicos.</p><p>Además de obras de arte, la galería ofrece camisetas, bolsas y otros artículos creativos, todos con un toque artístico exclusivo. ¿Lo mejor? ¡Cada compra apoya directamente a un artista vivo!</p><p>Si buscas un recuerdo auténtico y accesible, puedes llevarte postales y grabados para enmarcar, camisetas y bolsas ilustradas, o pequeñas impresiones artísticas para coleccionar.</p><p><em>¡Visita Ó Galeria y llévate un pedacito del arte de Oporto contigo!</em></p>"
+    },
+    "3": {
+      "title": "Garrafeira do Carmo",
+      "content": "<p>Oporto es famoso por su vino, especialmente por el vino de Oporto. Visitar una bodega local para una cata es imprescindible, pero no olvides llevarte una o dos botellas a casa. Los vinos portugueses, incluidos los vinos verdes y los vinos del Duero, son regalos fantásticos para los amantes del vino. También puedes optar por una botella de buen vino de Oporto, el símbolo de la ciudad.</p>"
+    },
+    "4": {
+      "title": "Toranja",
+      "content": "<p>Toranja es una tienda de souvenirs llena de personalidad, que ofrece ilustraciones vibrantes y fotografías de autores nacionales en productos exclusivos. Encontrarás camisetas, leggings, bolsas, cojines, pósteres, azulejos, posavasos y tazas, todos con un toque único para tu hogar.</p><p>Para el día a día, hay cuadernos, estuches para gafas y fundas para teléfonos, todos hechos a mano en Portugal.</p><p>Más que una tienda de recuerdos, Toranja es un espacio donde el arte local refleja la esencia de Oporto en cada detalle. Si buscas un recuerdo especial o un regalo único, ¡esta es una gran opción!</p>"
+    },
+    "5": {
+      "title": "Casa Natal",
+      "content": "<p>Casa Natal, situada en el corazón de Oporto, es una tienda de comestibles histórica que ofrece una selección de productos auténticos de la gastronomía portuguesa. Con aromas de especias en el aire, es el lugar ideal para encontrar bacalao curado, vinos de Oporto y de mesa, aguardientes, licores, conservas, embutidos, quesos, aceites de oliva, dulces típicos y frutos secos.</p><p>Perfecta para quienes desean llevarse un pedazo de Oporto a casa o regalar productos genuinamente portugueses, Casa Natal también destaca por su atención amable y especializada, siempre con excelentes recomendaciones.</p>"
+    },
+    "6": {
+      "title": "Pérola do Bolhão",
+      "content": "<p>Pérola do Bolhão, fundada en 1917 y ubicada frente al icónico Mercado do Bolhão, es una de las tiendas de comestibles más tradicionales y emblemáticas de Oporto. Con su fachada Art Nouveau decorada con azulejos, la tienda encanta por su combinación de historia y calidad.</p><p>Dentro, los visitantes encuentran una selección de quesos de la sierra, embutidos regionales, frutos secos, vinos, galletas tradicionales y una variedad de productos auténticos portugueses. Originalmente especializada en tés, cafés y especias, la tienda también es famosa por su lechón asado y jamón, elaborados con cerdos criados al aire libre.</p><p>Con una atención cuidadosa, Pérola do Bolhão es el lugar ideal para quienes buscan un recuerdo gastronómico o desean conocer los sabores tradicionales de Oporto. Entre las opciones hay latas de conservas, vinos de Oporto, licores, quesos y embutidos envasados al vacío, galletas artesanales y dulces típicos.</p>"
+    },
+    "7": {
+      "title": "Prometeu",
+      "content": "<p>Prometeu es el lugar ideal para quienes buscan recuerdos tradicionales de Oporto. Con varias tiendas en zonas turísticas, ofrece una amplia selección de souvenirs, como imanes, llaveros, azulejos, bisutería y piezas de porcelana, perfectos para llevar a casa o regalar.</p><p>Con precios variados, los escaparates de Prometeu ofrecen una experiencia visual encantadora.</p>"
+    }
+  },
+  "menu-inicial": {
+    "welcome": "¡Bienvenidos a Nuestro Acogedor Apartamento en Oporto!",
+    "p1": "Estamos muy contentos de tenerte con nosotros. Ya sea que estés aquí para explorar la rica historia de la ciudad, disfrutar de las hermosas vistas o simplemente relajarte, esperamos que tengas una experiencia inolvidable. No dudes en contactarnos si necesitas algo durante tu estancia.",
+    "p2": "¡Disfruta de tu tiempo en Oporto!",
+    "footer": "No olvides valorar tu visita 😊"
+  },
+  "pontos-turisticos-atividades": {
+    "1": {
+      "title": "Barrio de la Ribeira",
+      "content": "<p>Uno de los barrios más vibrantes de Oporto, la Ribeira encanta con sus casas coloridas, callejones pintorescos y restaurantes animados a orillas del río Duero. Es el lugar perfecto para pasear, saborear la gastronomía local y admirar el icónico Puente Luís I.</p><p>Cómo llegar:</p><ul><li><b>Funicular de los Guindais</b> - Sal del edificio, gira a la izquierda, cruza la Praça da Batalha y baja por la Rua de Augusto Rosa. Toma el funicular a la derecha de la calle y baja hasta la Avenida Gustavo Eiffel. Gira a la derecha y ¡listo, has llegado!</li><li><b>A pie por la Escalera de los Guindais</b> - Sigue el mismo camino hasta la Muralla Fernandina, mantente a la izquierda y baja las escaleras. Cuando llegues a la Avenida Gustavo Eiffel, gira a la derecha y disfruta de la Ribeira.</li></ul>"
+    },
+    "2": {
+      "title": "Puente Luís I",
+      "content": "<p>El icónico puente metálico de dos pisos conecta Oporto con Vila Nova de Gaia y ofrece vistas panorámicas increíbles. Diseñado por un discípulo de Gustave Eiffel, su plataforma superior es perfecta para paseos a pie, especialmente al atardecer.</p><p>De los seis puentes de Oporto, este es el más emblemático, ¡y lo mejor es que estás a solo 600 metros de él, pudiendo admirarlo desde diferentes ángulos!</p>"
+    },
+    "3": {
+      "title": "Librería Lello",
+      "content": "<p>Considerada una de las librerías más bonitas del mundo, la Librería Lello destaca por su arquitectura neogótica, madera tallada y su impresionante escalera roja. Se dice que inspiró a J.K. Rowling mientras vivió en Oporto, aunque la autora ya ha negado esta influencia en la creación de Harry Potter.</p> La librería está a 1 km del apartamento. La entrada al interior está regulada por horarios organizados, por lo que te recomendamos anticipar la hora de tu visita y <a href=\"https://livrarialello.pt\" target=\"_blank\">comprar un boleto</a> con antelación. Ten en cuenta que el precio del boleto se puede utilizar para comprar algunos de sus libros realmente únicos.</p><p>La Librería Lello también es un importante referente cultural en Oporto, atrayendo no solo a los amantes de los libros, sino también a turistas de todo el mundo que se maravillan con su belleza única y su atmósfera mágica.</p>"
+    },
+    "4": {
+      "title": "Torre de los Clérigos",
+      "content": "<p>Uno de los íconos más representativos de Oporto, la Torre de los Clérigos fue construida en el siglo XVIII y tiene 76 metros de altura, siendo visible desde varios puntos de la ciudad. Subir sus 225 escalones es una experiencia única, recompensada por una vista panorámica impresionante de Oporto y el río Duero.</p><p>La visita externa a la iglesia y la torre es gratuita, pero para subir, es necesario comprar un boleto en la entrada o en el <a href=\"https://torredosclerigos.pt\" target=\"_blank\">sitio oficial</a>. En fechas especiales, se realizan visitas nocturnas, ofreciendo una vista aún más mágica de la ciudad iluminada.</p><p>Si te hospedas con nosotros, no te pierdas esta experiencia inolvidable.</p>"
+    },
+    "5": {
+      "title": "Estación de São Bento",
+      "content": "<p>La Estación de São Bento es mucho más que un simple punto de partida para viajes en tren; es un verdadero tesoro histórico y cultural de Oporto. Famosa por sus impresionantes paneles de azulejos azules y blancos, la estación retrata escenas significativas de la historia de Portugal, como la batalla de Buçaco y la llegada del tren a la ciudad. La belleza de los azulejos, con sus colores vibrantes y detalles minuciosos, encantará incluso a los visitantes que no estén viajando en tren. Al pasar por allí, tendrás la oportunidad de sumergirte en la rica historia del país, mientras admiras la grandeza arquitectónica de este lugar icónico. Por lo tanto, aunque no tengas planes de tomar un tren, vale mucho la pena hacer una parada para explorar esta estación, que es un verdadero hito de la ciudad de Oporto.</p>"
+    },
+    "6": {
+      "title": "Catedral de Oporto",
+      "content": "<p>La Catedral de Oporto es uno de los monumentos más emblemáticos de la ciudad y se encuentra a pocos minutos de nuestro apartamento: ¡una parada obligatoria! La iglesia fue construida en el siglo XII, su imponente fachada y la mezcla de estilos románico y gótico la convierten en un verdadero tesoro histórico. El interior cautiva con detalles en talla dorada y una atmósfera única.</p><p>Subir a la torre de la catedral es una experiencia imprescindible. Desde lo alto, disfrutarás de una vista impresionante de la ciudad, con panorámicas de la Ribeira, el río Duero y las colinas de Oporto. Si te hospedas con nosotros, aprovecha la proximidad y descubre este hito histórico con una de las vistas más increíbles de la ciudad.</p>"
+    },
+    "7": {
+      "title": "Palacio de la Bolsa",
+      "content": "<p>Construido en el siglo XIX para albergar la Bolsa de Valores, el Palacio de la Bolsa es hoy un importante punto turístico de Oporto. Al entrar, quedarás inmediatamente fascinado por la grandeza de sus interiores, especialmente el deslumbrante Salón Árabe, con sus detalles ornamentales y su atmósfera exótica.</p><p>Explora el magnífico patio interior y las otras salas, todas llenas de historia y belleza. El Palacio de la Bolsa ofrece visitas guiadas que te transportarán en el tiempo, revelando curiosidades fascinantes sobre la historia del comercio y la ciudad.</p><p>Ubicado a pocos minutos de nuestro apartamento, es una excelente experiencia para aquellos que deseen conocer Oporto en toda su riqueza histórica y cultural.</p>"
+    },
+    "8": {
+      "title": "Iglesia de San Francisco",
+      "content": "<p>La Iglesia de San Francisco es una de las joyas góticas de Oporto, famosa por su interior deslumbrante, completamente revestido de talla dorada. Sus altares barrocos, ricamente esculpidos, crean un ambiente de belleza y reverencia.</p><p>Junto al Palacio de la Bolsa, la iglesia ofrece un recorrido histórico completo. Además de su impresionante decoración, la visita incluye las catacumbas, donde descansan miembros de la Orden de San Francisco y familias nobles de Oporto. Un paseo imprescindible para quienes deseen sumergirse en la historia y cultura de la ciudad.</p>"
+    },
+    "9": {
+      "title": "Vila Nova de Gaia & Bodegas de Vino de Oporto",
+      "content": "<p>Al otro lado del río Duero, cruzando el icónico Puente Luís I, Vila Nova de Gaia alberga las bodegas más renombradas de vino de Oporto, como Sandeman, Graham’s, Taylor’s y Ferreira. Es posible visitar las bodegas, donde tendrás la oportunidad de hacer un tour guiado, sumergiéndote en la fascinante historia del vino de Oporto y, por supuesto, disfrutar de una deliciosa cata.</p><p>Paseando por las orillas del río, sentirás la vibrante atmósfera local, con muchas actividades y un ambiente acogedor. Además de las bodegas, hay varios restaurantes típicos para degustar la cocina portuguesa. Y si el paseo por las orillas del Duero te deja con ganas de relajarte, no te preocupes: puedes optar por subir en teleférico y admirar la impresionante vista de la ciudad y el río. ¡Una experiencia única e imperdible!</p>"
+    },
+    "10": {
+      "title": "Fundación Serralves",
+      "content": "<p>La Fundación Serralves es uno de los principales centros culturales de Portugal, que reúne arte, arquitectura y naturaleza. Inaugurada en 1999, alberga el Museo de Arte Contemporáneo, la elegante Casa de Serralves, de estilo Art Deco, y un vasto parque con jardines y esculturas al aire libre.</p><p>El museo exhibe exposiciones de artistas nacionales e internacionales en un entorno moderno e inspirador. La Casa de Serralves transporta a los visitantes al encanto del Art Deco, mientras que el parque ofrece un refugio verde, con senderos, esculturas y el Treetop Walk, una pasarela elevada entre los árboles.</p><p>La Fundación también organiza eventos y actividades educativas, haciendo que la visita sea una experiencia cultural enriquecedora y relajante.</p>"
+    },
+    "11": {
+      "title": "Jardines del Palacio de Cristal",
+      "content": "<p>El Palacio de Cristal es uno de los espacios verdes más encantadores de Oporto, con una vista deslumbrante sobre el río Duero. El nombre hace referencia al antiguo pabellón de vidrio, que ya no existe, pero el parque sigue siendo uno de los lugares más tranquilos y hermosos de la ciudad.</p><p>El parque cuenta con jardines temáticos, lagos serenos y esculturas, creando el ambiente perfecto para un paseo relajante. No dejes de buscar los pavos reales, que circulan libremente y encantan, especialmente a los niños.</p><p>El Palacio de Cristal también alberga la Superbock Arena, que recibe eventos culturales y deportivos. ¡Si tu visita coincide con algún evento, vale la pena echar un vistazo!</p><p>Un lugar ideal para quienes buscan la unión entre naturaleza y cultura.</p>"
+    },
+    "12": {
+      "title": "World of Discoveries",
+      "content": "<p>Sumérgete en la historia de las grandes navegaciones portuguesas en el World of Discoveries, un museo interactivo y parque temático. Explora las rutas de los navegantes de los siglos XV y XVI a través de exposiciones inmersivas, escenarios impresionantes e incluso un paseo en barco que te transporta al pasado.</p><p>Una experiencia única, que combina aprendizaje y diversión para todas las edades, donde historia y emoción se encuentran a cada paso. ¡Si deseas viajar en el tiempo, este es el lugar ideal para comenzar!</p>"
+    },
+    "13": {
+      "title": "Sealife",
+      "content": "<p>Prepárate para un viaje submarino en Sea Life Oporto, un acuario interactivo con diversas especies marinas, como tiburones, rayas, pulpos y caballitos de mar. Lo más destacado es el túnel submarino, que ofrece una experiencia inmersiva en el océano.</p><p>Sea Life también ofrece actividades educativas sobre la vida marina y la preservación de los océanos.</p><p>Ubicado cerca de la playa, puedes aprovechar para pasear por la costa y saborear mariscos en uno de los excelentes restaurantes de la zona. ¡Una experiencia completa de vida marina y gastronomía local!</p>"
+    },
+    "14": {
+      "title": "Zoo Santo Inácio",
+      "content": "<p>El Zoo Santo Inácio es el zoológico más grande del norte de Portugal, con más de 200 especies, incluidos leones, tigres, jirafas y pingüinos. Inaugurado en 2000, es un espacio dedicado a la conservación de la biodiversidad, ofreciendo hábitats naturales para los animales.</p><p>Además de las exposiciones, el zoológico promueve actividades educativas y presentaciones diarias sobre la conservación de la vida silvestre. ¡Una visita ideal para todas las edades, combinando diversión y aprendizaje!</p>"
+    },
+    "15": {
+      "title": "Parque de la Ciudad de Oporto",
+      "content": "<p>El Parque de la Ciudad es el mayor espacio verde urbano de Portugal, con 83 hectáreas de naturaleza. Ideal para paseos relajantes o actividades al aire libre, el parque ofrece más de 10 km de senderos, lagos tranquilos y una rica fauna y flora.</p><p>Familias, turistas e incluso perros disfrutan de la vastedad del parque para caminar, andar en bicicleta o socializar. Para los niños, es un lugar inolvidable. En la salida oeste, llegarás a la playa de Matosinhos, perfecta para un atardecer impresionante. ¡La naturaleza y la ciudad se encuentran aquí!</p>"
+    },
+    "16": {
+      "title": "Casa de la Música",
+      "content": "<p>La Casa de la Música es un ícono cultural y arquitectónico de Oporto, con una acústica impecable y una programación que va desde la música clásica hasta el jazz, la electrónica y la música mundial. Sede de la Orquesta Sinfónica de Oporto, también ofrece actividades culturales y educativas.</p><p>El espacio ofrece visitas guiadas que permiten explorar su arquitectura única y conocer más sobre su rica programación musical. Las visitas tienen una duración de aproximadamente 1 hora y se realizan diariamente, con horarios en portugués a las 11h y en inglés a las 16h. El precio para participar es de €10 por persona, con entrada gratuita para niños hasta 12 años, siempre que estén acompañados por un adulto con boleto pagado. Cabe destacar que el valor del boleto puede utilizarse como crédito para la compra de entradas para cualquier concierto de la programación de la Casa de la Música. Para garantizar tu lugar, es recomendable adquirir las entradas con antelación, directamente en la taquilla o por teléfono al +351 220 120 220.</p><p>La Casa de la Música está ubicada cerca de la Rotonda de Boavista, y vale la pena aprovechar la visita para explorar la plaza circundante. Allí, encontrarás el Monumento a los Héroes de la Guerra Peninsular, un imponente obelisco de 45 metros de altura, que es un hito histórico de la ciudad.</p>"
+    },
+    "17": {
+      "title": "Parque de las Virtudes",
+      "content": "<p>El Parque de las Virtudes es uno de los secretos más encantadores de Oporto, ofreciendo vistas increíbles del río Duero. Ubicado en terrenos históricos de la Compañía Hortícola Portuense, el parque destaca por sus terrazas ajardinadas, perfectas para relajarse, hacer un picnic o admirar el atardecer. Uno de sus mayores atractivos es el Ginkgo Biloba, uno de los árboles más antiguos de la ciudad. Ideal para un paseo tranquilo o para escapar del bullicio urbano, el parque es un verdadero refugio de paz en el centro de Oporto.</p>"
+    },
+    "18": {
+      "title": "Farol de Felgueiras",
+      "content": "<p>El Farol de Felgueiras es un hito histórico muy importante en la entrada del río Duero y una de las vistas más inolvidables de la ciudad.</p><p>Construido en el siglo XIX, el Farol de Felgueiras orienta la navegación en el estuario del río Duero y es una referencia importante en la tradición marítima de Oporto. Aunque se ha vuelto más simbólico con el avance de la tecnología de navegación, todavía emite señales luminosas para guiar a los barcos en la entrada del Duero.</p><p>Con su torre de piedra robusta y la luz intensa que emite, el faro ofrece una vista espectacular de la costa atlántica y de la desembocadura del Duero.</p><p>Es el lugar perfecto para un paseo tranquilo junto al mar, con una vista panorámica impresionante durante el día, pero ofrece, sobre todo, un atardecer inolvidable junto al mar. ¡Un lugar lleno de historia y belleza natural!</p>"
+    },
+    "19": {
+      "title": "Clube Minigolfe do Porto",
+      "content": "<p>Si estás buscando diversión al aire libre, ¡el Clube Minigolfe do Porto es el lugar ideal! Con campos de minigolf bien cuidados, el club ofrece una experiencia relajada y divertida para todas las edades. Si estás con la familia o amigos, este es el lugar perfecto para un día de recreo. Además de ser una opción popular para quienes quieren divertirse, el club también organiza eventos y competiciones, añadiendo aún más emoción al juego. ¡Prepárate para una experiencia divertida, llena de risas y momentos memorables!</p>"
+    },
+    "20": {
+      "title": "Casa Portuguesa do Pastel de Bacalhau",
+      "content": "<p>Si aún no has probado el famoso pastel de bacalao portugués, ¡la Casa Portuguesa do Pastel de Bacalhau en Vila Nova de Gaia es el lugar perfecto para hacerlo! Este restaurante único, con dos plantas y estantes llenos de libros, ofrece una experiencia gastronómica muy especial. En el centro del salón, un imponente órgano de tubos es el protagonista, con conciertos realizados cada 15 minutos, creando un ambiente único. ¿El plato estrella? El pastel de bacalao relleno de queso de oveja de la Serra da Estrela, acompañado de una copa de vino de Oporto blanco. No hay duda: este es el mejor pastel de bacalao que probarás en Oporto, ¡y saldrás de allí con la sensación de haber vivido una auténtica experiencia portuguesa!</p>"
+    },
+    "21": {
+      "title": "Casa São Roque",
+      "content": "<p>La Casa São Roque es uno de los edificios más históricos de Oporto, ofreciendo una experiencia cultural increíble. Este encantador lugar es conocido no solo por su impresionante arquitectura, sino también por su parque botánico, lleno de plantas y flores de diversas procedencias. El punto culminante del parque es el laberinto redondo, que ofrece diversión para los niños y es un lugar perfecto para explorar en familia. Además, la casa suele albergar exposiciones de arte contemporáneo y eventos musicales, haciendo de la visita una verdadera inmersión en la cultura local. ¡Un espacio que combina historia, arte y naturaleza a la perfección!</p>"
+    },
+    "22": {
+      "title": "Mercado do Bolhão",
+      "content": "<p>El Mercado do Bolhão es una de las joyas más emblemáticas de Oporto, recientemente restaurado para preservar su alma única, pero con un toque moderno. Ubicado en el centro histórico de la ciudad, este mercado icónico ofrece una experiencia auténtica con más de 70 comerciantes, destacándose por sus puestos de productos frescos, como pescado, frutas, verduras, quesos y embutidos.</p><p>Además, el mercado cuenta con tiendas de artesanía, cafeterías e incluso restaurantes, perfectos para disfrutar de un aperitivo o una comida típica. Durante el verano, el mercado cobra vida con presentaciones de artistas locales, haciendo que la visita sea aún más especial.</p>"
+    },
+    "23": {
+      "title": "Mercado Bom Sucesso",
+      "content": "<p>El Mercado Bom Sucesso, cerca de la estación Casa da Música, es un espacio moderno y vibrante. Con un ambiente amplio y luminoso, ofrece una variedad de opciones gastronómicas locales e internacionales, desde cafés y pasteles hasta comidas completas. También hay puestos especializados en quesos, carnes y productos típicos portugueses, además de un bar de cervezas.</p><p>Además de la gastronomía, el mercado es un punto cultural, con artesanía y presentaciones musicales en vivo, algunas veces por semana. También hay áreas exteriores para relajarse y disfrutar del ambiente de la ciudad.</p>"
+    },
+    "24": {
+      "title": "TimeOut Market",
+      "content": "<p>Recientemente inaugurado, se encuentra cerca de la estación de São Bento. Este moderno mercado está dividido en dos pisos, siendo el nivel cero el área principal de restauración. Encontrarás una variedad de opciones gastronómicas de alta calidad, desde platos típicos portugueses hasta cocina internacional.</p><p>En el piso superior, la experiencia es más tranquila, ofreciendo una vista privilegiada de la estación de tren. La atmósfera del lugar es acogedora y dinámica, con espacios al aire libre para quienes desean disfrutar del ambiente de la ciudad mientras saborean un buen plato.</p><p>Además de las opciones gastronómicas, el mercado cuenta con tiendas de productos artesanales y una sala de catas de vinos del Duero y Oporto, instalada en una torre metálica inspirada en los antiguos reservorios de agua de las estaciones ferroviarias. Una experiencia para quienes desean explorar lo mejor de los vinos portugueses en un ambiente sofisticado.</p>"
+    },
+    "sort": {
+      "relevance": "Relevancia",
+      "location": "Proximidad",
+      "alphabetical": "Alfabético"
+    },
+    "filter": {
+      "turistico": "Lugares Turísticos",
+      "ar-livre": "Actividades al Aire Libre",
+      "criancas": "Actividades para Niños",
+      "gratis": "Actividades Gratuitas"
+    }
+  },
+  "roteiros-prontos": {},
+  "utilidades": {
+    "1": {
+      "title": "Transporte Público",
+      "content": "<p>La ubicación del apartamento ya está cerca de varios lugares interesantes en Oporto, pero si quieres ir más lejos, la ciudad tiene un sistema de transporte público moderno y puntual. Tanto el metro como los autobuses requieren un billete digital que dura aproximadamente una hora. Para adquirir este billete, necesitarás comprar una tarjeta <b>Andante</b> y recargarla.</p><p>El metro funciona hasta la 1 AM, y durante la madrugada hay líneas especiales de autobuses. Normalmente, las rutas proporcionadas por Google Maps tienen itinerarios precisos y son una buena opción para planificar tu transporte.</p><p>Si deseas viajar distancias más largas, la estación de tren de São Bento probablemente será tu punto de partida. Con la misma tarjeta <b>Andante</b>, puedes comprar tu billete. Si vas a una ciudad que no está cerca de una línea ferroviaria, una buena alternativa puede ser <a href=\"https://www.flixbus.pt/\" target=\"_blank\">FlixBus</a>, y el punto de partida en este caso será la terminal de Campanhã.</p>"
+    },
+    "2": {
+      "title": "Estacionamientos Públicos",
+      "content": "<p>Si vienes en coche, probablemente hayas aparcado en un estacionamiento público y usado monedas para pagar. Como este es el centro de la ciudad, no hay lugares de aparcamiento gratuitos en la calle.</p><p>El horario de estacionamiento de pago en esta zona es de 8 AM a 6 PM y es gratuito los fines de semana. Como no puedes pagar más de dos horas a la vez, podrías preocuparte por renovar el parquímetro antes de que expire. Una solución a este problema podría ser <a href=\"https://telpark.page.link/store\" target=\"_blank\">Telpark</a>, que te permite pagar sin necesidad de monedas y extender tu tiempo de estacionamiento de forma remota.</p>"
+    },
+    "3": {
+      "title": "Garaje Ibéria",
+      "content": "<p>Si no encuentras una plaza de aparcamiento cerca o prefieres estacionar en un lugar cubierto, el Garaje Ibéria es la opción más cercana. Puede ser una buena alternativa si planeas dejar el coche durante un período largo y recogerlo al final de tu visita.</p>"
+    },
+    "4": {
+      "title": "Supermercado Pingo Doce",
+      "content": "<p>Un supermercado de tamaño mediano cerca del apartamento. También sirve comidas completas, que pueden ser una alternativa rápida y saludable. Pingo Doce es conocido por ofrecer productos de marca propia de buena calidad, lo que lo convierte en una opción económica.</p><p>El horario de Pingo Doce es de 8 AM a 9 PM. Si necesitas un supermercado fuera de este horario, Mini Preço, al otro lado de la calle, está abierto hasta las 11 PM.</p>"
+    },
+    "5": {
+      "title": "Supermercado Continente",
+      "content": "<p>A veces necesitas un supermercado más grande, ya sea para comprar un producto específico o para comprar en grandes cantidades. Aunque no está tan cerca, Continente ofrece una mayor variedad de productos y la distancia aún es cómoda para llevar tus compras de vuelta.</p>"
+    },
+    "6": {
+      "title": "Farmacia Henriques",
+      "content": "<p>Los supermercados cercanos suelen vender medicamentos básicos, pero si necesitas un medicamento con receta o un vendaje rápido, la farmacia más cercana está justo al lado y puede ser una excelente opción.</p>"
+    }
+  },
+  "vida-noturna": {
+    "1": {
+      "title": "Galeria de Paris",
+      "content": "<p>¡El corazón de la vida nocturna de Oporto! Una calle llena de bares y clubes, perfecta para hacer un recorrido de bares. Los fines de semana, la gente suele beber en la calle, creando un ambiente animado.</p><p>Las Galerías de París suelen ser frecuentadas por muchos jóvenes y estudiantes, quienes a su vez reciben a los turistas con gran alegría. Seguramente serás contagiado por la energía del espíritu festivo.</p>"
+    },
+    "2": {
+      "title": "Base Porto",
+      "content": "<p>Un bar al aire libre junto a la Torre de los Clérigos, ideal para quienes buscan un ambiente más relajado, con buenos cócteles y DJs tocando música chill-out.</p><p>El gran atractivo aquí es el parque lleno de olivos en una zona elevada, perfecto para refrescarse en las tardes calurosas. Los visitantes suelen sentarse en el césped para disfrutar de sus bebidas y la música.</p>"
+    },
+    "3": {
+      "title": "Pérola Negra",
+      "content": "<p>Un antiguo cabaret convertido en discoteca, con un ambiente retro y música ecléctica. Ideal para quienes quieren bailar toda la noche.</p><p>Debido a su ubicación cerca de la Estación de Trindade, Pérola Negra suele atraer a personas de más lejos, y siempre están dispuestos a pasar toda la noche allí esperando que el metro comience a funcionar.</p>"
+    },
+    "4": {
+      "title": "Maus Hábitos",
+      "content": "<p>Un espacio cultural alternativo que mezcla arte, gastronomía y fiestas. Además de las discotecas, hay conciertos y exposiciones.</p><p>El espacio también está abierto durante el día, y debido a que está cerca del apartamento, también puede ser un buen lugar para almorzar. Al ser panorámico y relativamente elevado, la vista de la ciudad es espectacular.</p>"
+    },
+    "5": {
+      "title": "Plano B",
+      "content": "<p>Un club con dos plantas y diferentes estilos musicales (electrónica, indie, rock). Una buena opción para quienes disfrutan de la variedad.</p><p>El lugar está cerca de las Galerías de París, y curiosamente puede ser un plan B para quienes van a las Galerías pero desean cambiar de ambiente.</p>"
+    },
+    "6": {
+      "title": "Hot Five Jazz & Blues Club",
+      "content": "<p>Para los fanáticos del jazz y el blues, este bar ofrece presentaciones en vivo de alta calidad en un ambiente sofisticado. La arquitectura del bar recuerda un poco al Moulin Rouge.</p><p>Está ubicado a pocos metros de la Casa da Música, lo que puede ser un buen comienzo para la noche, brindando una experiencia cultural realmente única.</p>"
+    },
+    "7": {
+      "title": "World of Wine",
+      "content": "<p>Un complejo turístico y cultural enfocado en experiencias culturales y gastronómicas, especialmente centrado en el vino de Oporto. El WOW está compuesto por varias atracciones, como museos y galerías, y ofrece una experiencia educativa e interactiva.</p><p>El distrito suele albergar grandes eventos bien planificados e inolvidables, con espacios dedicados a niños, pistas de baile y bares con diversos cócteles. Atrae a visitantes de todas las edades y culturas, por lo que te recomiendo revisar el <a href=\"https://agendaculturalporto.org/agenda-de-eventos-no-wow-gaia\" target=\"_blank\">canal oficial</a> para ver si alguno de estos eventos está ocurriendo mientras te alojas aquí.</p>"
+    },
+    "8": {
+      "title": "Maria Pistolas",
+      "content": "<p>Esta discoteca es realmente grande, con diversas áreas que cuentan con diferentes DJs, por lo que es común que los asistentes hagan una especie de recorrido por los distintos estilos.</p><p>En el último piso de la discoteca hay un lounge con cómodos sillones, lo que te permitirá hacer una pausa temporal antes de volver a las pistas de baile.</p>"
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "common": {
+    "under-construction": "Ops, ainda não terminamos de construir esta página.",
+    "geolocation-error": "Não conseguimos acessar sua localização, as distâncias estão relativas ao apartamento.",
+    "pages": {
+      "home": "Apartamento Elegante na Batalha, Centro",
+      "pontos-turisticos-atividades": "Pontos Turísticos & Atividades",
+      "gastronomia": "Gastronomia",
+      "utilidades": "Utilidades",
+      "vida-noturna": "Vida Noturna",
+      "atividades-criancas": "Atividades para Crianças",
+      "atividades-ar-livre": "Atividades ao Ar Livre",
+      "lembrancas": "Lembranças",
+      "cultura": "Cultura",
+      "roteiros-prontos": "Roteiros Prontos"
+    },
+    "navbar": {
+      "home": "Início",
+      "language": "Idioma (Português)",
+      "menu": "Mapa do site"
+    }
+  },
+  "cultura": {
+    "1": {
+      "title": "Museu de Serralves",
+      "content": "<p>Este museu de arte contemporânea é um dos mais importantes de Portugal. O prédio em si ja é uma obra arquitetônica inconfundível, com diversas salas amplas constituindo particularidades únicas. Vale mencionar também os jardins em volta do museu, que possuem diversas esculturas ao ar livre que certamente vão te impressionar.</p><p>Você pode acompanhar as peças que compõem o museu através do <a href=\"https://www.serralves.pt/agenda-serralves\" target=\"_blank\">site oficial</a>. Não terá dificuldades em adquirir os seus ingressos na hora da visita também, já que o museu é bastante amplo e comporta muitos visitantes.</p>"
+    },
+    "2": {
+      "title": "Museu Nacional Soares dos Reis",
+      "content": "<p>Criado no início do século XIX, foi o primeiro museu público de arte de Portugal. Ali você vai encontrar diversas peças de grande valor para a história portuguesa, enaltecendo o grande valor cultural artístico do país, e também as riquezas trazidas ao longo dos anos provenientes das grandes descobertas.</p>"
+    },
+    "3": {
+      "title": "Centro Português de Fotografia",
+      "content": "<p>Localizado em uma antiga prisão no coração do Porto, tambem conhecido como Cadeia da Relação, o prédio é um motivo de orgulho para o Porto. As exposições presentes ali são um complemento que costumam impressionar os amantes da fotografia, muitos grandes fotógrafos ja tiveram suas obras expostas ali.</p><p>A entrada para a exposição é gratuita, e é recomendado que você planeje a sua visita em um dia com bastante sol, pois a iluminação natural abundânte torna o lugar mais especial ainda... Aproveite para explorar os arredores e conhecer todos os cômodos desta prisão de mais de 300 anos.</p>"
+    },
+    "4": {
+      "title": "Cinema Batalha",
+      "content": "<p>O Cinema Batalha, ou simplesmente Batalha Centro de Cinema, é um espaço cultural icônico no Porto, localizado na Praça da Batalha. Inaugurado em 1947, o edifício tem um estilo arquitetônico modernista e foi um dos principais cinemas da cidade durante décadas.</p><p>Após anos fechado, o espaço foi reabilitado e reaberto em 2022 como um centro dedicado ao cinema, exibindo filmes clássicos, independentes e contemporâneos, além de sediar festivais e eventos culturais. O local também abriga exposições, conferências e atividades educativas relacionadas à sétima arte. Acompanhe a programação no <a href=\"https://www.batalhacentrodecinema.pt/\" target=\"_blank\">site oficial</a> e escolha uma sessão te intrigue mais.</p>"
+    },
+    "5": {
+      "title": "Teatro Nacional São João",
+      "content": "<p>Este antigo edifício foi erguido no fim do século XVIII e era chamado de <em>Teatro do Príncipe</em>, porém um violento incêndio o destruíu em 1908. Porém, dada a importância cultural para o Porto, 12 anos depois ele foi restaurado e hoje encontra-se em excelente condição de conservação e foi classificado como monumento nacional.</p><p>É uma das jóias que demonstra como o povo Português tem uma relação intimista com a arte. A programação do teatro inclui não apenas teatro clássico e contemporâneo, mas tambem abriga eventos de dança, música e outras obras de imenso valor cultural. Acompanhe a <a href=\"https://www.tnsj.pt/pt/agenda\" target=\"_blank\">agenda</a> e veja se algo atrai a sua atenção</p>"
+    },
+    "6": {
+      "title": "Casa da Música",
+      "content": "<p>A Casa da Música é uma das principais salas de concertos no Porto. O Edifício tem um design arrojado e futurista e é destacado pela paisagem urbana. É ali que está abrigada não apenas a <em>Orquestra Sinfónica do Porto</em>, mas também outras formações musicais de grande peso.</p><p>A programação da Casa da Música é bastante variada, mas alguns destaques que você encontrará ali são:<ul><li><b>Concertos de música clássica</b> - Apresentações da Orquestra Sinfónica do Porto, Remix Ensemble, Orquestra Barroca.</li><li><b>Música contemporânea experimental</b> - Eventos de jazz, eletrónica, world music e novas tendências.</li><li><b>Festivais temáticos</b> - Como o Festival de Piano, Maratona Beethoven, Outono em Jazz.</li><li><b>Concertos de bandas e artistas internacionais</b> - De diversos gêneros, do rock ao indie e música eletrônica.</li><li><b>Workshops e atividades educativas</b> - Para crianças, jovens e adultos, explorando o mundo da música.</li></ul></p>"
+    },
+    "7": {
+      "title": "Alfândega do Porto",
+      "content": "<p>É um imenso edifício localizado às margens do Rio Douro, e antigamente funcionava como armazém e centro de comércio. Devido ao seu tamanho, ele tem sido utilizado para feiras, exposições e eventos culturais. Diversos artistas modernos ja realizaram eventos nos seus pátios. E algumas salas são habitualmente utilizadas para exposições interativas que aumentam bastante a imersão na exposição</p><p>Além disso, ali também encontra-se o Museu dos Transportes e Comunicações, onde o tema das exposições é sobre a história dos transportes em Portugal.</p>"
+    }
+  },
+  "gastronomia": {
+    "description": "<p>A culinária do Porto é um dos maiores encantos da cidade, refletindo não apenas os sabores característicos da região, mas também a profunda ligação da cidade com o mar e sua história de trocas culturais ao longo dos séculos. A cidade, que foi um dos maiores portos comerciais de Portugal, absorveu influências de diversas partes do mundo, resultando em uma cozinha rica, diversificada e repleta de tradições.</p>",
+    "comidas-tipicas": {
+      "1": {
+        "title": "Francesinha",
+        "content": "<p>Um dos pratos mais emblemáticos do Porto, a francesinha é um sanduíche recheado com carne (geralmente bife, linguiça e fiambre) coberto com queijo e um molho picante à base de tomate e cerveja. Normalmente é servido com batatas fritas e um ovo frito por cima</p><p>Diz-se que a francesinha foi uma adaptação do parisiense Croque-monsieur, por isso ganhou esse nome. Muitos turistas vêm aqui no Porto e experimentam a francesinha de diversos estabelecimentos para comparar qual gosta mais e realmente é impossível saber qual restaurante prepara a melhor francesinha. Mas aqui vão algumas opções bem perto daqui que consideramos ótimos lugares para conhecer:</p><ul><li>Brasão Coliseu</li><li>Dona Francesinha</li><li>Lado B</li><li>Café Santiago</li><li>Santa Francesinha</li></ul>"
+      },
+      "2": {
+        "title": "Tripas à Moda do Porto",
+        "content": "<p>Esse prato tradicional tem raízes históricas, remontando ao século XV, quando os portuenses, durante uma época de escassez, abasteceram os navios que íam batalhar com toda a carne da cidade, deixando apenas as tripas para serem consumidas. O prato é uma mistura de tripas de vaca cozidas com feijão, carnes e legumes.</p><p>O povo do porto orgulhosamente é chamado de \"tripeiro\", e o prato é a demonstração disso. Em qualquer restaurante que sirva comida típica você vai encontrar este prato, acompanhe-o com um bom vinho tinto e você terá um almoço rico de história e orgulho da cidade invicta.</p>"
+      },
+      "3": {
+        "title": "Frutos do Mar Frescos",
+        "content": "<p>A proximidade com o mar torna o Porto um lugar privilegiado para o consumo de frutos do mar frescos. Pratos como polvo à lagareiro (polvo assado com batatas e azeite), arroz de marisco e caldeirada de peixe são comuns nos restaurantes da cidade. Os mariscos, como camarões, mexilhões e amêijoas, também são servidos em diversas preparações, desde caldos até pratos mais elaborados.</p><p>Restaurantes que servem frutos do mar são conhecidos aqui como marisqueiras. E as boas marisqueiras geralmente situam-se mais perto das praias, vá de metro até a estação Brito Capelo, ou desça para a Ribeira, ou ainda próximo à Marina de Vila Nova de Gaia... há muitas marisqueiras por essas regiões.</p>"
+      },
+      "4": {
+        "title": "Queijo da Serra e Enchidos",
+        "content": "<p>Embora o Porto não seja diretamente conhecido pelos seus queijos, o Queijo da Serra da Estrela, um queijo de ovelha curado, é amplamente consumido na cidade. Também é comum encontrar pratos que combinam queijos e enchidos, como chouriço, salpicão e presunto, muitas vezes servidos como petiscos em tascas e restaurantes.</p><p>O povo do norte têm a fama de ser mais caloroso, e adora um encontro casual para socializar. Muitas vezes vão se encontrar em tascas para tomar uma boa cerveja gelada, comer petiscos, ouvir uma boa música e conversar por incontáveis horas. O queijo da serra e os enchidos tradicionais realmente são um complemento para essa ambiência dos portuenses.</p>"
+      },
+      "title": "Pratos Típicos"
+    },
+    "restaurantes": {
+      "1": {
+        "title": "Conga, Casa das Bifanas",
+        "content": "<p>Um lugar antigo e muito tradicional, bastante simples e intimista, porém serve sua indistinguível bifana (carne de porco laminada com um tempero único), vir para o Porto e perder esta experiência seria realmente uma pena.</p>"
+      },
+      "2": {
+        "title": "Brasão",
+        "content": "<p>É uma rede de restaurantes que se popularizou por servir uma das melhores francesinhas, porém não se engane se acha que é o único prato que vai encontrar ali. O cardápio tem muitas opções e te convida para um jantar inesquecível.</p>"
+      },
+      "3": {
+        "title": "Casa Guedes",
+        "content": "<p>O restaurante foi popularizado pelo seu famoso sanduíche de pernil, porém ele cresceu e hoje é especializado em petiscos e refeições ótimas para acompanhar uma cerveja ou coquetéis. A premissa da casa é te deixar à vontade para descontrair enquanto come.</p>"
+      },
+      "4": {
+        "title": "Abadia do Porto",
+        "content": "<p>Um restaurante antigo, bastante tradicional com quase cem anos de história. Destaca-se pela sua celebração à gastronomia do Porto, ali você vai poder desfrutar das tripas á moda do porto e dos pratos fartos de frutos do mar.</p>"
+      },
+      "5": {
+        "title": "Cervejaria Gazela",
+        "content": "<p><em>Aqui é a casa dos famosos cachorrinhos da Batalha</em>. Você definitivamente vai caminhar na frente do restaurante diversas vezes ao longo da sua estadia, vale muito à pena entrar e experimentar o cachorrinho, ou mesmo o prego.</p>"
+      },
+      "6": {
+        "title": "Sancho Panza",
+        "content": "<p>Separe o dia que for jantar ali para voltar caminhando, pois você certamente vai sair bastante satisfeito. O Sancho Panza é um daqueles restaurantes que costuma receber grupos grandes de pessoas, pois possui um espaço bastante amplo. O cardápio é muito completo, entre suas especialidades, vale a pena conhecer a sapateira recheada, o seu fabuloso arroz de tomate, os rojões (carne de porco cozida lentamente), entre muitas outras opções tradicionais.</p>"
+      },
+      "7": {
+        "title": "Laréu",
+        "content": "<p>Um jardim urbano bastante intimista é o ambiente proposto pelo restaurante. Rodeado de pessoas extremamente simpáticas, você vai ser acolhido na sua visita. No cardápio você vai encontrar pizzas, sanduíches italianos, hamburgueres, e alguns pratos portugueses.</p>"
+      },
+      "8": {
+        "title": "Douro Sentido",
+        "content": "<p>Restaurante bastante focado na cozinha tradicional portuguesa, a grande estrela da casa definitivamente são os pratos de bacalhau, que vão te deixar uma lembrança agradável na boca. Se for ali, tente conversar com o dono, que está sempre presente, ele vai te ajudar dando dicas úteis sobre a cidade</p>"
+      },
+      "9": {
+        "title": "éLeBê",
+        "content": "<p>Uma verdadeira experiência gastronômica, com sabores bastante complexos e únicos. A casa orgulhosamente prepara todos os seus ingredientes, criando assim pratos sazonais e distintos uns dos outros.</p>"
+      },
+      "10": {
+        "title": "Torreão",
+        "content": "<p>Se for visitar, dê preferéncia para um horário não muito tarde. Além dos pratos de alta qualidade, o restaurante oferece uma vista magnífica para o Douro. Passar o pôr do sol tomando o vinho da casa, e fazendo uma refeição de carnes nobres vai deixar uma memória eterna na sua visita ao Porto.</p>"
+      },
+      "title": "Restaurantes"
+    }
+  },
+  "lembrancas": {
+    "1": {
+      "title": "Ó Ceramica",
+      "content": "<p>No coração do Bairro das Artes, em Miguel Bombarda, está a Ó Cerâmica, um espaço que une loja, galeria e estúdio criativo. Focada na cerâmica, a loja apresenta peças de ceramistas portugueses e estrangeiros, além de promover design contemporâneo.</p><p>Além de uma seleção exclusiva de peças artesanais, a Ó Cerâmica oferece exposições, residências artísticas, palestras e workshops, permitindo a interação entre visitantes e artistas e proporcionando uma imersão no processo criativo da cerâmica.</p><p>Azulejos pintados à mão, taças, pratos, canecas, esculturas, jarras e vasos feitos por artistas locais fazem da Ó Cerâmica o lugar ideal para levar para casa um pedaço da arte e cultura portuguesa. Uma visita imperdível para os amantes da cerâmica!</p>"
+    },
+    "2": {
+      "title": "Ó Galeria",
+      "content": "<p>A Ó Galeria é um espaço encantador dedicado à arte contemporânea, onde cada peça conta uma história. Pequena em tamanho, mas rica em diversidade, a galeria apresenta ilustrações, gravuras e cartões postais de artistas locais e internacionais, sendo o lugar ideal para quem busca lembranças únicas.</p><p>Além das obras de arte, a galeria oferece camisetas, sacolas e outros itens criativos, todos com um toque artístico exclusivo. O melhor? Cada compra apoia diretamente um artista vivo!</p><p>Se procura um souvenir autêntico e acessível, você pode levar para casa postais e gravuras para emoldurar, camisetas e sacolas ilustradas, ou pequenos prints de arte para colecionar.</p><p><em>Visite a Ó Galeria e leve um pedacinho da arte do Porto com você!</em></p>"
+    },
+    "3": {
+      "title": "Garrafeira do Carmo",
+      "content": "<p>O Porto é famoso pelo seu vinho, em particular, pelo vinho do Porto. A visita a uma cave local para uma prova de vinhos é obrigatória, mas não se esqueça de levar uma ou duas garrafas para casa. Os vinhos portugueses, incluindo os vinhos verdes e os vinhos do Douro, são presentes fantásticos para os amantes do vinho. Pode também optar por uma garrafa de bom vinho do Porto, símbolo da cidade.</p>"
+    },
+    "4": {
+      "title": "Toranja",
+      "content": "<p>A Toranja é uma loja de souvenirs cheia de personalidade, oferecendo ilustrações vibrantes e fotografias de autores nacionais em produtos exclusivos. Você encontra camisetas, leggings, sacolas, almofadas, pôsteres, azulejos, bases de copo e canecas, todos com um toque único para sua casa.</p><p>Para o dia a dia, há cadernos, bolsas para óculos e capas de telefone, todos feitos à mão em Portugal.</p><p>Mais do que uma loja de souvenirs, a Toranja é um espaço onde a arte local reflete a essência do Porto em cada detalhe. Se deseja uma lembrança especial ou um presente único, essa é uma ótima opção!</p>"
+    },
+    "5": {
+      "title": "Casa Natal",
+      "content": "<p>A Casa Natal, localizada no coração do Porto, é uma mercearia histórica que oferece uma seleção de produtos autênticos da gastronomia portuguesa. Com aromas de especiarias no ar, a loja é o lugar ideal para encontrar bacalhau de cura amarela, vinhos do Porto e de mesa, aguardentes, licores, conservas, enchidos, queijos, azeites, doces típicos e frutos secos.</p><p>Perfeita para quem deseja levar um pedaço do Porto para casa ou presentear com produtos genuinamente portugueses, a Casa Natal também se destaca pelo atendimento simpático e especializado, sempre com ótimas recomendações.</p>"
+    },
+    "6": {
+      "title": "Pérola do Bolhão",
+      "content": "<p>A Pérola do Bolhão, fundada em 1917 e localizada em frente ao icônico Mercado do Bolhão, é uma das mercearias mais tradicionais e emblemáticas do Porto. Com sua fachada em Art Nouveau decorada com azulejos, a loja encanta pela combinação de história e qualidade.</p><p>Dentro, os visitantes encontram uma seleção de queijos da serra, enchidos regionais, frutos secos, vinhos, biscoitos tradicionais e uma variedade de produtos autênticos portugueses. Originalmente especializada em chás, cafés e especiarias, a loja também é famosa pelo seu leitão assado e presunto, feitos com porcos criados ao ar livre.</p><p>Com atendimento atencioso, a Pérola do Bolhão é o lugar ideal para quem busca um souvenir gastronômico ou deseja conhecer os sabores tradicionais do Porto. Entre as opções estão latas de conservas, vinhos do Porto, licores, queijos e enchidos embalados a vácuo, biscoitos artesanais e doces típicos.</p>"
+    },
+    "7": {
+      "title": "Prometeu",
+      "content": "<p>A Prometeu é o lugar ideal para quem busca lembrancinhas tradicionais do Porto. Com várias lojas em áreas turísticas, oferece uma vasta seleção de souvenirs, como imãs, chaveiros, azulejos, bijuterias e peças de porcelana, perfeitos para levar para casa ou presentear.</p><p>Com preços variados, as vitrines da Prometeu oferecem uma experiência visual encantadora.</p>"
+    }
+  },
+  "menu-inicial": {
+    "welcome": "Bem-vindo ao Nosso Aconchegante Apartamento no Porto!",
+    "p1": "Estamos muito felizes por tê-lo conosco. Seja para explorar a rica história da cidade, aproveitar as belas vistas ou simplesmente relaxar, esperamos que tenha uma experiência inesquecível. Fique à vontade para nos contatar se precisar de algo durante a sua estadia.",
+    "p2": "Aproveite o seu tempo no Porto!",
+    "footer": "Não esqueça de avaliar sua visita 😊"
+  },
+  "pontos-turisticos-atividades": {
+    "1": {
+      "title": "Bairro da Ribeira",
+      "content": "<p>Um dos bairros mais vibrantes do Porto, a Ribeira encanta com suas casas coloridas, ruelas charmosas e restaurantes animados à beira do rio Douro. É o lugar perfeito para passear, saborear a gastronomia local e admirar a icônica Ponte Luís I.</p><p>Como chegar:</p><ul><li><b>Funicular dos Guindais</b> - Saia do prédio, siga à esquerda, atravesse a Praça da Batalha e desça a Rua de Augusto Rosa. Pegue o funicular à direita da rua e desça até a Avenida Gustavo Eiffel. Vire à direita e pronto, você chegou!</li><li><b>A pé pela Escadaria dos Guindais</b> - Siga o mesmo caminho até a Muralha Fernandina, mantenha-se à esquerda e desça as escadas. Ao chegar à Avenida Gustavo Eiffel, vire à direita e aproveite a Ribeira!</li></ul>"
+    },
+    "2": {
+      "title": "Ponte Luís I",
+      "content": "<p>A icônica ponte metálica de dois andares liga o Porto a Vila Nova de Gaia e oferece vistas panorâmicas incríveis. Projetada por um discípulo de Gustave Eiffel, seu tabuleiro superior é perfeito para passeios a pé, especialmente ao pôr do sol.</p><p>Entre as seis pontes do Porto, essa é a mais marcante – e o melhor: você está a apenas 600 metros dela, podendo apreciá-la de diferentes ângulos!</p>"
+    },
+    "3": {
+      "title": "Livraria Lello",
+      "content": "<p>Considerada uma das livrarias mais bonitas do mundo, a Livraria Lello destaca-se pela sua arquitetura neogótica, madeira esculpida e pela impressionante escadaria vermelha. Diz-se que inspirou J.K. Rowling enquanto viveu no Porto, embora a autora já tenha negado essa influência na criação de Harry Potter.</p>A livraria encontra-se a 1 km do apartamento. A visita ao interior é controlada por horários organizados, portanto, antecipe a hora em que pretende visitar e <a href=\"https://livrarialello.pt\" target=\"_blank\">adquira um bilhete</a> com antecedência. Leve em consideração que o preço do bilhete pode ser utilizado dentro da livraria para comprar algum de seus livros realmente únicos.</p><p>A Livraria Lello é também um importante ponto de referência cultural no Porto, atraindo não apenas fãs de livros, mas também turistas de todo o mundo que se encantam com sua beleza única e atmosfera mágica.</p>"
+    },
+    "4": {
+      "title": "Torre dos Clérigos",
+      "content": "<p>Um dos ícones mais emblemáticos do Porto, a Torre dos Clérigos foi construída no século XVIII e tem 76 metros de altura, sendo visível de vários pontos da cidade. Subir seus 225 degraus é uma experiência única, recompensada por uma vista panorâmica deslumbrante do Porto e do rio Douro.</p><p>A visita externa à igreja e à torre é gratuita, mas para subir, é necessário adquirir bilhete na entrada ou pelo <a href=\"https://torredosclerigos.pt\" target=\"_blank\">site oficial</a>. Em datas especiais, há visitas noturnas, oferecendo uma vista ainda mais mágica da cidade iluminada.</p><p>Se você está hospedado conosco, não perca essa experiência inesquecível!</p>"
+    },
+    "5": {
+      "title": "Estação de São Bento",
+      "content": "<p>A Estação São Bento é muito mais do que um simples ponto de partida para viagens de comboio; é um verdadeiro tesouro histórico e cultural do Porto. Famosa pelos seus impressionantes painéis de azulejos azuis e brancos, a estação retrata cenas marcantes da história de Portugal, como a batalha de Buçaco e a chegada do trem à cidade. A beleza dos azulejos, com suas cores vibrantes e detalhes minuciosos, vai encantar até os visitantes que não estejam viajando de comboio. Ao passar por lá, você terá a oportunidade de se sentir imerso na rica história do país, enquanto admira a grandiosidade arquitetônica deste lugar icônico. Portanto, mesmo que não tenha planos de pegar um trem, vale muito a pena fazer uma parada para explorar essa estação que é um verdadeiro marco da cidade do Porto.</p>"
+    },
+    "6": {
+      "title": "Sé do Porto",
+      "content": "<p>A Sé do Porto é um dos monumentos mais icônicos da cidade e fica a poucos minutos do nosso apartamento – uma parada imperdível! A igreja foi construída no século XII, sua fachada imponente e a mistura dos estilos românico e gótico fazem dela um verdadeiro tesouro histórico. O interior encanta com detalhes em talha dourada e uma atmosfera única.</p><p>Subir à torre da Sé é uma experiência imperdível. Lá do alto, você terá uma vista deslumbrante da cidade, com panorâmicas da Ribeira, do rio Douro e das colinas do Porto. Se está hospedado conosco, aproveite a proximidade e descubra esse marco histórico com uma das vistas mais incríveis da cidade!</p>"
+    },
+    "7": {
+      "title": "Palácio da Bolsa",
+      "content": "<p>Construído no século XIX para sediar a Bolsa de Valores, o Palácio da Bolsa é hoje um importante ponto turístico do Porto. Ao entrar, você será imediatamente encantado pela grandiosidade de seus interiores, especialmente o deslumbrante Salão Árabe, com seus detalhes ornamentais e atmosfera exótica.</p><p>Explore o magnífico pátio interno e as outras salas, todas repletas de história e beleza. O Palácio da Bolsa oferece visitas guiadas que irão te transportar no tempo, revelando curiosidades fascinantes sobre a história do comércio e da cidade.</p><p>Localizado a poucos minutos do nosso apartamento, é uma ótima experiência para quem deseja conhecer o Porto em toda a sua riqueza histórica e cultural!</p>"
+    },
+    "8": {
+      "title": "Igreja de São Francisco",
+      "content": "<p>A Igreja de São Francisco é uma das joias góticas do Porto, famosa pelo interior deslumbrante, inteiramente revestido de talha dourada. Seus altares barrocos, ricamente esculpidos, criam um ambiente de beleza e reverência.</p><p>Ao lado do Palácio da Bolsa, a igreja permite um roteiro histórico completo. Além da impressionante decoração, a visita inclui as catacumbas, onde repousam membros da Ordem dos Franciscanos e famílias nobres do Porto. Um passeio imperdível para quem deseja mergulhar na história e cultura da cidade.</p>"
+    },
+    "9": {
+      "title": "Vila Nova de Gaia & Caves de Vinho do Porto",
+      "content": "<p>Do outro lado do rio Douro, atravessando a icônica Ponte Luís I, Vila Nova de Gaia é lar das mais renomadas caves de vinho do Porto, como Sandeman, Graham’s, Taylor’s e Ferreira. É possível visitar as caves, onde você terá a oportunidade de fazer um tour guiado, mergulhando na história fascinante do vinho do Porto e, claro, aproveitando uma deliciosa degustação.</p><p>Caminhando ao longo das margens do rio, você sentirá a vibrante atmosfera local, com muitas atividades e um ambiente acolhedor. Além das caves, há diversos restaurantes típicos para saborear a culinária portuguesa. E se a caminhada pelas margens do Douro deixar você com vontade de relaxar, não se preocupe: você pode optar por subir até o topo de teleférico e admirar a vista deslumbrante da cidade e do rio. Uma experiência única e imperdível!</p>"
+    },
+    "10": {
+      "title": "Fundação Serralves",
+      "content": "<p>A Fundação de Serralves é um dos principais centros culturais de Portugal, reunindo arte, arquitetura e natureza. Inaugurada em 1999, abriga o Museu de Arte Contemporânea, a elegante Casa de Serralves, em estilo Art Déco, e um vasto parque com jardins e esculturas ao ar livre.</p><p>O museu exibe exposições de artistas nacionais e internacionais em um ambiente moderno e inspirador. A Casa de Serralves transporta os visitantes ao charme do Art Déco, enquanto o parque oferece um refúgio verde, com trilhas, esculturas e o Treetop Walk, uma passarela elevada entre as árvores.</p><p>A Fundação também promove eventos e atividades educativas, tornando a visita uma experiência cultural enriquecedora e relaxante.</p>"
+    },
+    "11": {
+      "title": "Jardins do Palácio de Cristal",
+      "content": "<p>O Palácio de Cristal é um dos espaços verdes mais encantadores do Porto, com vista deslumbrante sobre o Rio Douro. O nome remete ao antigo pavilhão de vidro, que já não existe, mas o parque segue sendo um dos lugares mais tranquilos e bonitos da cidade.</p><p>O parque conta com jardins temáticos, lagos serenos e esculturas, criando o ambiente perfeito para um passeio relaxante. Não deixe de procurar os pavões, que circulam livremente e encantam, especialmente as crianças.</p><p>O Palácio de Cristal também abriga a Superbock Arena, que recebe eventos culturais e esportivos. Se sua visita coincidir com algum evento, vale a pena conferir!</p><p>Um local ideal para quem busca a união entre natureza e cultura.</p>"
+    },
+    "12": {
+      "title": "World of Discoveries",
+      "content": "<p>Mergulhe na história das grandes navegações portuguesas no World of Discoveries, um museu interativo e parque temático. Explore as rotas dos navegadores dos séculos XV e XVI através de exposições imersivas, cenários impressionantes e até um passeio de barco que o transporta para o passado.</p><p>Uma experiência única, que une aprendizado e diversão para todas as idades, onde história e emoção se encontram a cada passo. Se você deseja viajar no tempo, este é o lugar ideal para começar!</p>"
+    },
+    "13": {
+      "title": "Sealife",
+      "content": "<p>Prepare-se para uma jornada subaquática no Sea Life Porto, um aquário interativo com diversas espécies marinhas, como tubarões, raias, polvos e cavalos-marinhos. O destaque é o túnel subaquático, que proporciona uma experiência imersiva no oceano.</p><p>O Sea Life também oferece atividades educativas sobre a vida marinha e a preservação dos oceanos.</p><p>Localizado perto da praia, você pode aproveitar para passear pela orla e saborear frutos do mar em um dos ótimos restaurantes da região. Uma experiência completa de vida marinha e gastronomia local!</p>"
+    },
+    "14": {
+      "title": "Zoo Santo Inácio",
+      "content": "<p>O Zoo Santo Inácio é o maior zoológico do norte de Portugal, com mais de 200 espécies, incluindo leões, tigres, girafas e pinguins. Inaugurado em 2000, é um espaço dedicado à conservação da biodiversidade, oferecendo habitats naturais para os animais.</p><p>Além das exposições, o zoológico promove atividades educativas e apresentações diárias sobre a preservação da vida selvagem. Uma visita ideal para todas as idades, unindo diversão e aprendizado!</p>"
+    },
+    "15": {
+      "title": "Parque da Cidade do Porto",
+      "content": "<p>O Parque da Cidade é o maior espaço verde urbano de Portugal, com 83 hectares de natureza. Ideal para passeios relaxantes ou atividades ao ar livre, o parque oferece mais de 10 km de trilhas, lagos tranquilos e uma rica fauna e flora.</p><p>Famílias, turistas e até cães aproveitam a vastidão do parque para caminhar, andar de bicicleta ou socializar. Para as crianças, é um lugar inesquecível. Na saída oeste, você chega à praia de Matosinhos, perfeita para um pôr do sol deslumbrante. A natureza e a cidade se encontram aqui!</p>"
+    },
+    "16": {
+      "title": "Casa da Música",
+      "content": "<p>A Casa da Música é um ícone cultural e arquitetônico do Porto, com acústica impecável e uma programação que vai do clássico ao jazz, eletrônica e música mundial. Sede da Orquestra Sinfónica do Porto, também oferece atividades culturais e educativas.</p><p>O espaço oferece visitas guiadas que permitem explorar sua arquitetura única e conhecer mais sobre sua rica programação musical. As visitas têm duração de aproximadamente 1 hora e acontecem diariamente, com horários em português às 11h e em inglês às 16h. O preço para participar é de €10 por pessoa, com entrada gratuita para crianças até 12 anos, desde que acompanhadas por um adulto com bilhete pago. Vale ressaltar que o valor do bilhete pode ser utilizado como crédito para a compra de ingressos para qualquer concerto da programação da Casa da Música. Para garantir sua vaga, é recomendável adquirir os bilhetes com antecedência, diretamente na bilheteira ou pelo telefone +351 220 120 220.</p><p>A Casa da Música está localizada perto da Rotunda da Boavista, e vale a pena aproveitar a visita para explorar a praça ao redor. Lá, você encontrará o Monumento aos Heróis da Guerra Peninsular, um imponente obelisco de 45 metros de altura, que é um marco histórico da cidade.</p>"
+    },
+    "17": {
+      "title": "Parque das Virtudes",
+      "content": "<p>O Parque das Virtudes é um dos segredos mais encantadores do Porto, oferecendo vistas incríveis do Rio Douro. Localizado em terrenos históricos da Companhia Hortícola Portuense, o parque destaca-se por seus terraços ajardinados, perfeitos para relaxar, fazer um piquenique ou admirar o pôr do sol. Um dos seus maiores destaques é o Gingko Biloba, uma das árvores mais antigas da cidade. Ideal para um passeio tranquilo ou para fugir do agito urbano, o Parque é um verdadeiro refúgio de paz no centro do Porto.</p>"
+    },
+    "18": {
+      "title": "Farolim de Felgueiras",
+      "content": "<p>O Farolim de Felgueiras é um marco histórico muito importante na entrada do Rio Douro e uma das vistas mais inesquecíveis da cidade.</p><p>Construído no século XIX, o Farolim de Felgueiras orienta a navegação no estuário do Rio Douro e é uma referência importante na tradição marítima do Porto. Embora tenha se tornado mais simbólico com o avanço da tecnologia de navegação, ainda emite sinais de luz para guiar os navios na entrada do Douro.</p><p>Com sua torre de pedra robusta e a luz intensa que emite, o farol oferece uma vista espetacular da costa atlântica e da foz do Douro.</p><p>É o local perfeito para um passeio tranquilo à beira-mar, com uma vista panorâmica de tirar o fôlego durante o dia, mas oferece, principalmente, um por do sol inesquecível a beira mar. Um lugar cheio de história e beleza natural!</p>"
+    },
+    "19": {
+      "title": "Clube Minigolfe do Porto",
+      "content": "<p>Se você está procurando diversão ao ar livre, o Clube Minigolfe do Porto é o lugar ideal! Com campos de minigolfe bem cuidados, o clube oferece uma experiência descontraída e divertida para todas as idades. Se você está com a família ou amigos, esse é o local perfeito para um dia de lazer. Além de ser uma opção popular para quem quer se divertir, o clube também organiza eventos e competições, trazendo ainda mais emoção ao jogo. Prepare-se para uma experiência divertida, cheia de risadas e momentos memoráveis!</p>"
+    },
+    "20": {
+      "title": "Casa Portuguesa do Pastel de Bacalhau",
+      "content": "<p>Se você ainda não experimentou o famoso pastel de bacalhau português, a Casa Portuguesa do Pastel de Bacalhau em Vila Nova de Gaia é o lugar perfeito para isso! Este restaurante único, com dois andares e estantes de livros, oferece uma experiência gastronômica bem especial. No centro do salão, um imponente órgão de tubos é o destaque, com concertos realizados a cada 15 minutos, criando um ambiente único. O prato estrela? O pastel de bacalhau recheado com queijo de ovelha da Serra da Estrela, acompanhado de uma taça de Vinho do Porto branco. Não há dúvida: esse é o melhor pastel de bacalhau que você vai provar no Porto, e você vai sair de lá com a sensação de ter vivido uma verdadeira experiência portuguesa.</p>"
+    },
+    "21": {
+      "title": "Casa São Roque",
+      "content": "<p>A Casa São Roque é um dos edifícios mais históricos do Porto, oferecendo uma experiência cultural incrível. Este local encantador é conhecido não apenas pela sua arquitetura deslumbrante, mas também por seu parque botânico, repleto de plantas e flores de diversas origens. O ponto alto do parque é o labirinto redondo, que oferece diversão para as crianças e é um ótimo lugar para explorar em família. Além disso, a casa costuma abrigar exposições de arte contemporânea e eventos musicais, tornando a visita uma verdadeira imersão na cultura local. Um espaço que combina história, arte e natureza de forma perfeita!</p>"
+    },
+    "22": {
+      "title": "Mercado do Bolhão",
+      "content": "<p>O Mercado do Bolhão é uma das mais emblemáticas joias do Porto, recentemente restaurado para preservar sua alma única, mas com um toque moderno. Localizado no centro histórico da cidade, este mercado icônico oferece uma experiência autêntica com mais de 70 comerciantes, destacando-se pelas bancas de produtos frescos, como peixe, frutas, legumes, queijos e embutidos.</p><p>Além disso, o mercado conta com lojas de artesanato, cafeterias e até restaurantes, perfeitos para aproveitar um petisco ou uma refeição típica. Durante o verão, o mercado ainda ganha vida com apresentações de artistas locais, tornando a visita ainda mais especial.</p>"
+    },
+    "23": {
+      "title": "Mercado Bom Sucesso",
+      "content": "<p>O Mercado Bom Sucesso, próximo à estação Casa da Música, é um espaço moderno e vibrante. Com ambiente amplo e iluminado, oferece uma variedade de opções gastronômicas locais e internacionais, desde cafés e bolos até refeições completas. Também há bancas especializadas em queijos, carnes e produtos típicos portugueses, além de um bar de cervejas.</p><p>Além da gastronomia, o mercado é um ponto cultural, com artesanatos e apresentações musicais ao vivo, algumas vezes por semana. Há ainda áreas externas para relaxar e apreciar a atmosfera da cidade.</p>"
+    },
+    "24": {
+      "title": "TimeOut Market",
+      "content": "<p>Recentemente inaugurado, está localizado perto da estação de São Bento. Este moderno mercado é dividido em dois pisos, com o piso zero sendo a principal área de restauração. Você encontrará uma variedade de opções gastronômicas de alta qualidade, desde pratos típicos portugueses até cozinha internacional.</p><p>No piso superior, a experiência é mais tranquila, oferecendo uma vista privilegiada da estação de comboios. A atmosfera do local é acolhedora e dinâmica, com espaços ao ar livre para quem quer desfrutar do ambiente da cidade enquanto saboreia um bom prato.</p><p>Além das opções gastronômicas, o mercado conta com lojas de produtos artesanais e uma sala de provas de vinhos do Douro e do Porto, instalada em uma torre metálica inspirada nos antigos reservatórios de água das estações ferroviárias. Uma experiência para quem deseja explorar o melhor dos vinhos portugueses em um ambiente sofisticado.</p>"
+    },
+    "sort": {
+      "relevance": "Relevância",
+      "location": "Proximidade",
+      "alphabetical": "Alfabético"
+    },
+    "filter": {
+      "turistico": "Pontos Turísticos",
+      "ar-livre": "Atividades ao Ar Livre",
+      "criancas": "Atividades para Crianças",
+      "gratis": "Atividades Gratuitas"
+    }
+  },
+  "roteiros-prontos": {},
+  "utilidades": {
+    "1": {
+      "title": "Transporte Público",
+      "content": "<p>A localização do apartamento já é bem próxima de diversos pontos interessantes do Porto, mas se você quiser ir para mais longe, a cidade possui um sistema de transporte público moderno e pontual. Tanto o metro quanto os autocarros (ônibus) são pagos com uma passagem digital que possui duração de aproximadamente uma hora, para adquirir esta passagem você precisará comprar um cartão <b>Andante</b> e carregar ele.</p><p>O horário de funcionamento do metro é até 01am e durante a madrugada, há linhas especiais de autocarros. Normalmente as rotas fornecidas pelo google maps possuem os itinerários precisos de circulação, e costumam ser uma boa opção para pesquisar sua locomoção.</p><p>Se você quiser viajar distâncias maiores, o terminal de comboios de São Bento provavelmente vai ser o seu ponto de partida, com o mesmo cartão <b>Andante</b> você conseguirá adquirir sua passagem. Se pretende ir a uma cidade que não é próxima de uma linha ferroviária, uma boa alternativa pode ser o <a href=\"https://www.flixbus.pt/\" target=\"_blank\">FlixBus</a>, o ponto de partida nesse caso será o terminal de Campanhã</p>"
+    },
+    "2": {
+      "title": "Estacionamentos Públicos",
+      "content": "<p>Se você estiver de carro, deve ter parado provavelmente em um estacionamento público e utilizado moedas para pagar o estacionamento. Como aqui é o centro da cidade, nenhum lugar na rua vai ser gratuito para estacionar.</p><p>O horário pago de estacionamento dessa zona é das 8 da manhã até as 6 da tarde, e gratuito aos fins de semana. Como não se pode pagar mais de duas horas de estacionamento, algumas vezes você vai ficar preocupado em carregar o parquímetro antes da validade. Uma solução para este problema pode ser o <a href=\"https://telpark.page.link/store\" target=\"_blank\">Telpark</a>, com ele você não precisa se preocupar em ter moedas, e pode estender o tempo do seu estacionamento sem precisar ir para o carro.</p>"
+    },
+    "3": {
+      "title": "Garagem Ibéria",
+      "content": "<p>Se você não conseguir encontrar nenhuma vaga minimamente perto para estacionar, ou se você quiser parar o carro em um lugar coberto, a Garagem Ibéria é a mais próxima daqui. E pode ser uma boa alternativa se a sua intenção for deixar o carro por um período longo para só buscar no fim da sua visita.</p>"
+    },
+    "4": {
+      "title": "Mercado Pingo Doce",
+      "content": "<p>Um mercado de porte médio localizado perto do apartamento, nele servem-se refeições completas que pode ser uma alternativa rápida e saudável. O Pingo doce tem a fama de possuir produtos de marca própria com boa qualidade, o que também pode ser uma alternativa econômica ao realizar suas compras.</p><p>O horário de funcionamento do Pingo Doce é 8 da manhã e 9 da noite. Uma boa alternativa para quando você precisa ir ao mercado depois do horário é o Mini Preço, do outro lado da rua, que fica aberto até as 11 da noite.</p>"
+    },
+    "5": {
+      "title": "Mercado Continente",
+      "content": "<p>Em algumas ocasiões você precisa de um mercado de porte maior, seja para comprar um produto muito específico, ou para comprar algo em grande quantidade. Uma opção que não é tão próxima, mas que vai te dar uma variedade maior de produtos, é o mercado Continente, sua distância ainda é confortável para poder levar suas compras de volta sem dificuldades.</p>"
+    },
+    "6": {
+      "title": "Farmácia Henriques",
+      "content": "<p>Normalmente os mercados mais próximos vendem medicamentos básicos, porém se você precisar de um medicamento controlado, ou se você precisar de um curativo rápido, a farmácia mais próxima é logo ao lado e pode ser uma boa primeira opção.</p>"
+    }
+  },
+  "vida-noturna": {
+    "1": {
+      "title": "Galeria de Paris",
+      "content": "<p>O coração da vida noturna do Porto! Uma rua cheia de bares e clubes, perfeita para bar-hopping. Aos fins de semana, as pessoas costumam beber na rua, criando um clima animado.</p><p>As Galerias de Paris costumam ser frequentadas por muitos jovens e estudantes, esses por sua vez recebem turistas com imensa alegria, certamente você será contagiado pela energia do espírito festivo.</p>"
+    },
+    "2": {
+      "title": "Base Porto",
+      "content": "<p>Um bar ao ar livre ao lado da Torre dos Clérigos, ideal para quem quer um ambiente mais descontraído, com bons cocktails e DJs tocando música chill-out.</p><p>O grande destaque ali é o parque repleto de oliveiras em um plano alto, perfeito para se refrescar em tardes quentes. Os frequentadores costumam sentar-se no gramado para apreciarem suas bebidas e curtir a música.</p>"
+    },
+    "3": {
+      "title": "Pérola Negra",
+      "content": "<p>Antigo cabaré transformado em discoteca, com uma vibe retrô e música eclética. Ideal para quem quer dançar a noite toda.</p><p>Por se situar próximo da Estação da Trindade, O Pérola Negra costuma receber pessoas de mais longe, e elas estão sempre dispostas a passar a noite inteira ali à espera do início do funcionamento do metro.</p>"
+    },
+    "4": {
+      "title": "Maus Hábitos",
+      "content": "<p>Um espaço cultural alternativo que mistura arte, gastronomia e festas. Além das baladas, há concertos e exposições.</p><p>O espaço também fica aberto de dia, e pelo fato de ser perto do apartamento, pode também ser um destino para almoçar. Por ser panorâmico e relativamente alto, a vista para a cidade é espetacular.</p>"
+    },
+    "5": {
+      "title": "Plano B",
+      "content": "<p>Clube com dois andares e diferentes estilos musicais (eletrônica, indie, rock). Boa opção para quem gosta de variedade.</p><p>O lugar fica perto das Galerias de Paris, e curiosamente pode ser um plano B para quem vai às Galerias mas quer variar.</p>"
+    },
+    "6": {
+      "title": "Hot Five Jazz & Blues Club",
+      "content": "<p>Para os fãs de jazz e blues, esse bar oferece apresentações ao vivo de alta qualidade em um ambiente sofisticado. A arquitetura do bar lembra um pouco o Moulin Rouge.</p><p>Situa-se há poucos metros da Casa da Música, o que pode ser um bom início de noite, e uma experiência cultural realmente única.</p>"
+    },
+    "7": {
+      "title": "World of Wine",
+      "content": "<p>Um complexo de turismo e cultura focado em experiências culturais e gastronômicas, especialmente focado no vinho do porto. O WOW é comporto por diversas atrações, como museus e galerias e proporciona uma experiência educativa e interativa.</p><p>O distrito normalmente hospeda eventos diversos grandes. Esses eventos costumam ser bastante planejados e inesquecíveis, com espaços dedicados para crianças, pistas de dança e bares com diversos cocktails. Trazendo visitantes de todas as idades e unindo diversas culturas como principal objetivo, tente acompanhar os eventos no <a href=\"https://agendaculturalporto.org/agenda-de-eventos-no-wow-gaia\" target=\"_blank\">canal oficial</a> para ver se um evento desses está ocorrendo enquanto você está hospedado aqui.</p>"
+    },
+    "8": {
+      "title": "Maria Pistolas",
+      "content": "<p>Esta discoteca é realmente grande, possui diversas áreas com DJs diferentes, então é costume dos frequentadores fazer uma espécie de jornada entre diversos estilos</p><p>Ainda no último andar da discoteca há um lounge com poltronas confortáveis, o que pode te estimular a uma pausa temporária antes de voltar para as pistas de dança.</p>"
+    }
+  }
+}
