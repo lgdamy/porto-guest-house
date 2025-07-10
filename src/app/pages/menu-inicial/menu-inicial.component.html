@@ -2,8 +2,16 @@
     <h2>{{ 'menu-inicial.welcome' | translate }}</h2>
     <p>{{ 'menu-inicial.p1' | translate }}</p>
     <p>{{ 'menu-inicial.p2' | translate }}</p>
+    <p>🛈<i>{{'menu-inicial.tip' | translate}}</i></p>
     <mat-grid-list [cols]="gridCols" rowHeight="4:3" (window:resize)="onResize($event)">
-        <mat-grid-tile *ngFor="let route of availableRoutes" class="tile" [ngStyle]="{'background-image': 'url(assets/img/menu-inicial/' + route + '.png)'}">
+        <mat-grid-tile *ngFor="let route of availableRoutes; let i = index"
+        class="tile" 
+        [ngStyle]="{
+          'background-image': 'url(assets/img/menu-inicial/' + route + '.png)',
+          'animation-delay': ((i + 1) * 300) + 'ms'
+        }"
+        [ngClass]="i % 2 === 0 ? 'flipInRight' : 'flipInLeft'"
+        >
             <button mat-button color="secondary" routerLink="{{route}}">{{'common.pages.'+ route | translate }}</button>
         </mat-grid-tile>
     </mat-grid-list>
