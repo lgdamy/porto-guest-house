@@ -21,6 +21,11 @@ button {
     background-size: 100%;
     background-position: 50% 50%;
     transition: background-size 600ms ease-in-out;
+    @media screen and (max-width: 768px){
+        opacity: 0;
+        transform: rotateY(90deg);
+        animation: flipIn 0.6s ease-out forwards;
+    }
     &:hover {
         background-size: 110%;
     }
@@ -36,6 +41,23 @@ button {
         @media screen and (max-width: 768px) {
             font-size: clamp(13px, 3vw, 28px);
         }
+    }
+}
+.flipInLeft {
+    @media screen and (max-width: 768px){
+        opacity: 0.5;
+        transform: rotateY(90deg);
+        animation: flipIn 600ms ease-out forwards;
+        transform-origin: left;
+    }
+}
+
+.flipInRight {
+    @media screen and (max-width: 768px){
+        opacity: 0.5;
+        transform: rotateY(-90deg);
+        animation: flipIn 600ms ease-out forwards;
+        transform-origin: right;
     }
 }
 
@@ -61,4 +83,11 @@ button {
     width: 96px;
     height: 96px;
     margin-right: 16px;
+}
+  
+@keyframes flipIn {
+    to {
+      opacity: 1;
+      transform: rotateY(0deg);
+    }
 }
