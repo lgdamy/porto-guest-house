@@ -10,7 +10,7 @@
         <button mat-icon-button
             [matTooltip]="tooltip.language"
             [attr.aria-label]="tooltip.home"
-            [matMenuTriggerFor]="i18nMenu"><mat-icon>language</mat-icon>
+            [matMenuTriggerFor]="i18nMenu"><mat-icon>translate</mat-icon>
         </button>
         <mat-menu #i18nMenu="matMenu">
             <button *ngFor="let lang of availableLangs | keyvalue" (click)="changeLang(lang.key)" [attr.aria-label]="lang.value" mat-menu-item> <mat-icon svgIcon="{{lang.key}}"></mat-icon>{{lang.key.toUpperCase()}}</button>
